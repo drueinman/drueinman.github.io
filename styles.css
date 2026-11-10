@@ -337,3 +337,8 @@ a { color: var(--fg); }
 
 .staff-row { display:flex; gap:10px; margin:10px 0 6px; flex-wrap:wrap; }
 .staff-row img { width:64px; height:64px; object-fit:cover; border-radius:50%; border:2px solid #bfc3c8; filter:saturate(.85); }
+
+/* SMS disclosure moved to footer (111026) */
+.sms-foot { font-size: 0.8rem; color: var(--muted); margin-bottom: 8px; }
+.sms-foot p { margin: 0 0 4px; }
+.sms-foot a { color: inherit; text-decoration: underline; }
