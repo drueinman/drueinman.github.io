@@ -1,0 +1,336 @@
+/* Drue Inman / DIASX — static 10DLC site */
+:root {
+  --bg: #000000;
+  --fg: #e7e9ea;
+  --muted: #71767b;
+  --line: #2f3336;
+  --card: #16181c;
+  --accent: #6a86a3;
+  --edge-w: 48px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.55;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  width: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: 96px;
+  object-fit: cover;
+  object-position: 90% center;
+}
+
+@media (min-width: 880px) {
+  .hero img {
+    height: 160px;
+    object-position: center;
+  }
+}
+
+.coach-edge {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: var(--edge-w);
+  min-height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  background: url("img/border-coach.jpg") top center no-repeat;
+  background-size: 100% 100%;
+}
+.coach-edge--left { left: 0; }
+.coach-edge--right {
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.coach-tile {
+  display: none;
+}
+
+@media (min-width: 880px) {
+  :root { --edge-w: 56px; }
+}
+
+@media (min-width: 1180px) {
+  .coach-tile {
+    display: block;
+    position: fixed;
+    right: calc(var(--edge-w) + 12px);
+    bottom: 28px;
+    width: 148px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .coach-tile img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.site-header {
+  position: relative;
+  width: min(720px, calc(100% - (2 * var(--edge-w) + 24px)));
+  margin: 0 auto;
+  padding: 22px 4px 0;
+  overflow: hidden;
+}
+
+.x-motif {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  width: 96px;
+  height: 96px;
+  color: var(--accent);
+  opacity: 0.16;
+  pointer-events: none;
+}
+
+.brand-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  display: block;
+  width: 96px;
+  height: 60px;
+  flex: 0 0 auto;
+}
+
+@media (min-width: 880px) {
+  .logo {
+    width: 141px;
+    height: 88px;
+  }
+}
+
+.brand-text { min-width: 0; }
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 1.85rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.dba {
+  margin: 0 0 6px;
+  color: var(--fg);
+  font-size: 1.05rem;
+}
+
+.sub {
+  color: var(--muted);
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  padding: 12px 0;
+  margin: 18px 0 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  position: relative;
+  z-index: 1;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+
+nav a:hover { color: var(--fg); }
+
+nav a[aria-current="page"] {
+  color: var(--fg);
+  border-bottom-color: var(--accent);
+}
+
+main {
+  width: min(720px, calc(100% - (2 * var(--edge-w) + 24px)));
+  margin: 22px auto 0;
+  padding: 0 4px 22px;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 26px 0 8px;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 16px 0 6px;
+}
+
+main > h2:first-child { margin-top: 0; }
+
+p { margin: 0 0 12px; }
+
+a { color: var(--fg); }
+
+.quiet {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.grok-list {
+  margin: 0 0 12px;
+  padding-left: 1.15rem;
+}
+
+.grok-list li { margin: 0 0 6px; }
+
+.sms-box {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+.site-foot {
+  width: min(720px, calc(100% - (2 * var(--edge-w) + 24px)));
+  margin: 0 auto 18px;
+  padding: 12px 4px 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.coming-soon { margin: 0; }
+
+/* Right-hand scrolling photo column (Drue 111026) */
+.layout {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.content { flex: 1 1 720px; min-width: 0; }
+.content .site-header, .content main { width: 100%; }
+.gallery { display: none; }
+@media (min-width: 980px) {
+  .gallery {
+    display: block;
+    flex: 0 0 300px;
+    position: sticky;
+    top: 16px;
+    align-self: flex-start;
+    height: calc(100vh - 32px);
+    margin-top: 22px;
+  }
+  .gallery-frame {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 6px;
+    background: linear-gradient(160deg, #2a2d33 0%, #0c0d10 45%, #2a2d33 100%);
+    border: 1px solid #b89a5e;
+    box-shadow: 0 0 0 3px #000, 0 0 0 4px #7a1420, 0 8px 28px rgba(0,0,0,.7), inset 0 0 18px rgba(0,0,0,.9);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 28px, #000 calc(100% - 28px), transparent 100%);
+            mask-image: linear-gradient(to bottom, transparent 0, #000 28px, #000 calc(100% - 28px), transparent 100%);
+  }
+  .gallery-track {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    animation: gallery-down 150s linear infinite;
+  }
+  .gallery-track img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+}
+@keyframes gallery-down {
+  from { transform: translateY(-50%); }
+  to   { transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gallery-track { animation: none; }
+}
+.site-foot { width: min(1148px, calc(100% - 32px)); }
+
+.assist-line { display: flex; align-items: center; gap: 12px; }
+.assist-face {
+  width: 56px; height: 56px; border-radius: 50%; object-fit: cover; flex: 0 0 auto;
+  border: 2px solid #b89a5e; box-shadow: 0 0 0 2px #000, 0 0 0 3px #7a1420;
+}
+.assist-face--sm { width: 36px; height: 36px; }
+.layout { margin-top: 24px; }
+
+.owner-line { margin: 28px 0 0; font-size: 14px; color: var(--fg); }
+.assist-line--top { margin-top: 8px; }
+.owner-line { font-size: 1.3rem; font-weight: 700; margin: 28px 0 4px; }
+
+.owner-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: radial-gradient(circle at 35% 30%, #2a2d33, #0c0d10 70%);
+  color: #d9b46a; font-weight: 800; font-size: 1.15rem; letter-spacing: .04em;
+}
+/* Silver button rings (Drue 111026 0118) */
+.assist-face {
+  border: none;
+  padding: 3px;
+  background: linear-gradient(145deg, #f4f6f8 0%, #9aa1a8 30%, #e6e9ec 50%, #6f767d 75%, #d7dbdf 100%);
+  box-shadow: 0 0 0 1px #2a2d33, 0 2px 6px rgba(0,0,0,.8);
+}
+.owner-badge {
+  padding: 0;
+  background: url(img/button-black.png) center / cover no-repeat;
+  color: #e7e9ea;
+  text-shadow: 0 1px 2px #000;
+  box-shadow: 0 2px 6px rgba(0,0,0,.8);
+}
+/* Drue's silver frame (111026 0126): corners keep native aspect; only the straight runs stretch */
+@media (min-width: 980px) {
+  .gallery-frame {
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 0;
+    background: #000;
+    box-shadow: 0 8px 28px rgba(0,0,0,.7);
+    border-style: solid;
+    border-width: 37px 7px;
+    border-image: url(img/frame-src.png) 60 12 60 12 / 37px 7.4px stretch;
+    -webkit-mask-image: none; mask-image: none;
+  }
+}
