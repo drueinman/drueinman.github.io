@@ -334,3 +334,6 @@ a { color: var(--fg); }
     -webkit-mask-image: none; mask-image: none;
   }
 }
+
+.staff-row { display:flex; gap:10px; margin:10px 0 6px; flex-wrap:wrap; }
+.staff-row img { width:64px; height:64px; object-fit:cover; border-radius:50%; border:2px solid #bfc3c8; filter:saturate(.85); }
