@@ -1,0 +1,68 @@
+/* Full-screen gallery lightbox (Drue 111126).
+   Tap anywhere (image, backdrop, or the Back button) closes it.
+   Esc also closes. The view slides off in about 350ms.
+   The drifting strip and desktop column pause while this is open. */
+
+.gallery-strip-track img,
+.gallery-track img {
+  cursor: pointer;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.94);
+  cursor: pointer;
+  transform: translateX(0);
+}
+
+.lightbox[hidden] {
+  display: none !important;
+}
+
+.lightbox-image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.lightbox-back {
+  position: absolute;
+  top: max(12px, env(safe-area-inset-top));
+  left: max(12px, env(safe-area-inset-left));
+  z-index: 2;
+}
+
+.lightbox.is-closing {
+  transition: transform 350ms ease-in;
+  transform: translateX(100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lightbox.is-closing {
+    transition: opacity 150ms ease;
+    transform: none;
+    opacity: 0;
+  }
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+body.lightbox-open .gallery-strip-track,
+body.lightbox-open .gallery-track {
+  animation-play-state: paused;
+}

@@ -1,0 +1,57 @@
+/* Shared Back button (Drue 111126).
+   Default style is the straight-arrow pair:
+     img/ui/back-button.png         — black, normal
+     img/ui/back-button-active.png  — blue, pressed
+   Alternate (included, not used yet): data-back-style="return"
+     img/ui/return-button.png
+     img/ui/return-button-active.png
+   Swap a spot later by changing data-back-style on the .ui-back element. */
+
+.ui-back {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  line-height: 0;
+  -webkit-tap-highlight-color: transparent;
+  appearance: none;
+  -webkit-appearance: none;
+  flex: 0 0 auto;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.ui-back-img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.ui-back-img--active { opacity: 0; }
+.ui-back-img--normal { opacity: 1; }
+
+.ui-back:active .ui-back-img--active,
+.ui-back.is-pressed .ui-back-img--active { opacity: 1; }
+.ui-back:active .ui-back-img--normal,
+.ui-back.is-pressed .ui-back-img--normal { opacity: 0; }
+
+/* Don't inherit the text-link chrome from nav or .back-link */
+nav a.ui-back,
+.back-link a.ui-back {
+  color: inherit;
+  border-bottom: 0;
+  padding: 0;
+}
+nav a.ui-back:hover,
+.back-link a.ui-back:hover { color: inherit; }
+nav { align-items: center; }

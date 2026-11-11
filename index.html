@@ -7,6 +7,11 @@
   <meta name="robots" content="noindex">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="gallery-strip.css">
+  <link rel="stylesheet" href="ui-back.css">
+  <link rel="stylesheet" href="lightbox.css">
+  <script src="ui-back.js" defer></script>
+  <script src="lightbox.js" defer></script>
+  <script src="home-scroll.js" defer></script>
 </head>
 <body>
 
@@ -25,62 +30,61 @@
         <p class="sub">a veteran AV and Crestron integrator, Euless, Texas</p>
       </div>
     </div>
-    <nav>
+    <div class="gallery-strip" aria-hidden="true">
+      <div class="gallery-strip-track">
+        <img src="img/gallery/g01.jpg" alt="" decoding="async">
+        <img src="img/gallery/g02.jpg" alt="" decoding="async">
+        <img src="img/gallery/b01.jpg" alt="" decoding="async">
+        <img src="img/gallery/g03.jpg" alt="" decoding="async">
+        <img src="img/gallery/g04.jpg" alt="" decoding="async">
+        <img src="img/gallery/b02.jpg" alt="" decoding="async">
+        <img src="img/gallery/g05.jpg" alt="" decoding="async">
+        <img src="img/gallery/g06.jpg" alt="" decoding="async">
+        <img src="img/gallery/b03.jpg" alt="" decoding="async">
+        <img src="img/gallery/g07.jpg" alt="" decoding="async">
+        <img src="img/gallery/g08.jpg" alt="" decoding="async">
+        <img src="img/gallery/b04.jpg" alt="" decoding="async">
+        <img src="img/gallery/g09.jpg" alt="" decoding="async">
+        <img src="img/gallery/g10.jpg" alt="" decoding="async">
+        <img src="img/gallery/b05.jpg" alt="" decoding="async">
+        <img src="img/gallery/g11.jpg" alt="" decoding="async">
+        <img src="img/gallery/g12.jpg" alt="" decoding="async">
+        <img src="img/gallery/b06.jpg" alt="" decoding="async">
+        <img src="img/gallery/g13.jpg" alt="" decoding="async">
+        <img src="img/gallery/g14.jpg" alt="" decoding="async">
+        <img src="img/gallery/b07.jpg" alt="" decoding="async">
+        <img src="img/gallery/b08.jpg" alt="" decoding="async">
+        <img src="img/gallery/g15.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g01.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g02.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/b01.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g03.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g04.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/b02.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g05.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g06.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/b03.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g07.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g08.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/b04.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g09.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g10.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/b05.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g11.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g12.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/b06.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g13.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g14.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/b07.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/b08.jpg" alt="" decoding="async">
+        <img class="dup" src="img/gallery/g15.jpg" alt="" decoding="async">
+      </div>
+    </div>
+    <nav id="tabs">
       <a href="index.html" aria-current="page">Home</a>
-      <a href="videos.html">iPhone Panel Videos</a>
+      <a href="videos.html#tabs">iPhone Panel Videos</a>
     </nav>
   </header>
-
-  <div class="gallery-strip" aria-hidden="true">
-    <div class="gallery-strip-track">
-      <img src="img/gallery/g01.jpg" alt="" decoding="async">
-      <img src="img/gallery/g02.jpg" alt="" decoding="async">
-      <img src="img/gallery/b01.jpg" alt="" decoding="async">
-      <img src="img/gallery/g03.jpg" alt="" decoding="async">
-      <img src="img/gallery/g04.jpg" alt="" decoding="async">
-      <img src="img/gallery/b02.jpg" alt="" decoding="async">
-      <img src="img/gallery/g05.jpg" alt="" decoding="async">
-      <img src="img/gallery/g06.jpg" alt="" decoding="async">
-      <img src="img/gallery/b03.jpg" alt="" decoding="async">
-      <img src="img/gallery/g07.jpg" alt="" decoding="async">
-      <img src="img/gallery/g08.jpg" alt="" decoding="async">
-      <img src="img/gallery/b04.jpg" alt="" decoding="async">
-      <img src="img/gallery/g09.jpg" alt="" decoding="async">
-      <img src="img/gallery/g10.jpg" alt="" decoding="async">
-      <img src="img/gallery/b05.jpg" alt="" decoding="async">
-      <img src="img/gallery/g11.jpg" alt="" decoding="async">
-      <img src="img/gallery/g12.jpg" alt="" decoding="async">
-      <img src="img/gallery/b06.jpg" alt="" decoding="async">
-      <img src="img/gallery/g13.jpg" alt="" decoding="async">
-      <img src="img/gallery/g14.jpg" alt="" decoding="async">
-      <img src="img/gallery/b07.jpg" alt="" decoding="async">
-      <img src="img/gallery/b08.jpg" alt="" decoding="async">
-      <img src="img/gallery/g15.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g01.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g02.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/b01.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g03.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g04.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/b02.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g05.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g06.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/b03.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g07.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g08.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/b04.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g09.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g10.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/b05.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g11.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g12.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/b06.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g13.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g14.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/b07.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/b08.jpg" alt="" decoding="async">
-      <img class="dup" src="img/gallery/g15.jpg" alt="" decoding="async">
-    </div>
-  </div>
 
   <main>
     <h2>Sophisticated Crestron control for homes and luxury coaches</h2>

@@ -1,6 +1,6 @@
-/* Phone/tablet photo strip (Drue 111126 0004 CT).
+/* Phone/tablet photo strip (Drue 111126).
    Under 980px the right-hand .gallery column is hidden (styles.css), so the same
-   photos drift slowly to the right in a strip under the header instead.
+   photos drift slowly to the right in a strip under the brand, above the nav tabs.
    At 980px and wider this strip is hidden and the desktop layout is unchanged.
    Used by index.html and videos.html. */
 
@@ -56,3 +56,12 @@
 .back-link a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--accent); }
 .back-link a:hover { color: #fff; }
 .back-link--bottom { margin: 22px 0 0; }
+
+/* Phone: strip sits above the nav tabs (it is inside the header, before nav).
+   Desktop is unchanged because the strip stays display:none from 980px up. */
+#tabs { scroll-margin-top: 0; }
+
+@media (max-width: 979.98px) {
+  /* Keep the drifting track clipped to the strip, not the header box. */
+  .site-header { overflow-x: hidden; }
+}
