@@ -342,3 +342,10 @@ a { color: var(--fg); }
 .sms-foot { font-size: 0.8rem; color: var(--muted); margin-bottom: 8px; }
 .sms-foot p { margin: 0 0 4px; }
 .sms-foot a { color: inherit; text-decoration: underline; }
+
+/* power-of-x: lowercase x raised so its top meets the capital height */
+.pow-x {
+  position: relative;
+  top: -0.165em;
+  margin-left: 0.04em;
+}
