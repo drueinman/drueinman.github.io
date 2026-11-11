@@ -1,0 +1,66 @@
+/* Phone/tablet photo strip (Drue 111126 0004 CT).
+   Under 980px the right-hand .gallery column is hidden (styles.css), so the same
+   photos drift slowly to the right in a strip under the header instead.
+   At 980px and wider this strip is hidden and the desktop layout is unchanged.
+   Used by index.html and videos.html. */
+
+.gallery-strip { display: none; }
+
+@media (max-width: 979.98px) {
+  .gallery-strip {
+    display: block;
+    margin: 14px 0 0;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 4px 0;
+    background: #000;
+    border: 1px solid #b89a5e;
+    box-shadow: 0 0 0 2px #000, 0 0 0 3px #7a1420, 0 6px 18px rgba(0,0,0,.7);
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%);
+            mask-image: linear-gradient(to right, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%);
+  }
+  .gallery-strip-track {
+    display: flex;
+    width: max-content;
+    animation: gallery-strip-right 140s linear infinite;
+    will-change: transform;
+  }
+  /* margin (not gap) so both halves are exactly equal and the -50% loop is seamless */
+  .gallery-strip-track img {
+    display: block;
+    flex: 0 0 auto;
+    height: 96px;
+    width: auto;
+    margin-right: 6px;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 979.98px) and (min-width: 600px) {
+  .gallery-strip-track img { height: 120px; }
+}
+
+@keyframes gallery-strip-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+/* Reduced motion: no drift; swipe the strip by hand, without the duplicate set. */
+@media (max-width: 979.98px) and (prefers-reduced-motion: reduce) {
+  .gallery-strip {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+    overscroll-behavior-x: contain;
+    -webkit-mask-image: none; mask-image: none;
+  }
+  .gallery-strip-track { animation: none; will-change: auto; }
+  .gallery-strip-track img { scroll-snap-align: start; }
+  .gallery-strip-track img.dup { display: none; }
+}
+
+/* Back-to-home links on videos.html */
+.back-link { margin: 0 0 14px; }
+.back-link a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--accent); }
+.back-link a:hover { color: #fff; }
+.back-link--bottom { margin: 22px 0 0; }
