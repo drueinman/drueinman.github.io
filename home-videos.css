@@ -1,0 +1,61 @@
+/* Compact phone-sized grid for the homepage video section.
+   Portrait clips stay small so they do not bury the contact block.
+   Shared colors and fonts come from styles.css. */
+
+.home-videos-section {
+  margin: 26px 0 0;
+}
+
+.home-videos-section > h2 {
+  margin-top: 0;
+}
+
+.home-videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px 14px;
+  margin: 16px 0 4px;
+}
+
+.home-videos figure {
+  margin: 0;
+  flex: 0 1 calc(50% - 8px);
+  width: calc(50% - 8px);
+  max-width: 220px;
+}
+
+.home-videos video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #000;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.home-videos figcaption {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.home-videos figcaption strong {
+  display: block;
+  color: var(--fg);
+  font-weight: 700;
+  margin: 0 0 2px;
+  font-size: 0.95rem;
+}
+
+@media (min-width: 720px) {
+  .home-videos {
+    gap: 20px 18px;
+  }
+
+  .home-videos figure {
+    flex: 0 1 220px;
+    width: 220px;
+  }
+}
