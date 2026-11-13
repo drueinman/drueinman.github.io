@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>A message from Aloy</title>
+<meta property="og:title" content="A message from Aloy">
+<meta property="og:description" content="Tap to play">
+<meta property="og:image" content="https://diasx.io/m/sample1/poster.jpg">
+<meta name="theme-color" content="#0d0f12">
+<style>
+html,body{margin:0;height:100%;background:#0d0f12;color:#eee;font:16px/1.4 -apple-system,system-ui,Segoe UI,Roboto,sans-serif}
+#wrap{max-width:min(520px,calc((100svh - 5.2em) * 0.6164));margin:0 auto;min-height:100%;display:flex;flex-direction:column}
+#stage{position:relative;width:100%;aspect-ratio:720/1168;background:#111 url(poster.jpg) center/cover}
+#face{width:100%;height:100%;display:block}
+#play{position:absolute;inset:0;border:0;background:rgba(0,0,0,.28);color:#fff;display:flex;flex-direction:column;
+ align-items:center;justify-content:center;gap:12px;font-size:20px;font-weight:600;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#play .btn{width:112px;height:112px;border-radius:50%;background:rgba(255,255,255,.92);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(0,0,0,.4)}
+#play .btn:after{content:"";margin-left:10px;border-style:solid;border-width:26px 0 26px 42px;border-color:transparent transparent transparent #111}
+#play.replay .btn:after{margin:0;border:0;content:"\21BB";font-size:58px;color:#111;line-height:1}
+#play[hidden]{display:none}
+#cap{min-height:3.2em;padding:14px 18px calc(14px + env(safe-area-inset-bottom));text-align:center;font-size:19px}
+#cap span{opacity:.35;transition:opacity .2s}#cap span.on{opacity:1}
+</style></head>
+<body><div id="wrap">
+<div id="stage"><canvas id="face" width="720" height="1168"></canvas>
+<button id="play" aria-label="Play message"><div class="btn"></div><div id="lbl">Loading…</div></button></div>
+<div id="cap"></div>
+</div>
+<audio id="voice" src="voice.mp3" preload="auto" playsinline></audio>
+<script>
+const TL={"duration": 5.116, "images": ["00-amused.jpg", "01-amused-closed.jpg", "02-laughing.jpg", "03-laughing-to-amused-00-lead-in.jpg", "04-laughing-to-amused-01-s017.jpg", "05-laughing-to-amused-02-s033.jpg", "06-laughing-to-amused-03-s047.jpg", "07-laughing-to-amused-04-s060.jpg", "08-laughing-to-amused-05-s070.jpg", "09-laughing-to-amused-06-s079.jpg", "10-laughing-to-amused-07-s087.jpg", "11-laughing-to-amused-08-s093.jpg", "12-surprised.jpg", "13-surprised-to-listening-01-s017.jpg", "14-surprised-to-listening-02-s033.jpg", "15-surprised-to-listening-03-s047.jpg", "16-surprised-to-listening-04-s060.jpg", "17-talk-amused-ah-03-ah-half.jpg", "18-talk-amused-ah-04-ah-full.jpg", "19-talk-amused-ee-07-ee-half.jpg", "20-talk-amused-ee-08-ee-full.jpg", "21-talk-amused-oh-05-oh-half.jpg", "22-talk-amused-oh-06-oh-full.jpg", "23-talk-amused-slight-01-slight-half.jpg", "24-talk-amused-slight-02-slight-full.jpg"], "frames": [[0.0, 0], [0.44, 17], [0.5, 18], [0.65, 23], [0.71, 24], [0.846, 19], [0.906, 20], [1.028, 19], [1.088, 0], [1.198, 3], [1.278, 2], [2.278, 4], [2.338, 5], [2.398, 6], [2.458, 7], [2.518, 8], [2.578, 9], [2.638, 10], [2.698, 11], [2.732, 12], [3.732, 13], [3.792, 14], [3.852, 15], [3.912, 16], [3.917, 0], [4.117, 23], [4.177, 24], [4.306, 23], [4.366, 0], [4.406, 21], [4.466, 22], [4.575, 19], [4.635, 20], [4.741, 21], [4.801, 22], [4.906, 21], [4.966, 0]], "idle": {"00-amused.jpg": "01-amused-closed.jpg"}, "captions": [[0.35, 1.058, "Hey Drue!"], [1.338, 2.592, "That story was wild."], [2.872, 3.777, "Are you serious?"], [4.057, 4.836, "Talk soon."]], "voice": "Kokoro-82M af_heart", "source_text": "Hey Drue! 😂 That story was wild. 😮 Are you serious? 🙂 Talk soon."};
+const cv=document.getElementById('face'),cx=cv.getContext('2d'),au=document.getElementById('voice'),
+ pb=document.getElementById('play'),lbl=document.getElementById('lbl'),cap=document.getElementById('cap');
+const imgs=TL.images.map(n=>{const i=new Image();i.src='img/'+n;return i});
+cap.innerHTML=TL.captions.map(c=>'<span>'+c[2].replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))+'</span>').join(' ');
+const spans=[...cap.children];let shown=-1,playing=false;
+function draw(i){if(i===shown)return;const im=imgs[i];if(!im.complete||!im.naturalWidth)return;cx.drawImage(im,0,0,720,1168);shown=i;window.__face=TL.images[i]}
+function idxAt(t){const F=TL.frames;let lo=0,hi=F.length-1;while(lo<hi){const m=(lo+hi+1)>>1;if(F[m][0]<=t)lo=m;else hi=m-1}return F[lo][1]}
+function tick(){const t=au.currentTime;draw(idxAt(t));
+ spans.forEach((s,k)=>s.classList.toggle('on',t>=TL.captions[k][0]-0.15&&t<TL.captions[k][1]+0.2));
+ if(playing)requestAnimationFrame(tick)}
+// idle blink before/after playback
+let idleT=null;function idle(){clearTimeout(idleT);idleT=setTimeout(()=>{if(playing)return;const open=TL.images[shown],cl=TL.idle[open];
+ if(cl){const ci=TL.images.indexOf(cl),oi=shown;draw(ci);setTimeout(()=>{if(!playing)draw(oi)},130)}idle()},2800+Math.random()*1800)}
+Promise.all(imgs.map(i=>i.decode?i.decode().catch(()=>{}):new Promise(r=>{i.onload=i.onerror=r}))).then(()=>{draw(TL.frames[0][1]);lbl.textContent='Tap to play';idle()});
+pb.addEventListener('click',()=>{au.currentTime=0;const p=au.play();playing=true;pb.hidden=true;requestAnimationFrame(tick);
+ if(p&&p.catch)p.catch(e=>{playing=false;pb.hidden=false;lbl.textContent='Tap again to play'})});
+au.addEventListener('ended',()=>{playing=false;tick();pb.hidden=false;pb.classList.add('replay');lbl.textContent='Replay';idle()});
+</script></body></html>
