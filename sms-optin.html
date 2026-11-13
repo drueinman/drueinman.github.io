@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Drue Inman — Text Message Opt-In</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .optin-form { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin: 0 0 16px; }
+    .optin-form label.field-label { display: block; font-weight: 600; margin: 0 0 6px; }
+    .optin-form input[type="tel"] {
+      width: 100%; max-width: 320px; font: inherit; font-size: 1.05rem; color: var(--fg);
+      background: #000; border: 1px solid #536471; border-radius: 6px; padding: 10px 12px;
+    }
+    .optin-form input[type="tel"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .phone-hint { color: var(--muted); font-size: 0.85rem; margin: 4px 0 0; min-height: 1.2em; }
+    .phone-hint.bad { color: #f4a3a3; }
+    .consent-row { display: flex; align-items: flex-start; gap: 10px; margin: 14px 0 0; }
+    .consent-row input[type="checkbox"] {
+      flex: 0 0 auto; width: 22px; height: 22px; margin: 2px 0 0; accent-color: var(--accent); cursor: pointer;
+    }
+    .consent-row label { font-size: 0.95rem; cursor: pointer; }
+    .consent-row a { color: var(--fg); }
+    .optin-submit {
+      display: inline-block; margin: 16px 0 0; font: inherit; font-weight: 700; font-size: 1rem;
+      color: #000; background: #e7e9ea; border: none; border-radius: 999px; padding: 10px 22px; cursor: pointer;
+    }
+    .optin-submit:disabled { background: #3a3f44; color: #8b9196; cursor: not-allowed; }
+    .optin-note { color: var(--muted); font-size: 0.9rem; margin: 12px 0 0; }
+    .optin-done { border: 1px solid var(--accent); border-radius: 8px; padding: 14px 16px; margin: 0 0 16px; }
+    .optin-done[hidden] { display: none; }
+    @media (max-width: 480px) { .optin-form input[type="tel"] { max-width: none; } }
+  </style>
+</head>
+<body>
+  <div class="coach-edge coach-edge--left" aria-hidden="true"></div>
+  <div class="coach-edge coach-edge--right" aria-hidden="true"></div>
+  <div class="hero">
+    <img src="img/header.jpg" alt="">
+  </div>
+
+  <aside class="coach-tile" aria-hidden="true">
+    <img src="img/rail-coach.png" alt="">
+  </aside>
+
+  <header class="site-header">
+    <svg class="x-motif" viewBox="0 0 100 100" aria-hidden="true">
+      <path fill="currentColor" d="M14 8 L46 50 L14 92 H28 L50 64 L72 92 H86 L54 50 L86 8 H72 L50 36 L28 8 Z"/>
+    </svg>
+    <div class="brand-row">
+      <img class="logo" src="logo-diasx-bright3.png" width="141" height="88" alt="DIASX">
+      <div class="brand-text">
+        <h1>Drue Inman</h1>
+        <p class="dba">doing business as Drue Inman Automated Systems X</p>
+        <p class="sub">Text message opt-in — assistant line (213) 369-0221</p>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sms-optin.html" aria-current="page">Text Opt-In</a>
+      <a href="privacy.html">SMS Privacy Policy</a>
+      <a href="sms-terms.html">SMS Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Get texts from Drue Inman's assistant line</h2>
+    <p>Drue Inman's assistant line, (213) 369-0221, sends texts about scheduling and job updates. No marketing messages are sent. There are two ways to opt in.</p>
+
+    <h2>Option 1: Use this form</h2>
+    <form id="optin-form" class="optin-form" action="#" novalidate>
+      <label class="field-label" for="phone">Mobile number</label>
+      <input type="tel" id="phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile number" aria-describedby="phone-hint" required>
+      <p id="phone-hint" class="phone-hint" aria-live="polite">Enter a 10-digit U.S. mobile number.</p>
+
+      <div class="consent-row">
+        <input type="checkbox" id="consent" name="consent" value="yes">
+        <label for="consent">I agree to receive text messages from Drue Inman's assistant line at the number above about scheduling and job updates. Msg frequency varies. Msg &amp; data rates may apply. Reply HELP for help, STOP to opt out. Consent is not a condition of purchase. See our <a href="privacy.html">Privacy Policy</a> and <a href="sms-terms.html">SMS Terms</a>.</label>
+      </div>
+
+      <button type="submit" id="optin-submit" class="optin-submit" disabled>Open my texting app to send START</button>
+
+      <p class="optin-note"><b>What happens next:</b> this page has no server and does not store or send your number anywhere. When you submit, your phone's texting app opens with a text to (213) 369-0221 that says START. Send that text from the number you entered. Your opt-in is recorded only when that START text arrives, and you'll get a confirmation text back. No texts are sent to anyone who hasn't texted the line first.</p>
+    </form>
+
+    <div id="optin-done" class="optin-done" role="status" aria-live="polite" hidden>
+      <p><b>One more step.</b> Your texting app should now be open with a message to (213) 369-0221 that says START. Send that START text from <b id="optin-number">the number you entered</b> to finish opting in. You'll get a confirmation text back.</p>
+      <p>If your texting app didn't open, <a id="optin-smslink" href="sms:+12133690221?&amp;body=START">tap here</a>, or text <b>START</b> to (213) 369-0221 yourself.</p>
+    </div>
+
+    <h2>Option 2: Text START</h2>
+    <p>To get texts about scheduling and job updates, text <b>START</b> to (213) 369-0221. You'll get a confirmation. Msg frequency varies. Msg &amp; data rates may apply. Reply <b>HELP</b> for help, <b>STOP</b> to opt out. No texts are sent to anyone who hasn't texted the line first. Your number and opt-in are never sold or shared with third parties for marketing.</p>
+
+    <h2>Your privacy</h2>
+    <p>Your number and opt-in are never sold or shared with third parties for marketing. Read the <a href="privacy.html">SMS Privacy Policy</a> and the <a href="sms-terms.html">SMS Terms</a>.</p>
+  </main>
+
+  <footer class="site-foot">
+    <p class="coming-soon">Full site coming soon.</p>
+  </footer>
+
+  <script>
+  (function () {
+    var LINE = '+12133690221';
+    var SMS_URL = 'sms:' + LINE + '?&body=' + encodeURIComponent('START');
+    var form = document.getElementById('optin-form');
+    var phone = document.getElementById('phone');
+    var consent = document.getElementById('consent');
+    var submit = document.getElementById('optin-submit');
+    var hint = document.getElementById('phone-hint');
+    var done = document.getElementById('optin-done');
+    var numOut = document.getElementById('optin-number');
+    var smsLink = document.getElementById('optin-smslink');
+    consent.checked = false; // never pre-checked, even after back/forward cache
+    smsLink.setAttribute('href', SMS_URL);
+
+    function digits(v) {
+      var d = (v || '').replace(/\D/g, '');
+      if (d.length === 11 && d.charAt(0) === '1') d = d.slice(1);
+      return d;
+    }
+    function validPhone(v) {
+      return /^[2-9]\d{2}[2-9]\d{6}$/.test(digits(v));
+    }
+    function pretty(v) {
+      var d = digits(v);
+      return '(' + d.slice(0, 3) + ') ' + d.slice(3, 6) + '-' + d.slice(6);
+    }
+    function update() {
+      var ok = validPhone(phone.value);
+      if (!phone.value) { hint.textContent = 'Enter a 10-digit U.S. mobile number.'; hint.className = 'phone-hint'; }
+      else if (ok) { hint.textContent = 'Looks good.'; hint.className = 'phone-hint'; }
+      else { hint.textContent = 'That doesn\u2019t look like a 10-digit U.S. mobile number yet.'; hint.className = 'phone-hint bad'; }
+      submit.disabled = !(ok && consent.checked);
+    }
+    phone.addEventListener('input', update);
+    consent.addEventListener('change', update);
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!(validPhone(phone.value) && consent.checked)) { update(); return; }
+      numOut.textContent = pretty(phone.value);
+      done.hidden = false;
+      done.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      window.location.href = SMS_URL;
+    });
+    update();
+  })();
+  </script>
+</body>
+</html>
