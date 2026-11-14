@@ -1,0 +1,280 @@
+{
+ "_note": "EDIT ME. Viseme map for Aloy's mouth (Jarvis 111326, from Nimbus's research /workspace/board/notes/visemes-lipsync-111326.md). Chain: sound -> Oculus viseme (15) -> mouth frame 'shape' at 'level' (half or full). Kokoro demos use 'ipa' (timed phonemes from the timestamped Kokoro model); typed text uses 'letters' (rough English spelling rules). Change a shape or move a sound and reload: the page maps at play time, no rebuild. Frames: Cora's closed (= amused rest), slight, ah, oh, ee; TweakX's pbm (full only), fv, th, l, oo, sh (111326 v3). 'shapes' sets per-frame entry: 'direct' skips the half frame. The page blends between mouth frames (short crossfade) instead of snapping, per the note.",
+ "standard": "Oculus/Meta 15 visemes (= MPEG-4 14 + sil), collapsed to the 5 existing frames; Rhubarb A-H+X column for reference",
+ "visemes": {
+  "sil": {
+   "shape": "closed",
+   "level": "full",
+   "rhubarb": "X",
+   "art": "ok: amused closed smile"
+  },
+  "PP": {
+   "shape": "pbm",
+   "level": "full",
+   "rhubarb": "A",
+   "art": "ok v3: TweakX pressed lips (mouth-pbm-full)"
+  },
+  "FF": {
+   "shape": "fv",
+   "level": "full",
+   "rhubarb": "G",
+   "art": "ok v3: upper teeth on lower lip; fv-half is subtle (entry frame only)"
+  },
+  "TH": {
+   "shape": "th",
+   "level": "full",
+   "rhubarb": "B",
+   "art": "ok v3: th-full tongue at the teeth; th-half skipped (reads as F/V)"
+  },
+  "DD": {
+   "shape": "slight",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "near-neutral per note (T/D hard to see); slight half"
+  },
+  "kk": {
+   "shape": "slight",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "near-neutral per note (K/G hard to see); slight half"
+  },
+  "CH": {
+   "shape": "sh",
+   "level": "full",
+   "rhubarb": "B",
+   "art": "ok v3: SH/CH/JH lips forward (sh-half entry, sh-full); sh-full drops the smile a bit"
+  },
+  "SS": {
+   "shape": "ee",
+   "level": "full",
+   "rhubarb": "B",
+   "art": "ok: S/Z teeth near, lips spread"
+  },
+  "nn": {
+   "shape": "slight",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "N stays near-neutral per Nimbus; L has its own entry 'L' below"
+  },
+  "RR": {
+   "shape": "oh",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "APPROX: R/ER slightly rounded; oh half"
+  },
+  "aa": {
+   "shape": "ah",
+   "level": "full",
+   "rhubarb": "D",
+   "art": "ok: jaw dropped, open"
+  },
+  "E": {
+   "shape": "ah",
+   "level": "half",
+   "rhubarb": "C",
+   "art": "ok-ish: EH/AE open, narrower than aa; ah half"
+  },
+  "ih": {
+   "shape": "ee",
+   "level": "full",
+   "rhubarb": "B",
+   "art": "ok: IH/IY teeth showing, lips spread"
+  },
+  "oh": {
+   "shape": "oh",
+   "level": "full",
+   "rhubarb": "E",
+   "art": "ok: rounded mid opening"
+  },
+  "ou": {
+   "shape": "oo",
+   "level": "full",
+   "rhubarb": "F",
+   "art": "ok v3: puckered OO/W (oo-half entry, oo-full); oo-full drops the smile a bit"
+  },
+  "L": {
+   "shape": "l",
+   "level": "half",
+   "rhubarb": "H",
+   "art": "v3: held-L tongue up (l-half); l-full not used (tongue sits forward)"
+  },
+  "rB": {
+   "shape": "ee",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "Rhubarb B only (Eve audio): clenched teeth, most consonants; same as v2"
+  }
+ },
+ "ipa": {
+  "p": "PP",
+  "b": "PP",
+  "m": "PP",
+  "f": "FF",
+  "v": "FF",
+  "θ": "TH",
+  "ð": "TH",
+  "t": "DD",
+  "d": "DD",
+  "ɾ": "DD",
+  "k": "kk",
+  "g": "kk",
+  "ɡ": "kk",
+  "ŋ": "kk",
+  "ʧ": "CH",
+  "ʤ": "CH",
+  "ʃ": "CH",
+  "ʒ": "CH",
+  "s": "SS",
+  "z": "SS",
+  "n": "nn",
+  "l": "L",
+  "ɹ": "RR",
+  "r": "RR",
+  "a": "aa",
+  "ɑ": "aa",
+  "ɐ": "aa",
+  "æ": "E",
+  "ʌ": "aa",
+  "A": "aa",
+  "I": "aa",
+  "W": "aa",
+  "e": "E",
+  "ɛ": "E",
+  "ə": "aa",
+  "ɚ": "RR",
+  "ɜ": "RR",
+  "ᵊ": "E",
+  "i": "ih",
+  "ɪ": "ih",
+  "j": "ih",
+  "Y": "ih",
+  "o": "oh",
+  "ɔ": "oh",
+  "O": "oh",
+  "Q": "oh",
+  "u": "ou",
+  "ʊ": "ou",
+  "w": "ou",
+  "h": "next",
+  "ˈ": "hold",
+  "ˌ": "hold",
+  "ː": "hold",
+  " ": "gap",
+  ",": "sil",
+  ".": "sil",
+  "!": "sil",
+  "?": "sil",
+  ";": "sil",
+  ":": "sil",
+  "—": "sil",
+  "…": "sil"
+ },
+ "letters": {
+  "_note": "Longest match first. 'hold' = keep the previous mouth; 'next' = take the next sound's mouth (H, per the note); 'skip' = silent.",
+  "tion": "CH",
+  "augh": "aa",
+  "ough": "oh",
+  "igh": "ih",
+  "eigh": "E",
+  "th": "TH",
+  "sh": "CH",
+  "ch": "CH",
+  "ph": "FF",
+  "wh": "ou",
+  "ck": "kk",
+  "ng": "kk",
+  "qu": "kk",
+  "gh": "skip",
+  "oo": "ou",
+  "ou": "oh",
+  "ow": "oh",
+  "oa": "oh",
+  "ee": "ih",
+  "ea": "ih",
+  "ie": "ih",
+  "ai": "E",
+  "ay": "E",
+  "ey": "E",
+  "oi": "oh",
+  "oy": "oh",
+  "au": "aa",
+  "aw": "aa",
+  "a": "E",
+  "e": "E",
+  "i": "ih",
+  "o": "oh",
+  "u": "aa",
+  "y": "ih",
+  "b": "PP",
+  "m": "PP",
+  "p": "PP",
+  "f": "FF",
+  "v": "FF",
+  "t": "DD",
+  "d": "DD",
+  "n": "nn",
+  "l": "L",
+  "k": "kk",
+  "c": "kk",
+  "g": "kk",
+  "q": "kk",
+  "x": "kk",
+  "s": "SS",
+  "z": "SS",
+  "j": "CH",
+  "r": "RR",
+  "w": "ou",
+  "h": "next"
+ },
+ "timing": {
+  "half_ms": 55,
+  "blend_ms": 45,
+  "min_segment_ms": 45,
+  "letters_per_second": 13.5
+ },
+ "frames": {
+  "exist": [
+   "closed (aloy-amused)",
+   "slight half/full",
+   "ah half/full",
+   "oh half/full",
+   "ee half/full",
+   "pbm full (v3)",
+   "fv half/full (v3)",
+   "th half/full (v3, half unused)",
+   "l half/full (v3, full unused)",
+   "oo half/full (v3)",
+   "sh half/full (v3)"
+  ],
+  "missing": [],
+  "weak": [
+   "fv-half subtle",
+   "th-half reads as F/V (unused)",
+   "l-full tongue forward (unused)",
+   "sh-half no teeth",
+   "oo-full and sh-full drop the smile"
+  ],
+  "rhubarb_coverage": {
+   "A": "pbm",
+   "B": "ee half (rB)",
+   "C": "ah half",
+   "D": "ah full",
+   "E": "oh full",
+   "F": "oo",
+   "G": "fv",
+   "H": "l",
+   "X": "closed"
+  }
+ },
+ "source": "/workspace/board/notes/visemes-lipsync-111326.md (Nimbus 111326)",
+ "shapes": {
+  "pbm": {
+   "entry": "direct",
+   "why": "closed is closed"
+  },
+  "th": {
+   "entry": "direct",
+   "why": "th-half reads as F/V"
+  }
+ }
+}
