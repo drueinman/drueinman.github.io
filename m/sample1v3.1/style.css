@@ -1,0 +1,110 @@
+/* Aloy emote v2: mobile layout after the desktop Emote App (gear left, pull-down center, face, 4 source buttons, emotion bar, slim Settings tabs + bottom drawer) */
+html,body{margin:0;height:100%;background:#000;color:#ddd;font:15px -apple-system,system-ui,"Segoe UI",Roboto,sans-serif;overflow:hidden;-webkit-user-select:none;user-select:none}
+#app{position:relative;height:100%;height:100dvh;max-width:min(100vw,calc(100dvh * 0.62));margin:0 auto;display:flex;flex-direction:column;box-sizing:border-box;
+ container-type:inline-size;background:#000;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);--pdH:14.5cqw;--pdW:61cqw;--ease:cubic-bezier(.22,1,.36,1)}
+#app::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:18;border:6.25cqw solid transparent;border-image:url("ui-frame.png") 24 / 6.25cqw stretch;border-radius:6.25cqw}
+.btn{position:relative;border:0;background:transparent;color:#ececec;font:600 13px -apple-system,system-ui,sans-serif;text-shadow:0 1px 2px #000;cursor:pointer;padding:0;-webkit-tap-highlight-color:transparent;outline:none}
+#topBar{flex:0 0 auto;position:relative;height:calc(var(--pdH) + 1.3cqw);z-index:9}
+.btn.gear{position:absolute;left:3.6cqw;top:calc((var(--pdH) - 12cqw)/2 + .6cqw);width:12cqw;height:12cqw;border-radius:50%;background:url("ui-gear.png") center/100% 100% no-repeat;z-index:20}
+.btn.gear.on,.btn.gear:active{background-image:url("ui-gear-on.png")}
+#pull{position:absolute;top:0;left:50%;width:var(--pdW);margin-left:calc(var(--pdW)/-2);height:var(--pdH);z-index:16;box-sizing:border-box;
+ border-style:solid;border-color:transparent;border-width:.244cqw 5.856cqw 7.564cqw;border-image:url("ui-pd.png") 2 48 62 fill / .244cqw 5.856cqw 7.564cqw stretch;filter:drop-shadow(0 6px 10px #000c)}
+#botPick{height:calc(var(--pdH) - 3.8cqw);display:flex;align-items:center;justify-content:center;margin:0 -2cqw;font:700 5.6cqw -apple-system,system-ui,sans-serif;color:#f4f4f4}
+#stage{position:relative;flex:1 1 auto;min-height:0;display:flex;align-items:center;justify-content:center;margin:0 1.3%;overflow:hidden;background:#000}
+#face{max-width:100%;max-height:100%;aspect-ratio:720/1168;display:block;transform-origin:50% 62%;will-change:transform}
+#toast{position:absolute;left:8%;right:8%;bottom:4%;padding:8px 12px;border-radius:10px;background:#000c;color:#fff;text-align:center;font-size:14px;z-index:5}
+#controls{flex:0 0 auto;padding:2px 5% 0}
+#caption{min-height:2.7em;max-height:4.2em;overflow:hidden;text-align:center;font-size:16px;line-height:1.35;padding:4px 2px}
+#caption span{opacity:.35;transition:opacity .2s}#caption span.on{opacity:1}
+#actionRow{display:flex;justify-content:space-evenly;align-items:center;padding:2px 0 4px}
+.btn.src{width:20cqw;aspect-ratio:895/582;background:url("ui-src.png") center/100% 100% no-repeat;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;font-size:3cqw}
+.btn.src.on,.btn.src:active{background-image:url("ui-src-on.png");color:#fff}
+.btn.src svg{width:4.2cqw;height:4.2cqw;fill:none;stroke:#dcdcdc;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}
+.btn.src.future{opacity:.55}
+#statusBar{flex:0 0 8px;margin:2px 7% calc(4.5cqw + 4px);border-radius:4px;background:#1a1a1a;transition:background .6s,box-shadow .6s}
+#statusBar.emo-pink{background:linear-gradient(#ffc2e4,#ff4fa3);box-shadow:0 0 8px #ff5aad}
+#statusBar.emo-rose{background:linear-gradient(#ffd6e3,#f07aa0);box-shadow:0 0 8px #f48aae}
+#statusBar.emo-blue{background:linear-gradient(#9ad4ff,#156cd0);box-shadow:0 0 8px #3af}
+#statusBar.emo-teal{background:linear-gradient(#a6f3ea,#11a39a);box-shadow:0 0 8px #2dd4c4}
+#statusBar.emo-amber{background:linear-gradient(#ffe680,#d99a00);box-shadow:0 0 8px #fc0}
+#statusBar.emo-orange{background:linear-gradient(#ffc27a,#e06a00);box-shadow:0 0 8px #ff8a1a}
+#setupTabs{position:absolute;left:4%;right:4%;top:calc(var(--pdH) + 1cqw + env(safe-area-inset-top));z-index:17;display:flex;gap:4px;justify-content:center;padding:4px;border-radius:10px;background:#0b0b0bee;box-shadow:0 4px 14px #000,inset 0 0 0 1px #ffffff22}
+#setupTabs[hidden],#setup[hidden],.sheet[hidden],.setupPanel[hidden]{display:none}
+.setupTab{flex:1;height:30px;border:0;border-radius:8px;background:transparent;color:#bbb;font:600 14px -apple-system,system-ui,sans-serif}
+.setupTab.on{background:#ffffff1f;color:#fff;box-shadow:inset 0 0 0 1px #ffffff2e}
+.setupDrawer{position:absolute;left:3%;right:3%;bottom:calc(env(safe-area-inset-bottom) + 3cqw);z-index:17;max-height:46%;display:flex;flex-direction:column;border-radius:14px;background:#0b0b0bf2;box-shadow:0 -6px 20px #000,inset 0 0 0 1px #ffffff22;animation:up .35s var(--ease)}
+@keyframes up{from{transform:translateY(20px);opacity:0}to{transform:none;opacity:1}}
+.setupChev{align-self:center;width:44px;height:20px;border:0;background:transparent}
+.setupChev svg{width:20px;height:10px;fill:none;stroke:#ddd;stroke-width:1.6}
+.setupDrawerInner{overflow:auto;padding:0 14px 12px}
+.hint{color:#9a9a9a;font-size:13px;line-height:1.35}
+#demoList .demo{display:block;width:100%;text-align:left;margin:6px 0;padding:10px 12px;border-radius:10px;border:0;background:#1a1a1a;color:#ddd;font:600 15px -apple-system,system-ui,sans-serif;box-shadow:inset 0 0 0 1px #ffffff1a}
+#demoList .demo.cur{background:#232c3d;color:#fff;box-shadow:inset 0 0 0 1px #6b8bd6}
+#demoList .demo small{display:block;font-weight:400;color:#999;font-size:12px;margin-top:2px}
+#emoteTable{width:100%;border-collapse:collapse;font-size:13px}#emoteTable td{padding:4px 3px;border-top:1px solid #222;vertical-align:top}#emoteTable td:first-child{font-size:17px;white-space:nowrap}
+#emoteTable .peak{color:#ff9db8}
+dl dt{color:#fff;font-weight:600;margin-top:8px}dl dd{margin:2px 0 0;color:#aaa;font-size:13px}
+.sheet{position:absolute;left:3%;right:3%;bottom:calc(env(safe-area-inset-bottom) + 3cqw);z-index:19;max-height:52%;overflow:auto;border-radius:14px;background:#0b0b0bf5;box-shadow:0 -6px 20px #000,inset 0 0 0 1px #ffffff22;animation:up .35s var(--ease)}
+.sheetHead{display:flex;align-items:center;justify-content:space-between;padding:8px 14px 0}.sheetHead h2{margin:0;font-size:17px}
+.sheetX{border:0;background:transparent;color:#ccc;font-size:26px;line-height:1;padding:0 4px}
+.sheetBody{padding:6px 14px 12px}
+#composeText{width:100%;box-sizing:border-box;border-radius:10px;border:1px solid #333;background:#111;color:#eee;font:16px -apple-system,system-ui,sans-serif;padding:8px;resize:vertical;-webkit-user-select:text;user-select:text}
+#chips{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0}
+#chips button{border:0;border-radius:14px;padding:4px 9px;background:#1d1d1d;color:#ddd;font-size:14px;box-shadow:inset 0 0 0 1px #ffffff1f}
+#chips button.peak{box-shadow:inset 0 0 0 1px #ff6f9a88}
+.btnRow{display:flex;gap:8px}
+
+.palRow{display:flex;margin:6px 0 4px}
+#palette{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;max-height:24vh;overflow:auto;margin-bottom:6px}
+#palette button{border:0;border-radius:10px;padding:4px 1px;background:#1a1a1a;color:#ccc;font-size:9px;line-height:1.1;overflow:hidden;box-shadow:inset 0 0 0 1px #ffffff1f;-webkit-tap-highlight-color:transparent}
+#palette button b{display:block;font-size:21px;font-weight:400}
+#palette button.peak{box-shadow:inset 0 0 0 1px #ff6f9a99}
+#suggest{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0}
+#suggest button{border:0;border-radius:14px;padding:4px 9px;background:#232c3d;color:#fff;font-size:14px}
+#chart{margin:6px 0 2px;padding:8px 6px 4px;border-radius:10px;background:#111;line-height:2.6;font-size:16px;min-height:1.5em;-webkit-user-select:none}
+#chart ruby{ruby-position:over}#chart rt{font-size:15px;line-height:1}#chart rt.peak{filter:drop-shadow(0 0 3px #ff4f8f)}
+#chart .beat{display:inline-block;margin:0 3px;padding:0 5px;border-radius:8px;background:#3a1020;color:#ffb3c8;font-size:12px;line-height:1.6;vertical-align:middle}
+.lifeRow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:8px 0}
+.lifeRow label{font-weight:600;color:#ddd}.lifeRow input[type=range]{flex:1}
+.lifeRow input[type=checkbox]{width:22px;height:22px}
+#lifeVal{min-width:3.2em;text-align:right;color:#fff}
+details.help summary{color:#9a9a9a;font-size:13px;margin-top:6px}
+.sheetHead h2 small{font-weight:400;color:#999;font-size:12px;margin-left:6px}
+/* ---------- v3 (Jarvis 111326; Drue 2146 + 2150) ----------
+   Buttons keep the desktop Emote App's true shapes: BS SOURCE at its own 895:582 (aspect-ratio), and the wide buttons are
+   BS WIDE as a 9-slice: each round end is the source's 291x582 cap scaled uniformly (cap = h/2 by h), only the straight
+   middle runs longer. No button image is ever squashed with width/height or background-size. */
+.btn.stadium{--h:46px;height:var(--h);min-height:44px;box-sizing:border-box;border-style:solid;border-color:transparent;border-width:0 calc(var(--h) / 2);
+  border-image-source:url("ui-wide.png");border-image-slice:0 97 0 97 fill;border-image-width:0 calc(var(--h) / 2);border-image-repeat:stretch;
+  background:none;color:#f2f2f2;font:700 16px -apple-system,system-ui,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:0 6px}
+.btn.stadium:active,.btn.stadium.on,.btn.stadium.open{border-image-source:url("ui-wide-on.png");color:#fff}
+.btnRow .btn.stadium{flex:1 1 0}
+.btn.stadium svg{width:18px;height:18px;fill:#f2f2f2}
+.btn.stadium.go{color:#fff;text-shadow:0 0 6px #7fd1ff99}
+/* Expressions pull-down: large, high contrast, a real label and the desktop app's stroke chevron (vector, never stretched) */
+.palRow{justify-content:center;margin:8px 0 6px}
+.btn.stadium.pal{--h:48px;width:100%;font-size:17px;letter-spacing:.2px;color:#fff;text-shadow:0 1px 2px #000}
+.btn.stadium.pal .palFaces{font-size:19px;letter-spacing:1px}
+.btn.stadium.pal .palChev{width:22px;height:13px;fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 2px #000);transition:transform .2s}
+.btn.stadium.pal.open .palChev{transform:rotate(180deg)}
+#voiceState{margin:6px 2px;font-size:14px;color:#cfe3ff}#voiceState.err{color:#ff9a9a}#voiceState.wait::before{content:"";display:inline-block;width:10px;height:10px;margin-right:6px;border-radius:50%;border:2px solid #9cc7ff;border-right-color:transparent;animation:spin .8s linear infinite;vertical-align:-1px}
+#statusLine{position:absolute;left:10%;right:10%;top:3%;padding:6px 10px;border-radius:10px;background:#000b;color:#dfe9ff;text-align:center;font-size:14px;z-index:4}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes down{to{transform:translateY(110%);opacity:0}}
+.sheet.closing,.setupDrawer.closing{animation:down .32s var(--ease) forwards}
+#palette[hidden]{display:none}
+.btnRow{margin:8px 0 2px}
+
+/* v3 (Drue 111326 2232): round top-right button, same size and art family as the gear (SILVER "BS Round IP" / "BS Round ACTIVE IP",
+   rebuilt at 160x160 with a chevron at the gear's measured 0.735 icon-to-button fill); opens the Expressions pull-down */
+.btn.gear.pdround{left:auto;right:3.6cqw;background-image:url("ui-pdround.png")}
+.btn.gear.pdround.on,.btn.gear.pdround:active{background-image:url("ui-pdround-on.png")}
+
+/* v3.1 (Drue 111326 2252): Phone / PC layout toggle (PC is a stub for now) */
+.seg{display:inline-flex;gap:6px}.seg .setupTab{min-height:44px;padding:0 16px}
+#pcNote{position:absolute;left:4%;right:4%;top:2%;z-index:6;background:#000c;border:1px solid #556;border-radius:10px;padding:8px 10px;color:#ccd;font-size:13px;text-align:center}
+#pcNote[hidden],#tapGate[hidden]{display:none}
+/* v3.1 texted-link player: one tap to start (iPhone audio rule), then Replay. Only the Playback/Replay source button shows. */
+#tapGate{position:absolute;inset:0;z-index:8;display:flex;align-items:flex-end;justify-content:center;padding-bottom:14%;background:linear-gradient(#0000 55%,#000a)}
+#tapGate .btn.stadium{--h:58px;font-size:19px;padding:0 10px;min-width:62%}
+body.msg #settingsBtn,body.msg #pdRoundBtn,body.msg #composeBtn,body.msg #callBtn,body.msg #shareBtn{display:none}
