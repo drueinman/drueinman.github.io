@@ -1,0 +1,7 @@
+{
+ "_note": "Eve voice hosts, tried in order (Jarvis 111326 2205, per eve-service/CLIENT.md). Quick-tunnel host changes if the 18 reboots: edit this one file, no rebuild. Never cached by the service worker. No box URL: the box can't reach Cloudflare.",
+ "endpoints": [
+  "https://eve.diasx.io",
+  "https://drew-klein-rugs-packard.trycloudflare.com"
+ ]
+}

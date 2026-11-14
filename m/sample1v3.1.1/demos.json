@@ -1,0 +1,66 @@
+[
+{
+"id": "sample1",
+"title": "Sample 1 (redone)",
+"text": "Hey Drue! 😂 That story was wild. 😮 Are you serious? 🙂 Talk soon.",
+"duration": 9.451,
+"voice": "eve"
+},
+{
+"id": "believe",
+"title": "You won't believe this",
+"text": "Okay Drue, you're not going to believe this [disbelief] but the whole thing actually works on your phone. [smile] Pretty cool, right?",
+"duration": 6.755,
+"voice": "eve"
+},
+{
+"id": "joke",
+"title": "Joke, then the laugh",
+"text": "Why did the robot go on vacation? It needed to recharge its batteries. [laugh] Okay, okay. [skeptical] That one was a little rough.",
+"duration": 11.584,
+"voice": "eve"
+},
+{
+"id": "moods",
+"title": "Mood tour",
+"text": "[think] Hmm, let me think about that for a second. [worried] I was a little worried it might not work. [relieved] But it did! [excited] [proud] And honestly, I'm kind of proud of it.",
+"duration": 12.562,
+"voice": "eve"
+},
+{
+"id": "syllable",
+"title": "Cue inside a word",
+"text": "That is unbeliev[disbelief]able, Drue. It works on the phone. [smile] Ha[laugh]ha, okay.",
+"duration": 8.938,
+"voice": "eve"
+},
+{
+"id": "lips",
+"title": "Lips: P/B/M, F/V, OO",
+"text": "Please bring my big blue boots. Five fine violins of velvet. Who knew? Two cool shoes. Shh, she should think, though.",
+"duration": 9.334,
+"voice": "eve"
+},
+{
+"id": "sad",
+"title": "Sad, then better",
+"text": "I have to tell you something. [sad] The old sample got taken down. [smile] But the new one is even better, look!",
+"duration": 6.701,
+"voice": "eve"
+},
+{
+"id": "sample2",
+"title": "Sample 2 (redone)",
+"text": "Hi Drue, this is Aloy. 🤩 I finally have a voice and a face that moves with it! 😂 Honestly, it took the whole crew to get here. 😮 Can you believe it works on your phone? 🙂 Tap replay any time. Talk soon.",
+"duration": 20.612,
+"voice": "eve"
+},
+{
+"id": "thinking",
+"title": "Thinking to herself (silent)",
+"text": "No talking, no audio: she drifts through moods on her own, glancing at her phone. Runs until you tap Stop.",
+"duration": 0,
+"voice": "none",
+"silent": true
+}
+]

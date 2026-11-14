@@ -1,0 +1,332 @@
+{
+ "_note": "Emoji and [tag] markers -> expression (Jarvis 111326 2050, rules in README.md EMOTE RULES). kind 'peak' = true extreme peak (big laugh / flash): never during speech; it waits for the next phrase break and plays as its own beat (ease in, hold, ease out). kind 'talk' = moderate expression: may play mid-sentence; it changes the upper face (eyes, brows) with a gradual fade while the mouth keeps lip-syncing. 'smile' = back to the plain talking face. v3 (111326 2145): 😢 😭 [sad] -> TweakX's sad face.",
+ "default_face": "amused",
+ "markers": [
+  {
+   "emoji": [
+    "😂",
+    "🤣",
+    "😆"
+   ],
+   "tags": [
+    "laugh",
+    "lol",
+    "haha"
+   ],
+   "kind": "peak",
+   "face": "laughing",
+   "label": "Big laugh (reaction beat)"
+  },
+  {
+   "emoji": [
+    "🤩",
+    "🎉",
+    "🙌",
+    "😃"
+   ],
+   "tags": [
+    "excited",
+    "cheer",
+    "yay"
+   ],
+   "kind": "peak",
+   "face": "excited",
+   "label": "Excited flash (reaction beat)"
+  },
+  {
+   "emoji": [
+    "😱"
+   ],
+   "tags": [
+    "shock",
+    "yikes"
+   ],
+   "kind": "peak",
+   "face": "alert",
+   "label": "Shock flash (reaction beat)"
+  },
+  {
+   "emoji": [
+    "😲",
+    "😳"
+   ],
+   "tags": [
+    "gasp"
+   ],
+   "kind": "peak",
+   "face": "surprised",
+   "label": "Full gasp, mouth open (reaction beat)"
+  },
+  {
+   "emoji": [
+    "😮",
+    "😯"
+   ],
+   "tags": [
+    "disbelief",
+    "wow",
+    "no-way"
+   ],
+   "kind": "talk",
+   "face": "surprised",
+   "label": "You're not going to believe this (eyes wide, keeps talking)"
+  },
+  {
+   "emoji": [
+    "🤔"
+   ],
+   "tags": [
+    "think",
+    "hmm"
+   ],
+   "kind": "talk",
+   "face": "thinking",
+   "label": "Thinking"
+  },
+  {
+   "emoji": [
+    "🤨",
+    "😏"
+   ],
+   "tags": [
+    "skeptical",
+    "really"
+   ],
+   "kind": "talk",
+   "face": "skeptical",
+   "label": "Skeptical"
+  },
+  {
+   "emoji": [
+    "😕",
+    "❓"
+   ],
+   "tags": [
+    "confused",
+    "huh"
+   ],
+   "kind": "talk",
+   "face": "confused",
+   "label": "Confused"
+  },
+  {
+   "emoji": [
+    "😟",
+    "😥"
+   ],
+   "tags": [
+    "worried"
+   ],
+   "kind": "talk",
+   "face": "worried",
+   "label": "Worried"
+  },
+  {
+   "emoji": [
+    "😢",
+    "☹",
+    "🙁"
+   ],
+   "tags": [
+    "sad"
+   ],
+   "kind": "talk",
+   "face": "sad",
+   "label": "Sad"
+  },
+  {
+   "emoji": [
+    "😭"
+   ],
+   "tags": [
+    "tears",
+    "cry"
+   ],
+   "kind": "talk",
+   "face": "sad-tears",
+   "label": "Sad with a tear (no blinks while held)"
+  },
+  {
+   "emoji": [
+    "📱"
+   ],
+   "tags": [
+    "lookdown",
+    "phone"
+   ],
+   "kind": "talk",
+   "face": "phone-down",
+   "label": "Looks down at her phone"
+  },
+  {
+   "emoji": [
+    "😔"
+   ],
+   "tags": [
+    "guilty"
+   ],
+   "kind": "talk",
+   "face": "guilty-down",
+   "label": "Guilty look down (reads a bit to the side)"
+  },
+  {
+   "emoji": [
+    "🙄"
+   ],
+   "tags": [
+    "eyeroll",
+    "skeptical-up"
+   ],
+   "kind": "talk",
+   "face": "skeptical-up",
+   "label": "Eye roll / you're full of it (TweakX: weak, more side-eye)"
+  },
+  {
+   "emoji": [
+    "💭"
+   ],
+   "tags": [
+    "lookup",
+    "wonder"
+   ],
+   "kind": "talk",
+   "face": "thinking-up",
+   "label": "Looks up, thinking"
+  },
+  {
+   "emoji": [
+    "😬",
+    "🥺"
+   ],
+   "tags": [
+    "sorry",
+    "oops"
+   ],
+   "kind": "talk",
+   "face": "apologetic",
+   "label": "Apologetic"
+  },
+  {
+   "emoji": [
+    "😌",
+    "😅",
+    "🙏"
+   ],
+   "tags": [
+    "relieved",
+    "phew"
+   ],
+   "kind": "talk",
+   "face": "relieved",
+   "label": "Relieved"
+  },
+  {
+   "emoji": [
+    "😎",
+    "🏆",
+    "✨",
+    "😁"
+   ],
+   "tags": [
+    "proud"
+   ],
+   "kind": "talk",
+   "face": "proud",
+   "label": "Proud"
+  },
+  {
+   "emoji": [
+    "💪",
+    "😤",
+    "🔥"
+   ],
+   "tags": [
+    "determined"
+   ],
+   "kind": "talk",
+   "face": "determined",
+   "label": "Determined"
+  },
+  {
+   "emoji": [
+    "🧐",
+    "🎯",
+    "📌",
+    "❗",
+    "⚠"
+   ],
+   "tags": [
+    "focused",
+    "focus"
+   ],
+   "kind": "talk",
+   "face": "focused",
+   "label": "Focused"
+  },
+  {
+   "emoji": [
+    "👂",
+    "💬"
+   ],
+   "tags": [
+    "listening",
+    "listen"
+   ],
+   "kind": "talk",
+   "face": "listening",
+   "label": "Listening"
+  },
+  {
+   "emoji": [
+    "😴",
+    "🥱"
+   ],
+   "tags": [
+    "sleepy",
+    "tired"
+   ],
+   "kind": "talk",
+   "face": "sleepy",
+   "label": "Sleepy"
+  },
+  {
+   "emoji": [
+    "🙂",
+    "😊",
+    "😄",
+    "😉"
+   ],
+   "tags": [
+    "smile",
+    "neutral"
+   ],
+   "kind": "smile",
+   "face": "amused",
+   "label": "Back to plain smile"
+  }
+ ],
+ "beat": {
+  "lead": 0.25,
+  "ease_in_step": 0.08,
+  "ease_out_step": 0.06,
+  "bridge_step": 0.06,
+  "hold": {
+   "laughing": 1.1,
+   "excited": 1.0,
+   "alert": 0.9,
+   "surprised": 0.9
+  },
+  "rest_hold": 0.45,
+  "tail": 0.15,
+  "peak_frame": {
+   "_why": "Drue 111326 2146: the wide-open mouth is too big. Peak = this in-between frame of <face>-to-<rest> (1 = nearest the full flash). 0 = full still. Drue 111326 2232: the over-exaggerated big smile (excited) comes OUT: capped at frame 6, a closed-teeth smile, everywhere (demos, palette, cues, thinking demo).",
+   "excited": 6,
+   "alert": 3,
+   "surprised": 2
+  }
+ },
+ "talk_fade": 0.38,
+ "slots": {
+  "_why": "TweakX batch 2 (111326 2200) wired: phone-down, guilty-down, skeptical-up, thinking-up, sad-tears. Full head-tilt phone look still welcome; drop it in as phone-tilt.jpg and add it here."
+ }
+}
