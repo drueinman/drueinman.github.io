@@ -1,0 +1,252 @@
+{
+ "_note": "EDIT ME. Viseme map for Aloy's mouth (Jarvis 111326, from Nimbus's research /workspace/board/notes/visemes-lipsync-111326.md). Chain: sound -> Oculus viseme (15) -> mouth frame 'shape' at 'level' (half or full). Kokoro demos use 'ipa' (timed phonemes from the timestamped Kokoro model); typed text uses 'letters' (rough English spelling rules). Change a shape or move a sound and reload: the page maps at play time, no rebuild. Frames that exist (Cora talking/amused): closed (= amused rest), slight, ah, oh, ee, each with half and full. The page blends between mouth frames (short crossfade) instead of snapping, per the note.",
+ "standard": "Oculus/Meta 15 visemes (= MPEG-4 14 + sil), collapsed to the 5 existing frames; Rhubarb A-H+X column for reference",
+ "visemes": {
+  "sil": {
+   "shape": "closed",
+   "level": "full",
+   "rhubarb": "X",
+   "art": "ok: amused closed smile"
+  },
+  "PP": {
+   "shape": "closed",
+   "level": "full",
+   "rhubarb": "A",
+   "art": "APPROX: P/B/M want pressed lips; no pressed-lips frame, using the closed smile"
+  },
+  "FF": {
+   "shape": "slight",
+   "level": "half",
+   "rhubarb": "G",
+   "art": "MISSING: F/V upper teeth on lower lip; using slight (half)"
+  },
+  "TH": {
+   "shape": "slight",
+   "level": "full",
+   "rhubarb": "B",
+   "art": "MISSING: TH tongue at the teeth; using slight"
+  },
+  "DD": {
+   "shape": "slight",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "near-neutral per note (T/D hard to see); slight half"
+  },
+  "kk": {
+   "shape": "slight",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "near-neutral per note (K/G hard to see); slight half"
+  },
+  "CH": {
+   "shape": "ee",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "APPROX: SH/CH/JH want lips pushed forward; no frame, using ee half"
+  },
+  "SS": {
+   "shape": "ee",
+   "level": "full",
+   "rhubarb": "B",
+   "art": "ok: S/Z teeth near, lips spread"
+  },
+  "nn": {
+   "shape": "slight",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "near-neutral; MISSING: held-L tongue-up frame (Rhubarb H)"
+  },
+  "RR": {
+   "shape": "oh",
+   "level": "half",
+   "rhubarb": "B",
+   "art": "APPROX: R/ER slightly rounded; oh half"
+  },
+  "aa": {
+   "shape": "ah",
+   "level": "full",
+   "rhubarb": "D",
+   "art": "ok: jaw dropped, open"
+  },
+  "E": {
+   "shape": "ah",
+   "level": "half",
+   "rhubarb": "C",
+   "art": "ok-ish: EH/AE open, narrower than aa; ah half"
+  },
+  "ih": {
+   "shape": "ee",
+   "level": "full",
+   "rhubarb": "B",
+   "art": "ok: IH/IY teeth showing, lips spread"
+  },
+  "oh": {
+   "shape": "oh",
+   "level": "full",
+   "rhubarb": "E",
+   "art": "ok: rounded mid opening"
+  },
+  "ou": {
+   "shape": "oh",
+   "level": "half",
+   "rhubarb": "F",
+   "art": "APPROX: UW/UH/W want puckered lips; no pucker frame, small round oh half"
+  }
+ },
+ "ipa": {
+  "p": "PP",
+  "b": "PP",
+  "m": "PP",
+  "f": "FF",
+  "v": "FF",
+  "θ": "TH",
+  "ð": "TH",
+  "t": "DD",
+  "d": "DD",
+  "ɾ": "DD",
+  "k": "kk",
+  "g": "kk",
+  "ɡ": "kk",
+  "ŋ": "kk",
+  "ʧ": "CH",
+  "ʤ": "CH",
+  "ʃ": "CH",
+  "ʒ": "CH",
+  "s": "SS",
+  "z": "SS",
+  "n": "nn",
+  "l": "nn",
+  "ɹ": "RR",
+  "r": "RR",
+  "a": "aa",
+  "ɑ": "aa",
+  "ɐ": "aa",
+  "æ": "E",
+  "ʌ": "aa",
+  "A": "aa",
+  "I": "aa",
+  "W": "aa",
+  "e": "E",
+  "ɛ": "E",
+  "ə": "aa",
+  "ɚ": "RR",
+  "ɜ": "RR",
+  "ᵊ": "E",
+  "i": "ih",
+  "ɪ": "ih",
+  "j": "ih",
+  "Y": "ih",
+  "o": "oh",
+  "ɔ": "oh",
+  "O": "oh",
+  "Q": "oh",
+  "u": "ou",
+  "ʊ": "ou",
+  "w": "ou",
+  "h": "next",
+  "ˈ": "hold",
+  "ˌ": "hold",
+  "ː": "hold",
+  " ": "gap",
+  ",": "sil",
+  ".": "sil",
+  "!": "sil",
+  "?": "sil",
+  ";": "sil",
+  ":": "sil",
+  "—": "sil",
+  "…": "sil"
+ },
+ "letters": {
+  "_note": "Longest match first. 'hold' = keep the previous mouth; 'next' = take the next sound's mouth (H, per the note); 'skip' = silent.",
+  "tion": "CH",
+  "augh": "aa",
+  "ough": "oh",
+  "igh": "ih",
+  "eigh": "E",
+  "th": "TH",
+  "sh": "CH",
+  "ch": "CH",
+  "ph": "FF",
+  "wh": "ou",
+  "ck": "kk",
+  "ng": "kk",
+  "qu": "kk",
+  "gh": "skip",
+  "oo": "ou",
+  "ou": "oh",
+  "ow": "oh",
+  "oa": "oh",
+  "ee": "ih",
+  "ea": "ih",
+  "ie": "ih",
+  "ai": "E",
+  "ay": "E",
+  "ey": "E",
+  "oi": "oh",
+  "oy": "oh",
+  "au": "aa",
+  "aw": "aa",
+  "a": "E",
+  "e": "E",
+  "i": "ih",
+  "o": "oh",
+  "u": "aa",
+  "y": "ih",
+  "b": "PP",
+  "m": "PP",
+  "p": "PP",
+  "f": "FF",
+  "v": "FF",
+  "t": "DD",
+  "d": "DD",
+  "n": "nn",
+  "l": "nn",
+  "k": "kk",
+  "c": "kk",
+  "g": "kk",
+  "q": "kk",
+  "x": "kk",
+  "s": "SS",
+  "z": "SS",
+  "j": "CH",
+  "r": "RR",
+  "w": "ou",
+  "h": "next"
+ },
+ "timing": {
+  "half_ms": 55,
+  "blend_ms": 45,
+  "min_segment_ms": 45,
+  "letters_per_second": 13.5
+ },
+ "frames": {
+  "exist": [
+   "closed (aloy-amused.png)",
+   "slight half/full",
+   "ah half/full",
+   "oh half/full",
+   "ee half/full"
+  ],
+  "missing": [
+   "PP pressed lips (Rhubarb A)",
+   "FF upper teeth on lower lip (Rhubarb G)",
+   "TH tongue at the teeth",
+   "L tongue up (Rhubarb H)",
+   "ou puckered lips (Rhubarb F)",
+   "CH lips pushed forward"
+  ],
+  "rhubarb_coverage": {
+   "A": "approx (closed smile)",
+   "B": "slight / ee",
+   "C": "ah half",
+   "D": "ah full",
+   "E": "oh full",
+   "F": "approx (oh half)",
+   "G": "missing",
+   "H": "missing",
+   "X": "closed"
+  }
+ },
+ "source": "/workspace/board/notes/visemes-lipsync-111326.md (Nimbus 111326)"
+}
