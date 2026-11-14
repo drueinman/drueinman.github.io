@@ -1,0 +1,1048 @@
+{
+"W": 720,
+"H": 1168,
+"faces": {
+"amused": "amused.jpg",
+"amused-closed": "amused-closed.jpg",
+"laughing": "laughing.jpg",
+"laughing-closed": "laughing-closed.jpg",
+"excited": "excited.jpg",
+"excited-closed": "excited-closed.jpg",
+"proud": "proud.jpg",
+"proud-closed": "proud-closed.jpg",
+"surprised": "surprised.jpg",
+"surprised-closed": "surprised-closed.jpg",
+"listening": "listening.jpg",
+"listening-closed": "listening-closed.jpg",
+"alert": "alert.jpg",
+"alert-closed": "alert-closed.jpg",
+"focused": "focused.jpg",
+"focused-closed": "focused-closed.jpg",
+"thinking": "thinking.jpg",
+"thinking-closed": "thinking-closed.jpg",
+"confused": "confused.jpg",
+"confused-closed": "confused-closed.jpg",
+"skeptical": "skeptical.jpg",
+"skeptical-closed": "skeptical-closed.jpg",
+"relieved": "relieved.jpg",
+"relieved-closed": "relieved-closed.jpg",
+"sleepy": "sleepy.jpg",
+"sleepy-closed": "sleepy-closed.jpg",
+"worried": "worried.jpg",
+"worried-closed": "worried-closed.jpg",
+"apologetic": "apologetic.jpg",
+"apologetic-closed": "apologetic-closed.jpg",
+"determined": "determined.jpg",
+"determined-closed": "determined-closed.jpg",
+"sad": "sad.jpg",
+"sad-closed": "sad-closed.jpg",
+"phone-down": "phone-down.jpg",
+"phone-down-closed": "phone-down-closed.jpg",
+"thinking-up": "thinking-up.jpg",
+"amused-sadtop": "amused-sadtop.jpg",
+"flirty-halflid": "flirty-halflid.jpg",
+"flirty-halflid-closed": "flirty-halflid-closed.jpg",
+"flirty-halflid-blush": "flirty-halflid-blush.jpg",
+"flirty-halflid-blush-closed": "flirty-halflid-blush-closed.jpg",
+"wink-left-blush": "wink-left-blush.jpg",
+"wink-left-blush-closed": "wink-left-blush-closed.jpg"
+},
+"patches": {
+"amused": "patch-amused.webp",
+"amused-closed": "patch-amused-closed.webp",
+"laughing": "patch-laughing.webp",
+"laughing-closed": "patch-laughing-closed.webp",
+"proud": "patch-proud.webp",
+"proud-closed": "patch-proud-closed.webp",
+"surprised": "patch-surprised.webp",
+"surprised-closed": "patch-surprised-closed.webp",
+"listening": "patch-listening.webp",
+"listening-closed": "patch-listening-closed.webp",
+"focused": "patch-focused.webp",
+"focused-closed": "patch-focused-closed.webp",
+"thinking": "patch-thinking.webp",
+"thinking-closed": "patch-thinking-closed.webp",
+"confused": "patch-confused.webp",
+"confused-closed": "patch-confused-closed.webp",
+"skeptical": "patch-skeptical.webp",
+"skeptical-closed": "patch-skeptical-closed.webp",
+"relieved": "patch-relieved.webp",
+"relieved-closed": "patch-relieved-closed.webp",
+"sleepy": "patch-sleepy.webp",
+"sleepy-closed": "patch-sleepy-closed.webp",
+"worried": "patch-worried.webp",
+"worried-closed": "patch-worried-closed.webp",
+"apologetic": "patch-apologetic.webp",
+"apologetic-closed": "patch-apologetic-closed.webp",
+"determined": "patch-determined.webp",
+"determined-closed": "patch-determined-closed.webp",
+"sad": "patch-sad.webp",
+"sad-closed": "patch-sad-closed.webp",
+"lookdown": "patch-lookdown.webp",
+"lookdown-closed": "patch-lookdown-closed.webp",
+"lookup": "patch-lookup.webp",
+"lookup-closed": "patch-lookup-closed.webp",
+"phone-down": "patch-phone-down.webp",
+"phone-down-closed": "patch-phone-down-closed.webp",
+"skeptical-up-closed": "patch-skeptical-closed.webp",
+"thinking-up": "patch-thinking-up.webp",
+"thinking-up-closed": "patch-thinking-closed.webp"
+},
+"mouth": {
+"slight": {
+"half": "mouth-slight-half.jpg",
+"full": "mouth-slight-full.jpg"
+},
+"ah": {
+"half": "mouth-ah-half.jpg",
+"full": "mouth-ah-full.jpg"
+},
+"oh": {
+"half": "mouth-oh-half.jpg",
+"full": "mouth-oh-full.jpg"
+},
+"ee": {
+"half": "mouth-ee-half.jpg",
+"full": "mouth-ee-full.jpg"
+},
+"pbm": {
+"full": "mouth-pbm-full.jpg",
+"half": "mouth-pbm-full.jpg"
+},
+"fv": {
+"full": "mouth-fv-full.jpg",
+"half": "mouth-fv-half.jpg"
+},
+"th": {
+"full": "mouth-th-full.jpg",
+"half": "mouth-th-half.jpg"
+},
+"l": {
+"full": "mouth-l-full.jpg",
+"half": "mouth-l-half.jpg"
+},
+"oo": {
+"full": "mouth-oo-full.jpg",
+"half": "mouth-oo-half.jpg"
+},
+"sh": {
+"full": "mouth-sh-full.jpg",
+"half": "mouth-sh-half.jpg"
+}
+},
+"pairs": {
+"alert-to-focused": [
+"tr-alert-to-focused-01-s015.jpg",
+"tr-alert-to-focused-02-s028.jpg",
+"tr-alert-to-focused-03-s041.jpg",
+"tr-alert-to-focused-04-s052.jpg",
+"tr-alert-to-focused-05-s062.jpg",
+"tr-alert-to-focused-06-s071.jpg",
+"tr-alert-to-focused-07-s079.jpg",
+"tr-alert-to-focused-08-s085.jpg",
+"tr-alert-to-focused-09-s091.jpg",
+"tr-alert-to-focused-10-s095.jpg",
+"tr-alert-to-focused-11-s098.jpg",
+"tr-alert-to-focused-12-s099.jpg"
+],
+"amused-to-listening": [
+"tr-amused-to-listening-01-s021.jpg",
+"tr-amused-to-listening-02-s040.jpg",
+"tr-amused-to-listening-03-s056.jpg",
+"tr-amused-to-listening-04-s069.jpg",
+"tr-amused-to-listening-05-s080.jpg",
+"tr-amused-to-listening-06-s089.jpg",
+"tr-amused-to-listening-07-s095.jpg",
+"tr-amused-to-listening-08-s099.jpg"
+],
+"excited-to-proud": [
+"tr-excited-to-proud-01-s015.jpg",
+"tr-excited-to-proud-02-s028.jpg",
+"tr-excited-to-proud-03-s041.jpg",
+"tr-excited-to-proud-04-s052.jpg",
+"tr-excited-to-proud-05-s062.jpg",
+"tr-excited-to-proud-06-s071.jpg",
+"tr-excited-to-proud-07-s079.jpg",
+"tr-excited-to-proud-08-s085.jpg",
+"tr-excited-to-proud-09-s091.jpg",
+"tr-excited-to-proud-10-s095.jpg",
+"tr-excited-to-proud-11-s098.jpg",
+"tr-excited-to-proud-12-s099.jpg"
+],
+"laughing-to-amused": [
+"tr-laughing-to-amused-01-s017.jpg",
+"tr-laughing-to-amused-02-s033.jpg",
+"tr-laughing-to-amused-03-s047.jpg",
+"tr-laughing-to-amused-04-s060.jpg",
+"tr-laughing-to-amused-05-s070.jpg",
+"tr-laughing-to-amused-06-s079.jpg",
+"tr-laughing-to-amused-07-s087.jpg",
+"tr-laughing-to-amused-08-s093.jpg",
+"tr-laughing-to-amused-09-s097.jpg",
+"tr-laughing-to-amused-10-s099.jpg"
+],
+"listening-to-amused": [
+"tr-listening-to-amused-01-s021.jpg",
+"tr-listening-to-amused-02-s040.jpg",
+"tr-listening-to-amused-03-s056.jpg",
+"tr-listening-to-amused-04-s069.jpg",
+"tr-listening-to-amused-05-s080.jpg",
+"tr-listening-to-amused-06-s089.jpg",
+"tr-listening-to-amused-07-s095.jpg",
+"tr-listening-to-amused-08-s099.jpg"
+],
+"surprised-to-listening": [
+"tr-surprised-to-listening-01-s017.jpg",
+"tr-surprised-to-listening-02-s033.jpg",
+"tr-surprised-to-listening-03-s047.jpg",
+"tr-surprised-to-listening-04-s060.jpg",
+"tr-surprised-to-listening-05-s070.jpg",
+"tr-surprised-to-listening-06-s079.jpg",
+"tr-surprised-to-listening-07-s087.jpg",
+"tr-surprised-to-listening-08-s093.jpg",
+"tr-surprised-to-listening-09-s097.jpg",
+"tr-surprised-to-listening-10-s099.jpg"
+],
+"amused-to-proud": [
+"br-amused-to-proud-01.jpg",
+"br-amused-to-proud-02.jpg",
+"br-amused-to-proud-03.jpg",
+"br-amused-to-proud-04.jpg"
+],
+"proud-to-amused": [
+"br-amused-to-proud-04.jpg",
+"br-amused-to-proud-03.jpg",
+"br-amused-to-proud-02.jpg",
+"br-amused-to-proud-01.jpg"
+]
+},
+"slots": {
+"sad": "wired",
+"phone-down": "wired",
+"guilty-down": "wired",
+"skeptical-up": "wired",
+"thinking-up": "wired",
+"sad-tears": "wired"
+},
+"closed_of": {
+"amused.jpg": "amused-closed.jpg",
+"laughing.jpg": "laughing-closed.jpg",
+"excited.jpg": "excited-closed.jpg",
+"proud.jpg": "proud-closed.jpg",
+"surprised.jpg": "surprised-closed.jpg",
+"listening.jpg": "listening-closed.jpg",
+"alert.jpg": "alert-closed.jpg",
+"focused.jpg": "focused-closed.jpg",
+"thinking.jpg": "thinking-closed.jpg",
+"confused.jpg": "confused-closed.jpg",
+"skeptical.jpg": "skeptical-closed.jpg",
+"relieved.jpg": "relieved-closed.jpg",
+"sleepy.jpg": "sleepy-closed.jpg",
+"worried.jpg": "worried-closed.jpg",
+"apologetic.jpg": "apologetic-closed.jpg",
+"determined.jpg": "determined-closed.jpg",
+"sad.jpg": "sad-closed.jpg",
+"phone-down.jpg": "phone-down-closed.jpg",
+"flirty-halflid.jpg": "flirty-halflid-closed.jpg",
+"flirty-halflid-blush.jpg": "flirty-halflid-blush-closed.jpg",
+"wink-left-blush.jpg": "wink-left-blush-closed.jpg"
+},
+"no_blink": [
+"sad-tears"
+],
+"patch_box": [
+150,
+261,
+574,
+545
+],
+"eyes": {
+"box": [
+205,
+330,
+565,
+470
+],
+"dirs": {
+"left": "eyes-left.webp",
+"right": "eyes-right.webp",
+"up": "eyes-up.webp",
+"down": "eyes-down.webp"
+},
+"closed": "listening-closed.jpg"
+},
+"mouth_box": [
+190,
+520,
+530,
+775
+],
+"mouth_patch": {
+"amused.jpg": "mp-amused.webp",
+"mouth-ah-full.jpg": "mp-mouth-ah-full.webp",
+"mouth-ah-half.jpg": "mp-mouth-ah-half.webp",
+"mouth-ee-full.jpg": "mp-mouth-ee-full.webp",
+"mouth-ee-half.jpg": "mp-mouth-ee-half.webp",
+"mouth-fv-full.jpg": "mp-mouth-fv-full.webp",
+"mouth-fv-half.jpg": "mp-mouth-fv-half.webp",
+"mouth-l-full.jpg": "mp-mouth-l-full.webp",
+"mouth-l-half.jpg": "mp-mouth-l-half.webp",
+"mouth-oh-full.jpg": "mp-mouth-oh-full.webp",
+"mouth-oh-half.jpg": "mp-mouth-oh-half.webp",
+"mouth-oo-full.jpg": "mp-mouth-oo-full.webp",
+"mouth-oo-half.jpg": "mp-mouth-oo-half.webp",
+"mouth-pbm-full.jpg": "mp-mouth-pbm-full.webp",
+"mouth-sh-full.jpg": "mp-mouth-sh-full.webp",
+"mouth-sh-half.jpg": "mp-mouth-sh-half.webp",
+"mouth-slight-full.jpg": "mp-mouth-slight-full.webp",
+"mouth-slight-half.jpg": "mp-mouth-slight-half.webp",
+"mouth-th-full.jpg": "mp-mouth-th-full.webp",
+"mouth-th-half.jpg": "mp-mouth-th-half.webp"
+},
+"mouth_dy": {
+"amused.jpg": 0.0,
+"mouth-ah-full.jpg": -0.5,
+"mouth-ah-half.jpg": -0.25,
+"mouth-ee-full.jpg": -0.5,
+"mouth-ee-half.jpg": -0.5,
+"mouth-fv-full.jpg": 3.25,
+"mouth-fv-half.jpg": 1.5,
+"mouth-l-full.jpg": 3.25,
+"mouth-l-half.jpg": 1.5,
+"mouth-oh-full.jpg": 1.25,
+"mouth-oh-half.jpg": 0.5,
+"mouth-oo-full.jpg": 1.25,
+"mouth-oo-half.jpg": 0.5,
+"mouth-pbm-full.jpg": 3.25,
+"mouth-sh-full.jpg": 3.25,
+"mouth-sh-half.jpg": 0.5,
+"mouth-slight-full.jpg": 3.25,
+"mouth-slight-half.jpg": 1.5,
+"mouth-th-full.jpg": 3.25,
+"mouth-th-half.jpg": 3.25
+},
+"beats": {
+"laughing": {
+"plan": [
+[
+0.0,
+"amused.jpg",
+null,
+0.0
+],
+[
+0.25,
+"tr-laughing-to-amused-10-s099.jpg",
+null,
+0.0
+],
+[
+0.33,
+"tr-laughing-to-amused-09-s097.jpg",
+null,
+0.0
+],
+[
+0.41,
+"tr-laughing-to-amused-08-s093.jpg",
+null,
+0.0
+],
+[
+0.49,
+"tr-laughing-to-amused-07-s087.jpg",
+null,
+0.0
+],
+[
+0.57,
+"tr-laughing-to-amused-06-s079.jpg",
+null,
+0.0
+],
+[
+0.65,
+"tr-laughing-to-amused-05-s070.jpg",
+null,
+0.0
+],
+[
+0.73,
+"tr-laughing-to-amused-04-s060.jpg",
+null,
+0.0
+],
+[
+1.83,
+"tr-laughing-to-amused-05-s070.jpg",
+null,
+0.0
+],
+[
+1.89,
+"tr-laughing-to-amused-06-s079.jpg",
+null,
+0.0
+],
+[
+1.95,
+"tr-laughing-to-amused-07-s087.jpg",
+null,
+0.0
+],
+[
+2.01,
+"tr-laughing-to-amused-08-s093.jpg",
+null,
+0.0
+],
+[
+2.07,
+"tr-laughing-to-amused-09-s097.jpg",
+null,
+0.0
+],
+[
+2.13,
+"tr-laughing-to-amused-10-s099.jpg",
+null,
+0.0
+],
+[
+2.19,
+"amused.jpg",
+null,
+0.0
+],
+[
+2.64,
+"amused.jpg",
+null,
+0.0
+]
+],
+"dur": 2.79,
+"peak_at": 0.73,
+"n_ease_in": 6,
+"peak_img": "tr-laughing-to-amused-04-s060.jpg"
+},
+"excited": {
+"plan": [
+[
+0.0,
+"amused.jpg",
+null,
+0.0
+],
+[
+0.25,
+"br-amused-to-proud-01.jpg",
+null,
+0.0
+],
+[
+0.31,
+"br-amused-to-proud-02.jpg",
+null,
+0.0
+],
+[
+0.37,
+"br-amused-to-proud-03.jpg",
+null,
+0.0
+],
+[
+0.43,
+"br-amused-to-proud-04.jpg",
+null,
+0.0
+],
+[
+0.49,
+"proud.jpg",
+null,
+0.0
+],
+[
+0.61,
+"tr-excited-to-proud-12-s099.jpg",
+null,
+0.0
+],
+[
+0.69,
+"tr-excited-to-proud-11-s098.jpg",
+null,
+0.0
+],
+[
+0.77,
+"tr-excited-to-proud-10-s095.jpg",
+null,
+0.0
+],
+[
+0.85,
+"tr-excited-to-proud-09-s091.jpg",
+null,
+0.0
+],
+[
+0.93,
+"tr-excited-to-proud-08-s085.jpg",
+null,
+0.0
+],
+[
+1.01,
+"tr-excited-to-proud-07-s079.jpg",
+null,
+0.0
+],
+[
+1.09,
+"tr-excited-to-proud-06-s071.jpg",
+null,
+0.0
+],
+[
+2.09,
+"tr-excited-to-proud-07-s079.jpg",
+null,
+0.0
+],
+[
+2.15,
+"tr-excited-to-proud-08-s085.jpg",
+null,
+0.0
+],
+[
+2.21,
+"tr-excited-to-proud-09-s091.jpg",
+null,
+0.0
+],
+[
+2.27,
+"tr-excited-to-proud-10-s095.jpg",
+null,
+0.0
+],
+[
+2.33,
+"tr-excited-to-proud-11-s098.jpg",
+null,
+0.0
+],
+[
+2.39,
+"tr-excited-to-proud-12-s099.jpg",
+null,
+0.0
+],
+[
+2.45,
+"proud.jpg",
+null,
+0.0
+],
+[
+2.9,
+"br-amused-to-proud-04.jpg",
+null,
+0.0
+],
+[
+2.96,
+"br-amused-to-proud-03.jpg",
+null,
+0.0
+],
+[
+3.02,
+"br-amused-to-proud-02.jpg",
+null,
+0.0
+],
+[
+3.08,
+"br-amused-to-proud-01.jpg",
+null,
+0.0
+],
+[
+3.14,
+"amused.jpg",
+null,
+0.0
+],
+[
+3.19,
+"amused.jpg",
+null,
+0.0
+]
+],
+"dur": 3.34,
+"peak_at": 1.09,
+"n_ease_in": 6,
+"peak_img": "tr-excited-to-proud-06-s071.jpg"
+},
+"surprised": {
+"plan": [
+[
+0.0,
+"amused.jpg",
+null,
+0.0
+],
+[
+0.25,
+"tr-amused-to-listening-01-s021.jpg",
+null,
+0.0
+],
+[
+0.31,
+"tr-amused-to-listening-02-s040.jpg",
+null,
+0.0
+],
+[
+0.37,
+"tr-amused-to-listening-03-s056.jpg",
+null,
+0.0
+],
+[
+0.43,
+"tr-amused-to-listening-04-s069.jpg",
+null,
+0.0
+],
+[
+0.49,
+"tr-amused-to-listening-05-s080.jpg",
+null,
+0.0
+],
+[
+0.55,
+"tr-amused-to-listening-06-s089.jpg",
+null,
+0.0
+],
+[
+0.61,
+"tr-amused-to-listening-07-s095.jpg",
+null,
+0.0
+],
+[
+0.67,
+"tr-amused-to-listening-08-s099.jpg",
+null,
+0.0
+],
+[
+0.73,
+"listening.jpg",
+null,
+0.0
+],
+[
+0.85,
+"tr-surprised-to-listening-10-s099.jpg",
+null,
+0.0
+],
+[
+0.93,
+"tr-surprised-to-listening-09-s097.jpg",
+null,
+0.0
+],
+[
+1.01,
+"tr-surprised-to-listening-08-s093.jpg",
+null,
+0.0
+],
+[
+1.09,
+"tr-surprised-to-listening-07-s087.jpg",
+null,
+0.0
+],
+[
+1.17,
+"tr-surprised-to-listening-06-s079.jpg",
+null,
+0.0
+],
+[
+1.25,
+"tr-surprised-to-listening-05-s070.jpg",
+null,
+0.0
+],
+[
+1.33,
+"tr-surprised-to-listening-04-s060.jpg",
+null,
+0.0
+],
+[
+1.41,
+"tr-surprised-to-listening-03-s047.jpg",
+null,
+0.0
+],
+[
+1.49,
+"tr-surprised-to-listening-02-s033.jpg",
+null,
+0.0
+],
+[
+2.39,
+"tr-surprised-to-listening-03-s047.jpg",
+null,
+0.0
+],
+[
+2.45,
+"tr-surprised-to-listening-04-s060.jpg",
+null,
+0.0
+],
+[
+2.51,
+"tr-surprised-to-listening-05-s070.jpg",
+null,
+0.0
+],
+[
+2.57,
+"tr-surprised-to-listening-06-s079.jpg",
+null,
+0.0
+],
+[
+2.63,
+"tr-surprised-to-listening-07-s087.jpg",
+null,
+0.0
+],
+[
+2.69,
+"tr-surprised-to-listening-08-s093.jpg",
+null,
+0.0
+],
+[
+2.75,
+"tr-surprised-to-listening-09-s097.jpg",
+null,
+0.0
+],
+[
+2.81,
+"tr-surprised-to-listening-10-s099.jpg",
+null,
+0.0
+],
+[
+2.87,
+"listening.jpg",
+null,
+0.0
+],
+[
+3.32,
+"tr-listening-to-amused-01-s021.jpg",
+null,
+0.0
+],
+[
+3.38,
+"tr-listening-to-amused-02-s040.jpg",
+null,
+0.0
+],
+[
+3.44,
+"tr-listening-to-amused-03-s056.jpg",
+null,
+0.0
+],
+[
+3.5,
+"tr-listening-to-amused-04-s069.jpg",
+null,
+0.0
+],
+[
+3.56,
+"tr-listening-to-amused-05-s080.jpg",
+null,
+0.0
+],
+[
+3.62,
+"tr-listening-to-amused-06-s089.jpg",
+null,
+0.0
+],
+[
+3.68,
+"tr-listening-to-amused-07-s095.jpg",
+null,
+0.0
+],
+[
+3.74,
+"tr-listening-to-amused-08-s099.jpg",
+null,
+0.0
+],
+[
+3.8,
+"amused.jpg",
+null,
+0.0
+],
+[
+3.85,
+"amused.jpg",
+null,
+0.0
+]
+],
+"dur": 4.0,
+"peak_at": 1.49,
+"n_ease_in": 8,
+"peak_img": "tr-surprised-to-listening-02-s033.jpg"
+},
+"alert": {
+"plan": [
+[
+0.0,
+"amused.jpg",
+null,
+0.0
+],
+[
+0.25,
+"amused.jpg",
+"focused.jpg",
+0.057
+],
+[
+0.31,
+"amused.jpg",
+"focused.jpg",
+0.172
+],
+[
+0.37,
+"amused.jpg",
+"focused.jpg",
+0.33
+],
+[
+0.43,
+"amused.jpg",
+"focused.jpg",
+0.523
+],
+[
+0.49,
+"amused.jpg",
+"focused.jpg",
+0.747
+],
+[
+0.55,
+"focused.jpg",
+null,
+0.0
+],
+[
+0.67,
+"tr-alert-to-focused-12-s099.jpg",
+null,
+0.0
+],
+[
+0.75,
+"tr-alert-to-focused-11-s098.jpg",
+null,
+0.0
+],
+[
+0.83,
+"tr-alert-to-focused-10-s095.jpg",
+null,
+0.0
+],
+[
+0.91,
+"tr-alert-to-focused-09-s091.jpg",
+null,
+0.0
+],
+[
+0.99,
+"tr-alert-to-focused-08-s085.jpg",
+null,
+0.0
+],
+[
+1.07,
+"tr-alert-to-focused-07-s079.jpg",
+null,
+0.0
+],
+[
+1.15,
+"tr-alert-to-focused-06-s071.jpg",
+null,
+0.0
+],
+[
+1.23,
+"tr-alert-to-focused-05-s062.jpg",
+null,
+0.0
+],
+[
+1.31,
+"tr-alert-to-focused-04-s052.jpg",
+null,
+0.0
+],
+[
+1.39,
+"tr-alert-to-focused-03-s041.jpg",
+null,
+0.0
+],
+[
+2.29,
+"tr-alert-to-focused-04-s052.jpg",
+null,
+0.0
+],
+[
+2.35,
+"tr-alert-to-focused-05-s062.jpg",
+null,
+0.0
+],
+[
+2.41,
+"tr-alert-to-focused-06-s071.jpg",
+null,
+0.0
+],
+[
+2.47,
+"tr-alert-to-focused-07-s079.jpg",
+null,
+0.0
+],
+[
+2.53,
+"tr-alert-to-focused-08-s085.jpg",
+null,
+0.0
+],
+[
+2.59,
+"tr-alert-to-focused-09-s091.jpg",
+null,
+0.0
+],
+[
+2.65,
+"tr-alert-to-focused-10-s095.jpg",
+null,
+0.0
+],
+[
+2.71,
+"tr-alert-to-focused-11-s098.jpg",
+null,
+0.0
+],
+[
+2.77,
+"tr-alert-to-focused-12-s099.jpg",
+null,
+0.0
+],
+[
+2.83,
+"focused.jpg",
+null,
+0.0
+],
+[
+3.28,
+"focused.jpg",
+"amused.jpg",
+0.057
+],
+[
+3.34,
+"focused.jpg",
+"amused.jpg",
+0.172
+],
+[
+3.4,
+"focused.jpg",
+"amused.jpg",
+0.33
+],
+[
+3.46,
+"focused.jpg",
+"amused.jpg",
+0.523
+],
+[
+3.52,
+"focused.jpg",
+"amused.jpg",
+0.747
+],
+[
+3.58,
+"amused.jpg",
+null,
+0.0
+],
+[
+3.63,
+"amused.jpg",
+null,
+0.0
+]
+],
+"dur": 3.78,
+"peak_at": 1.39,
+"n_ease_in": 9,
+"peak_img": "tr-alert-to-focused-03-s041.jpg"
+}
+},
+"rest": {
+"laughing": "amused",
+"excited": "proud",
+"surprised": "listening",
+"alert": "focused"
+}
+}

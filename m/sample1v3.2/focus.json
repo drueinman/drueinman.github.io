@@ -1,0 +1,13 @@
+{
+ "_why": "Drue 111326 2345: Focus switch (Aloy's cybernetic earpiece). The phone faces (Cora v2) have a normal ear, so Off = the faces as they are (today's look, default) and On = this overlay. Swap 'on' to the re-fitted overlay from /workspace/board/avatars/faces/aloy/layers-normalear-111326/ when it lands (same box format, 720x1168 face coords).",
+ "source": "/workspace/cresbot/emote-app/app/web/faces/aloy/layers/earpiece-overlay-5x8.png (bbox x13-207, y329-595), scaled 0.9 uniformly, centre moved +14,-50 onto the phone faces' ear",
+ "default": "off",
+ "on": "focus-earpiece.webp",
+ "box": [
+  36,
+  292,
+  175,
+  239
+ ],
+ "fade_s": 0.5
+}
