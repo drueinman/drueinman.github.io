@@ -1,0 +1,610 @@
+{
+  "id": "nico",
+  "title": "Nico, come home",
+  "text": "Nico? ...Nico, come here, boy... He slipped his collar. I looked everywhere... He used to sleep right on my feet every night... How could you leave me! ...Please... just come home.",
+  "voice": "eve",
+  "phonemes": [],
+  "captions": [
+    [
+      0.35,
+      4.781,
+      "Nico? ...Nico, come here, boy..."
+    ],
+    [
+      5.061,
+      12.303,
+      "He slipped his collar. I looked everywhere... He used to sleep right on my feet every night..."
+    ],
+    [
+      12.583,
+      16.181,
+      "How could you leave me!"
+    ],
+    [
+      16.461,
+      19.09,
+      "Please... just come home."
+    ]
+  ],
+  "cues": [
+    [
+      -0.4,
+      "worried",
+      "talk"
+    ],
+    [
+      5.061,
+      "sad",
+      "talk"
+    ],
+    [
+      9.262,
+      "hurt-holding-back-tears",
+      "talk"
+    ],
+    [
+      12.583,
+      "furious-hurt-tears",
+      "talk"
+    ],
+    [
+      16.461,
+      "hurt-holding-back-tears",
+      "talk"
+    ]
+  ],
+  "beats": [],
+  "items": [
+    {
+      "say": "Nico? ...Nico, come here, boy...",
+      "cues": [
+        [
+          0,
+          "worried",
+          "talk"
+        ]
+      ]
+    },
+    {
+      "say": "He slipped his collar. I looked everywhere... He used to sleep right on my feet every night...",
+      "cues": [
+        [
+          0,
+          "sad",
+          "talk"
+        ],
+        [
+          54,
+          "hurt-holding-back-tears",
+          "talk"
+        ]
+      ]
+    },
+    {
+      "say": "How could you leave me!",
+      "cues": [
+        [
+          0,
+          "furious-hurt-tears",
+          "talk"
+        ]
+      ]
+    },
+    {
+      "say": "Please... just come home.",
+      "cues": [
+        [
+          0,
+          "hurt-holding-back-tears",
+          "talk"
+        ]
+      ]
+    }
+  ],
+  "mouthCues": [
+    {
+      "start": 0.35,
+      "end": 0.38,
+      "value": "X"
+    },
+    {
+      "start": 0.38,
+      "end": 0.44,
+      "value": "nn"
+    },
+    {
+      "start": 0.44,
+      "end": 0.841,
+      "value": "ih"
+    },
+    {
+      "start": 0.841,
+      "end": 0.891,
+      "value": "kk"
+    },
+    {
+      "start": 0.891,
+      "end": 1.051,
+      "value": "ou_soft"
+    },
+    {
+      "start": 1.051,
+      "end": 2.24,
+      "value": "X"
+    },
+    {
+      "start": 2.24,
+      "end": 2.3,
+      "value": "nn"
+    },
+    {
+      "start": 2.3,
+      "end": 2.59,
+      "value": "ih"
+    },
+    {
+      "start": 2.59,
+      "end": 2.64,
+      "value": "kk"
+    },
+    {
+      "start": 2.64,
+      "end": 2.8,
+      "value": "ou_soft"
+    },
+    {
+      "start": 2.8,
+      "end": 3.57,
+      "value": "X"
+    },
+    {
+      "start": 3.57,
+      "end": 3.85,
+      "value": "C"
+    },
+    {
+      "start": 3.85,
+      "end": 3.93,
+      "value": "A"
+    },
+    {
+      "start": 3.93,
+      "end": 4.17,
+      "value": "B"
+    },
+    {
+      "start": 4.17,
+      "end": 4.25,
+      "value": "A"
+    },
+    {
+      "start": 4.25,
+      "end": 4.6,
+      "value": "E"
+    },
+    {
+      "start": 4.6,
+      "end": 4.74,
+      "value": "B"
+    },
+    {
+      "start": 4.74,
+      "end": 4.78,
+      "value": "X"
+    },
+    {
+      "start": 5.061,
+      "end": 5.091,
+      "value": "X"
+    },
+    {
+      "start": 5.091,
+      "end": 5.411,
+      "value": "B"
+    },
+    {
+      "start": 5.411,
+      "end": 5.491,
+      "value": "A"
+    },
+    {
+      "start": 5.491,
+      "end": 5.741,
+      "value": "B"
+    },
+    {
+      "start": 5.741,
+      "end": 6.021,
+      "value": "D"
+    },
+    {
+      "start": 6.021,
+      "end": 6.301,
+      "value": "E"
+    },
+    {
+      "start": 6.301,
+      "end": 6.871,
+      "value": "X"
+    },
+    {
+      "start": 6.871,
+      "end": 6.931,
+      "value": "C"
+    },
+    {
+      "start": 6.931,
+      "end": 7.201,
+      "value": "B"
+    },
+    {
+      "start": 7.201,
+      "end": 7.411,
+      "value": "C"
+    },
+    {
+      "start": 7.411,
+      "end": 7.481,
+      "value": "G"
+    },
+    {
+      "start": 7.481,
+      "end": 7.621,
+      "value": "B"
+    },
+    {
+      "start": 7.621,
+      "end": 7.691,
+      "value": "F"
+    },
+    {
+      "start": 7.691,
+      "end": 7.761,
+      "value": "C"
+    },
+    {
+      "start": 7.761,
+      "end": 7.831,
+      "value": "B"
+    },
+    {
+      "start": 7.831,
+      "end": 8.501,
+      "value": "X"
+    },
+    {
+      "start": 8.501,
+      "end": 8.581,
+      "value": "B"
+    },
+    {
+      "start": 8.581,
+      "end": 8.931,
+      "value": "F"
+    },
+    {
+      "start": 8.931,
+      "end": 9.141,
+      "value": "B"
+    },
+    {
+      "start": 9.141,
+      "end": 9.281,
+      "value": "A"
+    },
+    {
+      "start": 9.281,
+      "end": 9.491,
+      "value": "B"
+    },
+    {
+      "start": 9.491,
+      "end": 9.591,
+      "value": "D"
+    },
+    {
+      "start": 9.591,
+      "end": 9.631,
+      "value": "C"
+    },
+    {
+      "start": 9.631,
+      "end": 9.711,
+      "value": "A"
+    },
+    {
+      "start": 9.711,
+      "end": 9.781,
+      "value": "C"
+    },
+    {
+      "start": 9.781,
+      "end": 9.851,
+      "value": "B"
+    },
+    {
+      "start": 9.851,
+      "end": 9.991,
+      "value": "G"
+    },
+    {
+      "start": 9.991,
+      "end": 10.131,
+      "value": "B"
+    },
+    {
+      "start": 10.131,
+      "end": 10.271,
+      "value": "C"
+    },
+    {
+      "start": 10.271,
+      "end": 10.341,
+      "value": "G"
+    },
+    {
+      "start": 10.341,
+      "end": 10.481,
+      "value": "B"
+    },
+    {
+      "start": 10.481,
+      "end": 10.621,
+      "value": "C"
+    },
+    {
+      "start": 10.621,
+      "end": 10.901,
+      "value": "B"
+    },
+    {
+      "start": 10.901,
+      "end": 11.081,
+      "value": "X"
+    },
+    {
+      "start": 11.081,
+      "end": 11.621,
+      "value": "B"
+    },
+    {
+      "start": 11.621,
+      "end": 11.801,
+      "value": "X"
+    },
+    {
+      "start": 11.801,
+      "end": 11.981,
+      "value": "B"
+    },
+    {
+      "start": 11.981,
+      "end": 12.261,
+      "value": "C"
+    },
+    {
+      "start": 12.261,
+      "end": 12.301,
+      "value": "X"
+    },
+    {
+      "start": 12.583,
+      "end": 12.613,
+      "value": "X"
+    },
+    {
+      "start": 12.613,
+      "end": 12.773,
+      "value": "C"
+    },
+    {
+      "start": 12.773,
+      "end": 12.813,
+      "value": "E"
+    },
+    {
+      "start": 12.813,
+      "end": 13.213,
+      "value": "F"
+    },
+    {
+      "start": 13.213,
+      "end": 13.563,
+      "value": "B"
+    },
+    {
+      "start": 13.563,
+      "end": 13.633,
+      "value": "G"
+    },
+    {
+      "start": 13.633,
+      "end": 13.723,
+      "value": "A"
+    },
+    {
+      "start": 13.723,
+      "end": 14.013,
+      "value": "B"
+    },
+    {
+      "start": 14.013,
+      "end": 14.213,
+      "value": "X"
+    },
+    {
+      "start": 14.213,
+      "end": 14.733,
+      "value": "B"
+    },
+    {
+      "start": 14.733,
+      "end": 14.943,
+      "value": "F"
+    },
+    {
+      "start": 14.943,
+      "end": 15.013,
+      "value": "G"
+    },
+    {
+      "start": 15.013,
+      "end": 15.713,
+      "value": "B"
+    },
+    {
+      "start": 15.713,
+      "end": 16.133,
+      "value": "E"
+    },
+    {
+      "start": 16.133,
+      "end": 16.173,
+      "value": "X"
+    },
+    {
+      "start": 16.461,
+      "end": 16.471,
+      "value": "X"
+    },
+    {
+      "start": 16.471,
+      "end": 16.541,
+      "value": "A"
+    },
+    {
+      "start": 16.541,
+      "end": 17.201,
+      "value": "B"
+    },
+    {
+      "start": 17.201,
+      "end": 17.751,
+      "value": "X"
+    },
+    {
+      "start": 17.751,
+      "end": 17.841,
+      "value": "B"
+    },
+    {
+      "start": 17.841,
+      "end": 17.911,
+      "value": "C"
+    },
+    {
+      "start": 17.911,
+      "end": 18.051,
+      "value": "B"
+    },
+    {
+      "start": 18.051,
+      "end": 18.331,
+      "value": "C"
+    },
+    {
+      "start": 18.331,
+      "end": 18.421,
+      "value": "A"
+    },
+    {
+      "start": 18.421,
+      "end": 18.641,
+      "value": "E"
+    },
+    {
+      "start": 18.641,
+      "end": 19.011,
+      "value": "A"
+    },
+    {
+      "start": 19.011,
+      "end": 19.081,
+      "value": "X"
+    }
+  ],
+  "duration": 19.77,
+  "technique": "eve-seg-tags-gain",
+  "gains": [
+    0.85,
+    1.0,
+    1.25,
+    0.9
+  ],
+  "atempos": [
+    0.92,
+    0.96,
+    1.04,
+    0.88
+  ],
+  "pronunciation": {
+    "Nico": "NEE-koh",
+    "tts_respell": "Nee-koh"
+  },
+  "nico_mouth": [
+    {
+      "word": "Nee-koh?",
+      "start": 0.03,
+      "end": 0.99,
+      "parts": [
+        [
+          0.03,
+          0.09,
+          "nn"
+        ],
+        [
+          0.09,
+          0.491,
+          "ih"
+        ],
+        [
+          0.491,
+          0.541,
+          "kk"
+        ],
+        [
+          0.541,
+          0.701,
+          "ou_soft"
+        ],
+        [
+          0.701,
+          0.99,
+          "X"
+        ]
+      ]
+    },
+    {
+      "word": "...Nee-koh,",
+      "start": 1.89,
+      "end": 2.62,
+      "parts": [
+        [
+          1.89,
+          1.95,
+          "nn"
+        ],
+        [
+          1.95,
+          2.24,
+          "ih"
+        ],
+        [
+          2.24,
+          2.29,
+          "kk"
+        ],
+        [
+          2.29,
+          2.45,
+          "ou_soft"
+        ],
+        [
+          2.45,
+          2.62,
+          "X"
+        ]
+      ]
+    }
+  ]
+}
