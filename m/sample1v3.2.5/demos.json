@@ -1,0 +1,431 @@
+[
+{
+"id": "all-expressions",
+"title": "All expressions (quick \u00b7 looping)",
+"group": "Silent",
+"kind": "cycle",
+"silent": true,
+"voice": "none",
+"seq": [
+"amused",
+"laughing",
+"excited",
+"proud",
+"surprised",
+"listening",
+"alert",
+"focused",
+"thinking",
+"confused",
+"skeptical",
+"relieved",
+"sleepy",
+"worried",
+"apologetic",
+"determined",
+"sad",
+"phone-down",
+"thinking-up",
+"flirty-halflid",
+"flirty-halflid-blush",
+"wink-left-blush",
+"crosseyed",
+"hurt-holding-back-tears",
+"furious-hurt-tears"
+],
+"ease": 0.5,
+"hold": 1.0,
+"labels": {
+"amused": "amused",
+"laughing": "laughing",
+"excited": "excited",
+"proud": "proud",
+"surprised": "surprised",
+"listening": "listening",
+"alert": "alert",
+"focused": "focused",
+"thinking": "thinking",
+"confused": "confused",
+"skeptical": "skeptical",
+"relieved": "relieved",
+"sleepy": "sleepy",
+"worried": "worried",
+"apologetic": "apologetic",
+"determined": "determined",
+"sad": "sad",
+"phone-down": "phone down",
+"thinking-up": "thinking up",
+"flirty-halflid": "flirty halflid",
+"flirty-halflid-blush": "flirty halflid blush",
+"wink-left-blush": "wink left blush",
+"crosseyed": "crosseyed",
+"hurt-holding-back-tears": "hurt holding back tears",
+"furious-hurt-tears": "furious hurt tears"
+},
+"duration": 45.4,
+"text": "Every kept expression, including moving tears and silly cross-eyed. Silent, loops until any control takes over.",
+"loop": true,
+"holds": {
+"hurt-holding-back-tears": 3.4,
+"furious-hurt-tears": 3.4,
+"crosseyed": 1.6
+}
+},
+{
+"id": "sample1",
+"title": "Sample 1 (redone)",
+"text": "Hey Drue! \ud83d\ude02 That story was wild. \ud83d\ude2e Are you serious? \ud83d\ude42 Talk soon.",
+"duration": 8.891,
+"voice": "eve",
+"group": "Spoken"
+},
+{
+"id": "believe",
+"title": "You won't believe this",
+"text": "Okay Drue, you're not going to believe this [disbelief] but the whole thing actually works on your phone. [smile] Pretty cool, right?",
+"duration": 6.755,
+"voice": "eve",
+"group": "Spoken"
+},
+{
+"id": "joke",
+"title": "Joke, then the laugh",
+"text": "Why did the robot go on vacation? It needed to recharge its batteries. [laugh] Okay, okay. [skeptical] That one was a little rough.",
+"duration": 11.024,
+"voice": "eve",
+"group": "Spoken"
+},
+{
+"id": "moods",
+"title": "Mood tour",
+"text": "[think] Hmm, let me think about that for a second. [worried] I was a little worried it might not work. [relieved] But it did! [excited] [proud] And honestly, I'm kind of proud of it.",
+"duration": 12.562,
+"voice": "eve",
+"group": "Spoken"
+},
+{
+"id": "syllable",
+"title": "Cue inside a word",
+"text": "That is unbeliev[disbelief]able, Drue. It works on the phone. [smile] Ha[laugh]ha, okay.",
+"duration": 8.378,
+"voice": "eve",
+"group": "Spoken"
+},
+{
+"id": "lips",
+"title": "Lips: P/B/M, F/V, OO",
+"text": "Please bring my big blue boots. Five fine violins of velvet. Who knew? Two cool shoes. Shh, she should think, though.",
+"duration": 9.334,
+"voice": "eve",
+"group": "Spoken"
+},
+{
+"id": "sad",
+"title": "Sad, then better",
+"text": "I have to tell you something. [sad] The old sample got taken down. [smile] But the new one is even better, look!",
+"duration": 6.701,
+"voice": "eve",
+"group": "Spoken"
+},
+{
+"id": "sample2",
+"title": "Sample 2 (redone)",
+"text": "Hi Drue, this is Aloy. \ud83e\udd29 I finally have a voice and a face that moves with it! \ud83d\ude02 Honestly, it took the whole crew to get here. \ud83d\ude2e Can you believe it works on your phone? \ud83d\ude42 Tap replay any time. Talk soon.",
+"duration": 20.052,
+"voice": "eve",
+"group": "Spoken"
+},
+{
+"id": "thinking",
+"title": "Thinking to herself (silent)",
+"text": "No talking, no audio: she drifts through mild moods on her own, glancing at her phone. Runs until you tap Stop. (v3.2: no tears, no flash peaks.)",
+"duration": 0,
+"voice": "none",
+"silent": true,
+"group": "Silent",
+"loop": true
+},
+{
+"id": "rapid",
+"title": "Rapid Cycle (silent)",
+"group": "Silent",
+"kind": "cycle",
+"silent": true,
+"voice": "none",
+"duration": 24.7,
+"seq": [
+"listening",
+"thinking",
+"thinking-up",
+"focused",
+"determined",
+"skeptical",
+"confused",
+"worried",
+"apologetic",
+"sad",
+"sleepy",
+"phone-down",
+"relieved"
+],
+"ease": 0.6,
+"hold": 1.2,
+"labels": {
+"listening": "Listening",
+"thinking": "Thinking",
+"thinking-up": "Looking up, thinking",
+"focused": "Focused",
+"determined": "Determined",
+"skeptical": "Skeptical",
+"confused": "Confused",
+"worried": "Worried",
+"apologetic": "Apologetic",
+"sad": "Sad",
+"sleepy": "Sleepy",
+"phone-down": "Checking her phone",
+"relieved": "Relieved"
+},
+"text": "13 mild moods, about 1.2 s each with smooth blends, 25 s, then back to her smile. No sound.",
+"loop": true
+},
+{
+"id": "tour",
+"title": "Full Tour (silent)",
+"group": "Silent",
+"kind": "cycle",
+"silent": true,
+"voice": "none",
+"duration": 47.65,
+"seq": [
+"listening",
+"thinking",
+"thinking-up",
+"focused",
+"determined",
+"skeptical",
+"confused",
+"worried",
+"apologetic",
+"sad",
+"sleepy",
+"phone-down",
+"relieved"
+],
+"ease": 0.8,
+"hold": 2.75,
+"labels": {
+"listening": "Listening",
+"thinking": "Thinking",
+"thinking-up": "Looking up, thinking",
+"focused": "Focused",
+"determined": "Determined",
+"skeptical": "Skeptical",
+"confused": "Confused",
+"worried": "Worried",
+"apologetic": "Apologetic",
+"sad": "Sad",
+"sleepy": "Sleepy",
+"phone-down": "Checking her phone",
+"relieved": "Relieved"
+},
+"text": "Every kept expression, about 2.8 s each, 48 s, then back to her smile. No sound.",
+"loop": true
+},
+{
+"id": "stasis-happy",
+"title": "Happy",
+"group": "Mood Stasis",
+"kind": "stasis",
+"mood": "happy",
+"silent": true,
+"voice": "none",
+"duration": 19.0,
+"source": "proud brows/eyes patch at 75% over her own amused smile (patch-proud.webp on amused.jpg); the smile fits, no teeth grin",
+"text": "Happy: eases in, holds 16 s with blinks and breathing, eases back to her smile. No sound.",
+"patch": "proud",
+"k": 0.75,
+"ease": 1.4,
+"hold": 16.0,
+"loop": true
+},
+{
+"id": "stasis-sad",
+"title": "Sad",
+"group": "Mood Stasis",
+"kind": "stasis",
+"mood": "sad",
+"silent": true,
+"voice": "none",
+"duration": 20.5,
+"source": "full sad.jpg with its own sad mouth, eased in through amused-sadtop.jpg; no tears",
+"text": "Sad: eases in, holds 16 s with blinks and breathing, eases back to her smile. No sound.",
+"steps": [
+[
+"amused",
+0,
+0.4
+],
+[
+"amused-sadtop",
+0.9,
+0
+],
+[
+"sad",
+1.0,
+16.0
+],
+[
+"amused-sadtop",
+1.0,
+0
+],
+[
+"amused",
+0.9,
+0.3
+]
+],
+"loop": true
+},
+{
+"id": "stasis-angry",
+"title": "Angry (mild)",
+"group": "Mood Stasis",
+"kind": "stasis",
+"mood": "angry",
+"silent": true,
+"voice": "none",
+"duration": 19.9,
+"source": "no mild angry face exists: full determined.jpg (firm brows, closed mouth)",
+"text": "Angry (mild): eases in, holds 16 s with blinks and breathing, eases back to her smile. No sound.",
+"steps": [
+[
+"amused",
+0,
+0.4
+],
+[
+"determined",
+1.6,
+16.0
+],
+[
+"amused",
+1.6,
+0.3
+]
+],
+"loop": true
+},
+{
+"id": "stasis-focused",
+"title": "Focused",
+"group": "Mood Stasis",
+"kind": "stasis",
+"mood": "focused",
+"silent": true,
+"voice": "none",
+"duration": 19.9,
+"source": "full focused.jpg",
+"text": "Focused: eases in, holds 16 s with blinks and breathing, eases back to her smile. No sound.",
+"steps": [
+[
+"amused",
+0,
+0.4
+],
+[
+"focused",
+1.6,
+16.0
+],
+[
+"amused",
+1.6,
+0.3
+]
+],
+"loop": true
+},
+{
+"id": "stasis-worried",
+"title": "Worried",
+"group": "Mood Stasis",
+"kind": "stasis",
+"mood": "worried",
+"silent": true,
+"voice": "none",
+"duration": 19.9,
+"source": "full worried.jpg (its own worried mouth)",
+"text": "Worried: eases in, holds 16 s with blinks and breathing, eases back to her smile. No sound.",
+"steps": [
+[
+"amused",
+0,
+0.4
+],
+[
+"worried",
+1.6,
+16.0
+],
+[
+"amused",
+1.6,
+0.3
+]
+],
+"loop": true
+},
+{
+"id": "stasis-flirty",
+"title": "Flirty (mild)",
+"group": "Mood Stasis",
+"kind": "stasis",
+"mood": "flirty",
+"silent": true,
+"voice": "none",
+"duration": 16.6,
+"steps": [
+[
+"amused",
+0,
+0.4
+],
+[
+"flirty-halflid",
+1.3,
+1.8
+],
+[
+"flirty-halflid-blush",
+1.6,
+3.0
+],
+[
+"wink-left-blush",
+0.3,
+0.25
+],
+[
+"flirty-halflid-blush",
+0.35,
+3.0
+],
+[
+"flirty-halflid",
+1.5,
+1.2
+],
+[
+"amused",
+1.6,
+0.3
+]
+],
+"source": "TweakX flirty-halflid (+ -closed for blinks), blush-overlay.png composited at build (halflid-blush, wink-left-blush + their -closed), one wink; glance-left/right-soft and coy-smirk left out",
+"text": "Half-lidded, a blush fades in, one wink, then eases back to her smile. No sound.",
+"loop": true
+}
+]
