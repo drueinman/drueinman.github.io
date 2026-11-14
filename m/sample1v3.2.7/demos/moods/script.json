@@ -1,0 +1,350 @@
+{
+"id": "moods",
+"title": "Mood tour",
+"text": "[think] Hmm, let me think about that for a second. [worried] I was a little worried it might not work. [relieved] But it did! [excited] [proud] And honestly, I'm kind of proud of it.",
+"voice": "eve",
+"phonemes": [],
+"captions": [
+[
+0.35,
+6.105,
+"Hmm, let me think about that for a second. I was a little worried it might not work. But it did!"
+],
+[
+9.745,
+11.862,
+"And honestly, I'm kind of proud of it."
+]
+],
+"cues": [
+[
+0.46,
+"thinking",
+"talk"
+],
+[
+2.892,
+"worried",
+"talk"
+],
+[
+5.325,
+"relieved",
+"talk"
+],
+[
+6.405,
+"amused",
+"smile"
+],
+[
+9.745,
+"proud",
+"talk"
+]
+],
+"beats": [],
+"items": [
+{
+"say": "Hmm, let me think about that for a second. I was a little worried it might not work. But it did!",
+"cues": [
+[
+0,
+"thinking",
+"talk"
+],
+[
+42,
+"worried",
+"talk"
+],
+[
+84,
+"relieved",
+"talk"
+]
+]
+},
+{
+"beat": "excited"
+},
+{
+"say": "And honestly, I'm kind of proud of it.",
+"cues": [
+[
+0,
+"proud",
+"talk"
+]
+]
+}
+],
+"mouthCues": [
+{
+"start": 0.35,
+"end": 0.5,
+"value": "X"
+},
+{
+"start": 0.5,
+"end": 0.65,
+"value": "C"
+},
+{
+"start": 0.65,
+"end": 1.1,
+"value": "B"
+},
+{
+"start": 1.1,
+"end": 1.15,
+"value": "H"
+},
+{
+"start": 1.15,
+"end": 1.2,
+"value": "B"
+},
+{
+"start": 1.2,
+"end": 1.28,
+"value": "A"
+},
+{
+"start": 1.28,
+"end": 1.57,
+"value": "B"
+},
+{
+"start": 1.57,
+"end": 1.65,
+"value": "A"
+},
+{
+"start": 1.65,
+"end": 1.72,
+"value": "C"
+},
+{
+"start": 1.72,
+"end": 2.07,
+"value": "B"
+},
+{
+"start": 2.07,
+"end": 2.14,
+"value": "E"
+},
+{
+"start": 2.14,
+"end": 2.21,
+"value": "C"
+},
+{
+"start": 2.21,
+"end": 2.35,
+"value": "B"
+},
+{
+"start": 2.35,
+"end": 2.63,
+"value": "C"
+},
+{
+"start": 2.63,
+"end": 2.77,
+"value": "B"
+},
+{
+"start": 2.77,
+"end": 2.9,
+"value": "X"
+},
+{
+"start": 2.9,
+"end": 3.3,
+"value": "B"
+},
+{
+"start": 3.3,
+"end": 3.36,
+"value": "C"
+},
+{
+"start": 3.36,
+"end": 3.42,
+"value": "F"
+},
+{
+"start": 3.42,
+"end": 3.49,
+"value": "B"
+},
+{
+"start": 3.49,
+"end": 3.56,
+"value": "C"
+},
+{
+"start": 3.56,
+"end": 3.63,
+"value": "H"
+},
+{
+"start": 3.63,
+"end": 3.84,
+"value": "B"
+},
+{
+"start": 3.84,
+"end": 3.91,
+"value": "F"
+},
+{
+"start": 3.91,
+"end": 4.05,
+"value": "E"
+},
+{
+"start": 4.05,
+"end": 4.26,
+"value": "B"
+},
+{
+"start": 4.26,
+"end": 4.34,
+"value": "A"
+},
+{
+"start": 4.34,
+"end": 4.4,
+"value": "C"
+},
+{
+"start": 4.4,
+"end": 4.45,
+"value": "B"
+},
+{
+"start": 4.45,
+"end": 4.52,
+"value": "D"
+},
+{
+"start": 4.52,
+"end": 4.66,
+"value": "B"
+},
+{
+"start": 4.66,
+"end": 4.73,
+"value": "F"
+},
+{
+"start": 4.73,
+"end": 4.87,
+"value": "D"
+},
+{
+"start": 4.87,
+"end": 5.37,
+"value": "B"
+},
+{
+"start": 5.37,
+"end": 5.49,
+"value": "A"
+},
+{
+"start": 5.49,
+"end": 6.06,
+"value": "B"
+},
+{
+"start": 6.06,
+"end": 6.1,
+"value": "X"
+},
+{
+"start": 9.745,
+"end": 9.775,
+"value": "X"
+},
+{
+"start": 9.775,
+"end": 9.845,
+"value": "B"
+},
+{
+"start": 9.845,
+"end": 9.985,
+"value": "D"
+},
+{
+"start": 9.985,
+"end": 10.125,
+"value": "C"
+},
+{
+"start": 10.125,
+"end": 10.475,
+"value": "B"
+},
+{
+"start": 10.475,
+"end": 10.775,
+"value": "X"
+},
+{
+"start": 10.775,
+"end": 10.855,
+"value": "B"
+},
+{
+"start": 10.855,
+"end": 11.065,
+"value": "C"
+},
+{
+"start": 11.065,
+"end": 11.205,
+"value": "B"
+},
+{
+"start": 11.205,
+"end": 11.325,
+"value": "A"
+},
+{
+"start": 11.325,
+"end": 11.395,
+"value": "B"
+},
+{
+"start": 11.395,
+"end": 11.465,
+"value": "C"
+},
+{
+"start": 11.465,
+"end": 11.605,
+"value": "B"
+},
+{
+"start": 11.605,
+"end": 11.675,
+"value": "G"
+},
+{
+"start": 11.675,
+"end": 11.815,
+"value": "B"
+},
+{
+"start": 11.815,
+"end": 11.855,
+"value": "X"
+}
+],
+"duration": 12.562
+}
