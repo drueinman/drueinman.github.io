@@ -1,0 +1,13 @@
+{
+ "_note": "Per-bot voice config (Jarvis 111326, Drue 2148: the voice is whatever is tied to the bot). The server decides the actual voice (now xAI.eve); hosts come from eve-endpoint.json (contract: eve-service/CLIENT.md).",
+ "bot": "aloy",
+ "name": "Aloy",
+ "voice": "xAI.eve",
+ "voice_label": "Eve",
+ "speak": {
+  "endpoints_file": "eve-endpoint.json",
+  "health_timeout_ms": 2500,
+  "speak_timeout_ms": 12000,
+  "down_for_s": 60
+ }
+}
