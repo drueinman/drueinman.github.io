@@ -1,0 +1,199 @@
+{
+ "generated_ct": "2026-11-14T04:21:09-06:00",
+ "tz": "America/Chicago",
+ "usual_start_hour": 10,
+ "usual_end_hour": 5,
+ "usual_label": "10 AM to 5 AM",
+ "rule": "active = complement of the circular quiet block around the quietest 4 h; quiet = active-day score < 0.25 x busiest hour; score = distinct days with a Drue message in that hour, recency half-life 7 days",
+ "window": {
+  "start_ct": "2026-10-30T22:59-05:00",
+  "end_ct": "2026-11-13T22:59-06:00",
+  "days": 14,
+  "unique_message_minutes": 1953,
+  "hist_weighted_active_days": [
+   3.176,
+   5.061,
+   4.061,
+   4.372,
+   2.0,
+   1.353,
+   0.0,
+   0.0,
+   0.0,
+   1.389,
+   1.76,
+   3.862,
+   4.224,
+   3.814,
+   4.068,
+   3.658,
+   4.21,
+   4.819,
+   5.229,
+   5.229,
+   5.893,
+   4.819,
+   5.539,
+   3.417
+  ],
+  "hist_message_minutes": [
+   68,
+   121,
+   101,
+   95,
+   28,
+   4,
+   0,
+   0,
+   0,
+   22,
+   39,
+   75,
+   104,
+   117,
+   123,
+   131,
+   139,
+   140,
+   138,
+   145,
+   109,
+   91,
+   71,
+   92
+  ]
+ },
+ "all_time": {
+  "first_ct": "2026-10-05T15:56-05:00",
+  "last_ct": "2026-11-13T22:58-06:00",
+  "unique_message_minutes": 4592,
+  "hist_active_days": [
+   16.0,
+   17.0,
+   16.0,
+   14.0,
+   9.0,
+   7.0,
+   3.0,
+   3.0,
+   8.0,
+   12.0,
+   18.0,
+   25.0,
+   22.0,
+   20.0,
+   28.0,
+   27.0,
+   27.0,
+   26.0,
+   24.0,
+   31.0,
+   28.0,
+   25.0,
+   23.0,
+   19.0
+  ],
+  "usual_start_hour": 9,
+  "usual_end_hour": 5,
+  "usual_label": "9 AM to 5 AM"
+ },
+ "sources": [
+  {
+   "source": "A:chat-archive:Aloy - Chief of Staff",
+   "unique_minutes_all": 3267,
+   "unique_minutes_in_window": 1645
+  },
+  {
+   "source": "A:chat-archive:Aloy's-Cortex - Aloy's read-only memory clerk",
+   "unique_minutes_all": 11,
+   "unique_minutes_in_window": 11
+  },
+  {
+   "source": "A:chat-archive:Chappie - Tech Support",
+   "unique_minutes_all": 127,
+   "unique_minutes_in_window": 51
+  },
+  {
+   "source": "A:chat-archive:CresnetX - Tech Support",
+   "unique_minutes_all": 2,
+   "unique_minutes_in_window": 2
+  },
+  {
+   "source": "A:chat-archive:GapTest Bot 2",
+   "unique_minutes_all": 1,
+   "unique_minutes_in_window": 1
+  },
+  {
+   "source": "A:chat-archive:Iris - Archivist",
+   "unique_minutes_all": 24,
+   "unique_minutes_in_window": 0
+  },
+  {
+   "source": "A:chat-archive:Jarvis - Tech Support",
+   "unique_minutes_all": 487,
+   "unique_minutes_in_window": 106
+  },
+  {
+   "source": "A:chat-archive:Max - Praetor",
+   "unique_minutes_all": 365,
+   "unique_minutes_in_window": 48
+  },
+  {
+   "source": "A:chat-archive:Nimbus - Librarian",
+   "unique_minutes_all": 54,
+   "unique_minutes_in_window": 36
+  },
+  {
+   "source": "A:chat-archive:Samwise - Bot Brain Surgeon",
+   "unique_minutes_all": 21,
+   "unique_minutes_in_window": 0
+  },
+  {
+   "source": "A:chat-archive:Token",
+   "unique_minutes_all": 9,
+   "unique_minutes_in_window": 3
+  },
+  {
+   "source": "A:chat-archive:Tweak - Bot Brain Surgeon's First Assist",
+   "unique_minutes_all": 100,
+   "unique_minutes_in_window": 87
+  },
+  {
+   "source": "A:chat-archive:TweakX - First Assist",
+   "unique_minutes_all": 20,
+   "unique_minutes_in_window": 20
+  },
+  {
+   "source": "A:chat-archive:eBot - Postmaster",
+   "unique_minutes_all": 261,
+   "unique_minutes_in_window": 35
+  },
+  {
+   "source": "B:board-log",
+   "unique_minutes_all": 1,
+   "unique_minutes_in_window": 0
+  },
+  {
+   "source": "C:board-notes",
+   "unique_minutes_all": 313,
+   "unique_minutes_in_window": 112
+  },
+  {
+   "source": "C:memory",
+   "unique_minutes_all": 391,
+   "unique_minutes_in_window": 103
+  }
+ ],
+ "sources_checked_no_drue_events": [
+  "D:0221-poller",
+  "D:0221-router-queue"
+ ],
+ "evidence_paths": [
+  "/workspace/board/history/chats/by-bot/*/Chat history/*.md",
+  "/workspace/board/log.md",
+  "/workspace/board/**/*.md|txt (notes, memory, status, aloy)",
+  "/workspace/cresbot/emote-message/*.md",
+  "/workspace/cresbot/telnyx/inbound/history.json (+ daemon.log)",
+  "/workspace/ebot/sms/drue-inbox/queue.jsonl"
+ ]
+}
