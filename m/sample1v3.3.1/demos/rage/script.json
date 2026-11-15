@@ -1,0 +1,408 @@
+{
+  "id": "rage",
+  "title": "Cold to rage",
+  "text": "You fucking whore... You really think you were going to get away with that... everybody knows what you are.. you're just a piece of shit... I hope you burn in hell you father fucker!",
+  "voice": "eve",
+  "phonemes": [],
+  "captions": [
+    [
+      0.35,
+      5.427,
+      "You fucking whore... You really think you were going to get away with that..."
+    ],
+    [
+      5.707,
+      9.129,
+      "everybody knows what you are.. you're just a piece of shit..."
+    ],
+    [
+      9.409,
+      11.786,
+      "I hope you burn in hell you father fucker!"
+    ]
+  ],
+  "cues": [
+    [
+      -0.4,
+      "listening",
+      "talk"
+    ],
+    [
+      5.707,
+      "determined",
+      "talk"
+    ],
+    [
+      9.129,
+      "furious",
+      "talk"
+    ]
+  ],
+  "beats": [],
+  "items": [
+    {
+      "say": "You fucking whore... You really think you were going to get away with that...",
+      "cues": [
+        [
+          0,
+          "listening",
+          "talk"
+        ]
+      ]
+    },
+    {
+      "say": "everybody knows what you are.. you're just a piece of shit...",
+      "cues": [
+        [
+          0,
+          "determined",
+          "talk"
+        ]
+      ]
+    },
+    {
+      "say": "I hope you burn in hell you father fucker!",
+      "cues": [
+        [
+          0,
+          "furious",
+          "talk"
+        ]
+      ]
+    }
+  ],
+  "mouthCues": [
+    {
+      "start": -0.4,
+      "end": 0.38,
+      "value": "X"
+    },
+    {
+      "start": 0.38,
+      "end": 0.7,
+      "value": "ou_soft"
+    },
+    {
+      "start": 0.7,
+      "end": 0.91,
+      "value": "B"
+    },
+    {
+      "start": 0.91,
+      "end": 0.98,
+      "value": "D"
+    },
+    {
+      "start": 0.98,
+      "end": 1.61,
+      "value": "B"
+    },
+    {
+      "start": 1.61,
+      "end": 1.75,
+      "value": "E"
+    },
+    {
+      "start": 1.75,
+      "end": 1.96,
+      "value": "F"
+    },
+    {
+      "start": 1.96,
+      "end": 2.69,
+      "value": "X"
+    },
+    {
+      "start": 2.69,
+      "end": 2.9,
+      "value": "ou_soft"
+    },
+    {
+      "start": 2.9,
+      "end": 3.53,
+      "value": "B"
+    },
+    {
+      "start": 3.53,
+      "end": 3.81,
+      "value": "ou_soft"
+    },
+    {
+      "start": 3.81,
+      "end": 3.95,
+      "value": "E"
+    },
+    {
+      "start": 3.95,
+      "end": 4.16,
+      "value": "B"
+    },
+    {
+      "start": 4.16,
+      "end": 4.37,
+      "value": "C"
+    },
+    {
+      "start": 4.37,
+      "end": 4.44,
+      "value": "B"
+    },
+    {
+      "start": 4.44,
+      "end": 4.58,
+      "value": "C"
+    },
+    {
+      "start": 4.58,
+      "end": 4.65,
+      "value": "F"
+    },
+    {
+      "start": 4.65,
+      "end": 4.72,
+      "value": "C"
+    },
+    {
+      "start": 4.72,
+      "end": 4.79,
+      "value": "B"
+    },
+    {
+      "start": 4.79,
+      "end": 4.86,
+      "value": "F"
+    },
+    {
+      "start": 4.86,
+      "end": 5.07,
+      "value": "B"
+    },
+    {
+      "start": 5.07,
+      "end": 5.14,
+      "value": "C"
+    },
+    {
+      "start": 5.14,
+      "end": 5.42,
+      "value": "B"
+    },
+    {
+      "start": 5.707,
+      "end": 5.737,
+      "value": "X"
+    },
+    {
+      "start": 5.737,
+      "end": 5.877,
+      "value": "C"
+    },
+    {
+      "start": 5.877,
+      "end": 5.947,
+      "value": "B"
+    },
+    {
+      "start": 5.947,
+      "end": 6.027,
+      "value": "A"
+    },
+    {
+      "start": 6.027,
+      "end": 6.137,
+      "value": "D"
+    },
+    {
+      "start": 6.137,
+      "end": 6.347,
+      "value": "B"
+    },
+    {
+      "start": 6.347,
+      "end": 6.417,
+      "value": "C"
+    },
+    {
+      "start": 6.417,
+      "end": 6.487,
+      "value": "E"
+    },
+    {
+      "start": 6.487,
+      "end": 6.697,
+      "value": "F"
+    },
+    {
+      "start": 6.697,
+      "end": 6.837,
+      "value": "B"
+    },
+    {
+      "start": 6.837,
+      "end": 7.117,
+      "value": "ou_soft"
+    },
+    {
+      "start": 7.117,
+      "end": 7.397,
+      "value": "D"
+    },
+    {
+      "start": 7.397,
+      "end": 7.477,
+      "value": "C"
+    },
+    {
+      "start": 7.477,
+      "end": 7.777,
+      "value": "X"
+    },
+    {
+      "start": 7.777,
+      "end": 7.917,
+      "value": "ou_soft"
+    },
+    {
+      "start": 7.917,
+      "end": 8.127,
+      "value": "B"
+    },
+    {
+      "start": 8.127,
+      "end": 8.207,
+      "value": "A"
+    },
+    {
+      "start": 8.207,
+      "end": 8.527,
+      "value": "B"
+    },
+    {
+      "start": 8.527,
+      "end": 8.597,
+      "value": "G"
+    },
+    {
+      "start": 8.597,
+      "end": 9.087,
+      "value": "B"
+    },
+    {
+      "start": 9.087,
+      "end": 9.127,
+      "value": "X"
+    },
+    {
+      "start": 9.409,
+      "end": 9.439,
+      "value": "X"
+    },
+    {
+      "start": 9.439,
+      "end": 9.689,
+      "value": "B"
+    },
+    {
+      "start": 9.689,
+      "end": 9.829,
+      "value": "C"
+    },
+    {
+      "start": 9.829,
+      "end": 9.899,
+      "value": "B"
+    },
+    {
+      "start": 9.899,
+      "end": 9.999,
+      "value": "E"
+    },
+    {
+      "start": 9.999,
+      "end": 10.019,
+      "value": "A"
+    },
+    {
+      "start": 10.019,
+      "end": 10.089,
+      "value": "B"
+    },
+    {
+      "start": 10.089,
+      "end": 10.149,
+      "value": "A"
+    },
+    {
+      "start": 10.149,
+      "end": 10.409,
+      "value": "C"
+    },
+    {
+      "start": 10.409,
+      "end": 10.479,
+      "value": "B"
+    },
+    {
+      "start": 10.479,
+      "end": 10.739,
+      "value": "C"
+    },
+    {
+      "start": 10.739,
+      "end": 10.789,
+      "value": "E"
+    },
+    {
+      "start": 10.789,
+      "end": 10.969,
+      "value": "ou_soft"
+    },
+    {
+      "start": 10.969,
+      "end": 11.109,
+      "value": "G"
+    },
+    {
+      "start": 11.109,
+      "end": 11.179,
+      "value": "D"
+    },
+    {
+      "start": 11.179,
+      "end": 11.319,
+      "value": "B"
+    },
+    {
+      "start": 11.319,
+      "end": 11.459,
+      "value": "G"
+    },
+    {
+      "start": 11.459,
+      "end": 11.529,
+      "value": "C"
+    },
+    {
+      "start": 11.529,
+      "end": 11.739,
+      "value": "E"
+    },
+    {
+      "start": 11.739,
+      "end": 11.779,
+      "value": "X"
+    }
+  ],
+  "duration": 12.466,
+  "technique": "eve-seg-tags-gain",
+  "gains": [
+    0.59,
+    0.97,
+    1.68
+  ],
+  "atempos": [
+    0.94,
+    1.0,
+    1.08
+  ]
+}
