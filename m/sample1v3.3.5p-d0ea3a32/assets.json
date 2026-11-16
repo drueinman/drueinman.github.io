@@ -1,0 +1,1493 @@
+{
+  "W": 720,
+  "H": 1168,
+  "faces": {
+    "amused": "amused.jpg",
+    "amused-closed": "amused-closed.jpg",
+    "laughing": "laughing-soft.jpg",
+    "laughing-closed": "laughing-soft-closed.jpg",
+    "excited": "excited-soft.jpg",
+    "excited-closed": "excited-soft-closed.jpg",
+    "proud": "proud.jpg",
+    "proud-closed": "proud-closed.jpg",
+    "surprised": "surprised.jpg",
+    "surprised-closed": "surprised-closed.jpg",
+    "listening": "listening.jpg",
+    "listening-closed": "listening-closed.jpg",
+    "alert": "alert.jpg",
+    "alert-closed": "alert-closed.jpg",
+    "focused": "focused.jpg",
+    "focused-closed": "focused-closed.jpg",
+    "thinking": "thinking.jpg",
+    "thinking-closed": "thinking-closed.jpg",
+    "confused": "confused.jpg",
+    "confused-closed": "confused-closed.jpg",
+    "skeptical": "skeptical.jpg",
+    "skeptical-closed": "skeptical-closed.jpg",
+    "relieved": "relieved.jpg",
+    "relieved-closed": "relieved-closed.jpg",
+    "sleepy": "sleepy.jpg",
+    "sleepy-closed": "sleepy-closed.jpg",
+    "worried": "worried.jpg",
+    "worried-closed": "worried-closed.jpg",
+    "apologetic": "apologetic.jpg",
+    "apologetic-closed": "apologetic-closed.jpg",
+    "determined": "determined.jpg",
+    "determined-closed": "determined-closed.jpg",
+    "sad": "sad.jpg",
+    "sad-closed": "sad-closed.jpg",
+    "phone-down": "phone-down.jpg",
+    "phone-down-closed": "phone-down-closed.jpg",
+    "thinking-up": "thinking-up.jpg",
+    "amused-sadtop": "amused-sadtop.jpg",
+    "flirty-halflid": "flirty-halflid.jpg",
+    "flirty-halflid-closed": "flirty-halflid-closed.jpg",
+    "flirty-halflid-blush": "flirty-halflid-blush.jpg",
+    "flirty-halflid-blush-closed": "flirty-halflid-blush-closed.jpg",
+    "wink-left-blush": "wink-left-blush.jpg",
+    "wink-left-blush-closed": "wink-left-blush-closed.jpg",
+    "crosseyed": "crosseyed.jpg",
+    "crosseyed-closed": "crosseyed-closed.jpg",
+    "hurt-holding-back-tears": "hurt-holding-back-tears.jpg",
+    "hurt-holding-back-tears-closed": "hurt-holding-back-tears-closed.jpg",
+    "furious-hurt-tears": "furious-hurt-tears.jpg",
+    "furious-hurt-tears-closed": "furious-hurt-tears-closed.jpg",
+    "drowsy": "drowsy.jpg",
+    "drowsy-closed": "drowsy-closed.jpg",
+    "justwoke": "justwoke.jpg",
+    "justwoke-closed": "justwoke-closed.jpg",
+    "furious": "furious.jpg",
+    "furious-closed": "furious-closed.jpg"
+  },
+  "patches": {
+    "amused": "patch-amused.webp",
+    "amused-closed": "patch-amused-closed.webp",
+    "laughing": "patch-laughing.webp",
+    "laughing-closed": "patch-laughing-closed.webp",
+    "proud": "patch-proud.webp",
+    "proud-closed": "patch-proud-closed.webp",
+    "surprised": "patch-surprised.webp",
+    "surprised-closed": "patch-surprised-closed.webp",
+    "listening": "patch-listening.webp",
+    "listening-closed": "patch-listening-closed.webp",
+    "focused": "patch-focused.webp",
+    "focused-closed": "patch-focused-closed.webp",
+    "thinking": "patch-thinking.webp",
+    "thinking-closed": "patch-thinking-closed.webp",
+    "confused": "patch-confused.webp",
+    "confused-closed": "patch-confused-closed.webp",
+    "skeptical": "patch-skeptical.webp",
+    "skeptical-closed": "patch-skeptical-closed.webp",
+    "relieved": "patch-relieved.webp",
+    "relieved-closed": "patch-relieved-closed.webp",
+    "sleepy": "patch-sleepy.webp",
+    "sleepy-closed": "patch-sleepy-closed.webp",
+    "worried": "patch-worried.webp",
+    "worried-closed": "patch-worried-closed.webp",
+    "apologetic": "patch-apologetic.webp",
+    "apologetic-closed": "patch-apologetic-closed.webp",
+    "determined": "patch-determined.webp",
+    "determined-closed": "patch-determined-closed.webp",
+    "sad": "patch-sad.webp",
+    "sad-closed": "patch-sad-closed.webp",
+    "lookdown": "patch-lookdown.webp",
+    "lookdown-closed": "patch-lookdown-closed.webp",
+    "lookup": "patch-lookup.webp",
+    "lookup-closed": "patch-lookup-closed.webp",
+    "phone-down": "patch-phone-down.webp",
+    "phone-down-closed": "patch-phone-down-closed.webp",
+    "skeptical-up-closed": "patch-skeptical-closed.webp",
+    "thinking-up": "patch-thinking-up.webp",
+    "thinking-up-closed": "patch-thinking-closed.webp",
+    "crosseyed": "patch-crosseyed.webp",
+    "crosseyed-closed": "patch-crosseyed-closed.webp",
+    "hurt-holding-back-tears": "patch-hurt-holding-back-tears.webp",
+    "hurt-holding-back-tears-closed": "patch-hurt-holding-back-tears-closed.webp",
+    "furious-hurt-tears": "patch-furious-hurt-tears.webp",
+    "furious-hurt-tears-closed": "patch-furious-hurt-tears-closed.webp",
+    "furious": "patch-furious.webp",
+    "furious-closed": "patch-furious-closed.webp"
+  },
+  "mouth": {
+    "slight": {
+      "half": "mouth-slight-half.jpg",
+      "full": "mouth-slight-full.jpg"
+    },
+    "ah": {
+      "half": "mouth-ah-half.jpg",
+      "full": "mouth-ah-full.jpg"
+    },
+    "oh": {
+      "half": "mouth-oh-half.jpg",
+      "full": "mouth-oh-full.jpg"
+    },
+    "ee": {
+      "half": "mouth-ee-half.jpg",
+      "full": "mouth-ee-full.jpg"
+    },
+    "pbm": {
+      "full": "mouth-pbm-full.jpg",
+      "half": "mouth-pbm-full.jpg"
+    },
+    "fv": {
+      "full": "mouth-fv-full.jpg",
+      "half": "mouth-fv-half.jpg"
+    },
+    "th": {
+      "full": "mouth-th-full.jpg",
+      "half": "mouth-th-half.jpg"
+    },
+    "l": {
+      "full": "mouth-l-full.jpg",
+      "half": "mouth-l-half.jpg"
+    },
+    "oo": {
+      "full": "mouth-oo-full.jpg",
+      "half": "mouth-oo-half.jpg"
+    },
+    "sh": {
+      "full": "mouth-sh-full.jpg",
+      "half": "mouth-sh-half.jpg"
+    },
+    "oosoft": {
+      "half": "mouth-oo-soft-half.jpg",
+      "full": "mouth-oo-soft-full.jpg"
+    }
+  },
+  "pairs": {
+    "alert-to-focused": [
+      "tr-alert-to-focused-01-s015.jpg",
+      "tr-alert-to-focused-02-s028.jpg",
+      "tr-alert-to-focused-03-s041.jpg",
+      "tr-alert-to-focused-04-s052.jpg",
+      "tr-alert-to-focused-05-s062.jpg",
+      "tr-alert-to-focused-06-s071.jpg",
+      "tr-alert-to-focused-07-s079.jpg",
+      "tr-alert-to-focused-08-s085.jpg",
+      "tr-alert-to-focused-09-s091.jpg",
+      "tr-alert-to-focused-10-s095.jpg",
+      "tr-alert-to-focused-11-s098.jpg",
+      "tr-alert-to-focused-12-s099.jpg"
+    ],
+    "amused-to-listening": [
+      "tr-amused-to-listening-01-s021.jpg",
+      "tr-amused-to-listening-02-s040.jpg",
+      "tr-amused-to-listening-03-s056.jpg",
+      "tr-amused-to-listening-04-s069.jpg",
+      "tr-amused-to-listening-05-s080.jpg",
+      "tr-amused-to-listening-06-s089.jpg",
+      "tr-amused-to-listening-07-s095.jpg",
+      "tr-amused-to-listening-08-s099.jpg"
+    ],
+    "excited-to-proud": [
+      "tr-excited-to-proud-01-s015.jpg",
+      "tr-excited-to-proud-02-s028.jpg",
+      "tr-excited-to-proud-03-s041.jpg",
+      "tr-excited-to-proud-04-s052.jpg",
+      "tr-excited-to-proud-05-s062.jpg",
+      "tr-excited-to-proud-06-s071.jpg",
+      "tr-excited-to-proud-07-s079.jpg",
+      "tr-excited-to-proud-08-s085.jpg",
+      "tr-excited-to-proud-09-s091.jpg",
+      "tr-excited-to-proud-10-s095.jpg",
+      "tr-excited-to-proud-11-s098.jpg",
+      "tr-excited-to-proud-12-s099.jpg"
+    ],
+    "laughing-to-amused": [
+      "laugh-soft-to-amused-01.jpg",
+      "laugh-soft-to-amused-02.jpg",
+      "laugh-soft-to-amused-03.jpg",
+      "laugh-soft-to-amused-04.jpg",
+      "laugh-soft-to-amused-05.jpg",
+      "laugh-soft-to-amused-06.jpg"
+    ],
+    "listening-to-amused": [
+      "tr-listening-to-amused-01-s021.jpg",
+      "tr-listening-to-amused-02-s040.jpg",
+      "tr-listening-to-amused-03-s056.jpg",
+      "tr-listening-to-amused-04-s069.jpg",
+      "tr-listening-to-amused-05-s080.jpg",
+      "tr-listening-to-amused-06-s089.jpg",
+      "tr-listening-to-amused-07-s095.jpg",
+      "tr-listening-to-amused-08-s099.jpg"
+    ],
+    "surprised-to-listening": [
+      "tr-surprised-to-listening-01-s017.jpg",
+      "tr-surprised-to-listening-02-s033.jpg",
+      "tr-surprised-to-listening-03-s047.jpg",
+      "tr-surprised-to-listening-04-s060.jpg",
+      "tr-surprised-to-listening-05-s070.jpg",
+      "tr-surprised-to-listening-06-s079.jpg",
+      "tr-surprised-to-listening-07-s087.jpg",
+      "tr-surprised-to-listening-08-s093.jpg",
+      "tr-surprised-to-listening-09-s097.jpg",
+      "tr-surprised-to-listening-10-s099.jpg"
+    ],
+    "amused-to-proud": [
+      "br-amused-to-proud-01.jpg",
+      "br-amused-to-proud-02.jpg",
+      "br-amused-to-proud-03.jpg",
+      "br-amused-to-proud-04.jpg"
+    ],
+    "proud-to-amused": [
+      "br-amused-to-proud-04.jpg",
+      "br-amused-to-proud-03.jpg",
+      "br-amused-to-proud-02.jpg",
+      "br-amused-to-proud-01.jpg"
+    ],
+    "sleepy-to-drowsy": [
+      "tr-sleepy-to-drowsy-01-s036.jpg",
+      "tr-sleepy-to-drowsy-02-s064.jpg",
+      "tr-sleepy-to-drowsy-03-s084.jpg",
+      "tr-sleepy-to-drowsy-04-s096.jpg"
+    ],
+    "drowsy-to-justwoke": [
+      "tr-drowsy-to-justwoke-01-s044.jpg",
+      "tr-drowsy-to-justwoke-02-s075.jpg",
+      "tr-drowsy-to-justwoke-03-s094.jpg"
+    ],
+    "justwoke-to-listening": [
+      "tr-justwoke-to-listening-01-s027.jpg",
+      "tr-justwoke-to-listening-02-s049.jpg",
+      "tr-justwoke-to-listening-03-s067.jpg",
+      "tr-justwoke-to-listening-04-s082.jpg",
+      "tr-justwoke-to-listening-05-s092.jpg",
+      "tr-justwoke-to-listening-06-s098.jpg"
+    ],
+    "determined-to-furious": [
+      "tr-determined-to-furious-01-s002.jpg",
+      "tr-determined-to-furious-02-s008.jpg",
+      "tr-determined-to-furious-03-s018.jpg",
+      "tr-determined-to-furious-04-s033.jpg",
+      "tr-determined-to-furious-05-s051.jpg",
+      "tr-determined-to-furious-06-s073.jpg"
+    ],
+    "furious-to-determined": [
+      "tr-furious-to-determined-01-s027.jpg",
+      "tr-furious-to-determined-02-s049.jpg",
+      "tr-furious-to-determined-03-s067.jpg",
+      "tr-furious-to-determined-04-s082.jpg",
+      "tr-furious-to-determined-05-s092.jpg",
+      "tr-furious-to-determined-06-s098.jpg"
+    ]
+  },
+  "slots": {
+    "sad": "wired",
+    "phone-down": "wired",
+    "thinking-up": "wired"
+  },
+  "closed_of": {
+    "amused.jpg": "amused-closed.jpg",
+    "proud.jpg": "proud-closed.jpg",
+    "surprised.jpg": "surprised-closed.jpg",
+    "listening.jpg": "listening-closed.jpg",
+    "alert.jpg": "alert-closed.jpg",
+    "focused.jpg": "focused-closed.jpg",
+    "thinking.jpg": "thinking-closed.jpg",
+    "confused.jpg": "confused-closed.jpg",
+    "skeptical.jpg": "skeptical-closed.jpg",
+    "relieved.jpg": "relieved-closed.jpg",
+    "sleepy.jpg": "sleepy-closed.jpg",
+    "worried.jpg": "worried-closed.jpg",
+    "apologetic.jpg": "apologetic-closed.jpg",
+    "determined.jpg": "determined-closed.jpg",
+    "sad.jpg": "sad-closed.jpg",
+    "phone-down.jpg": "phone-down-closed.jpg",
+    "flirty-halflid.jpg": "flirty-halflid-closed.jpg",
+    "flirty-halflid-blush.jpg": "flirty-halflid-blush-closed.jpg",
+    "wink-left-blush.jpg": "wink-left-blush-closed.jpg",
+    "crosseyed.jpg": "crosseyed-closed.jpg",
+    "laughing-soft.jpg": "laughing-soft-closed.jpg",
+    "excited-soft.jpg": "excited-soft-closed.jpg",
+    "hurt-holding-back-tears.jpg": "hurt-holding-back-tears-closed.jpg",
+    "furious-hurt-tears.jpg": "furious-hurt-tears-closed.jpg",
+    "drowsy.jpg": "drowsy-closed.jpg",
+    "justwoke.jpg": "justwoke-closed.jpg",
+    "furious.jpg": "furious-closed.jpg"
+  },
+  "no_blink": [],
+  "patch_box": [
+    150,
+    261,
+    574,
+    545
+  ],
+  "eyes": {
+    "box": [
+      205,
+      330,
+      565,
+      470
+    ],
+    "dirs": {
+      "left": "eyes-left.webp",
+      "right": "eyes-right.webp",
+      "up": "eyes-up.webp",
+      "down": "eyes-down.webp"
+    },
+    "closed": "listening-closed.jpg"
+  },
+  "mouth_box": [
+    190,
+    520,
+    530,
+    775
+  ],
+  "mouth_patch": {
+    "amused.jpg": "mp-amused.webp",
+    "mouth-ah-full.jpg": "mp-mouth-ah-full.webp",
+    "mouth-ah-half.jpg": "mp-mouth-ah-half.webp",
+    "mouth-ee-full.jpg": "mp-mouth-ee-full.webp",
+    "mouth-ee-half.jpg": "mp-mouth-ee-half.webp",
+    "mouth-fv-full.jpg": "mp-mouth-fv-full.webp",
+    "mouth-fv-half.jpg": "mp-mouth-fv-half.webp",
+    "mouth-l-full.jpg": "mp-mouth-l-full.webp",
+    "mouth-l-half.jpg": "mp-mouth-l-half.webp",
+    "mouth-oh-full.jpg": "mp-mouth-oh-full.webp",
+    "mouth-oh-half.jpg": "mp-mouth-oh-half.webp",
+    "mouth-oo-full.jpg": "mp-mouth-oo-full.webp",
+    "mouth-oo-half.jpg": "mp-mouth-oo-half.webp",
+    "mouth-pbm-full.jpg": "mp-mouth-pbm-full.webp",
+    "mouth-sh-full.jpg": "mp-mouth-sh-full.webp",
+    "mouth-sh-half.jpg": "mp-mouth-sh-half.webp",
+    "mouth-slight-full.jpg": "mp-mouth-slight-full.webp",
+    "mouth-slight-half.jpg": "mp-mouth-slight-half.webp",
+    "mouth-th-full.jpg": "mp-mouth-th-full.webp",
+    "mouth-th-half.jpg": "mp-mouth-th-half.webp",
+    "mouth-oo-soft-half.jpg": "mp-mouth-oo-soft-half.webp",
+    "mouth-oo-soft-full.jpg": "mp-mouth-oo-soft-full.webp",
+    "furious-mouth-closed.jpg": "mp-furious-mouth-closed.webp",
+    "furious-mouth-slight-half.jpg": "mp-furious-mouth-slight-half.webp",
+    "furious-mouth-slight-full.jpg": "mp-furious-mouth-slight-full.webp",
+    "furious-mouth-ah-half.jpg": "mp-furious-mouth-ah-half.webp",
+    "furious-mouth-ah-full.jpg": "mp-furious-mouth-ah-full.webp",
+    "furious-mouth-ee-half.jpg": "mp-furious-mouth-ee-half.webp",
+    "furious-mouth-ee-full.jpg": "mp-furious-mouth-ee-full.webp",
+    "furious-mouth-oo-half.jpg": "mp-furious-mouth-oo-half.webp",
+    "furious-mouth-oo-full.jpg": "mp-furious-mouth-oo-full.webp",
+    "neutral-mouth-closed.jpg": "mp-neutral-mouth-closed.webp",
+    "neutral-mouth-slight-half.jpg": "mp-neutral-mouth-slight-half.webp",
+    "neutral-mouth-slight-full.jpg": "mp-neutral-mouth-slight-full.webp",
+    "neutral-mouth-ah-half.jpg": "mp-neutral-mouth-ah-half.webp",
+    "neutral-mouth-ah-full.jpg": "mp-neutral-mouth-ah-full.webp",
+    "neutral-mouth-ee-half.jpg": "mp-neutral-mouth-ee-half.webp",
+    "neutral-mouth-ee-full.jpg": "mp-neutral-mouth-ee-full.webp",
+    "neutral-mouth-oo-half.jpg": "mp-neutral-mouth-oo-half.webp",
+    "neutral-mouth-oo-full.jpg": "mp-neutral-mouth-oo-full.webp",
+    "furious-mouth-oo-soft-half.jpg": "mp-furious-mouth-oo-soft-half.webp",
+    "furious-mouth-oo-soft-full.jpg": "mp-furious-mouth-oo-soft-full.webp",
+    "neutral-mouth-oo-soft-half.jpg": "mp-neutral-mouth-oo-soft-half.webp",
+    "neutral-mouth-oo-soft-full.jpg": "mp-neutral-mouth-oo-soft-full.webp"
+  },
+  "mouth_dy": {
+    "amused.jpg": 0.0,
+    "mouth-ah-full.jpg": -0.5,
+    "mouth-ah-half.jpg": -0.25,
+    "mouth-ee-full.jpg": -0.5,
+    "mouth-ee-half.jpg": -0.5,
+    "mouth-fv-full.jpg": 3.25,
+    "mouth-fv-half.jpg": 1.5,
+    "mouth-l-full.jpg": 3.25,
+    "mouth-l-half.jpg": 1.5,
+    "mouth-oh-full.jpg": 1.25,
+    "mouth-oh-half.jpg": 0.5,
+    "mouth-oo-full.jpg": 1.25,
+    "mouth-oo-half.jpg": 0.5,
+    "mouth-pbm-full.jpg": 3.25,
+    "mouth-sh-full.jpg": 3.25,
+    "mouth-sh-half.jpg": 0.5,
+    "mouth-slight-full.jpg": 3.25,
+    "mouth-slight-half.jpg": 1.5,
+    "mouth-th-full.jpg": 3.25,
+    "mouth-th-half.jpg": 3.25,
+    "mouth-oo-soft-half.jpg": 0.35,
+    "mouth-oo-soft-full.jpg": 0.6,
+    "furious-mouth-oo-soft-half.jpg": 0.35,
+    "furious-mouth-oo-soft-full.jpg": 0.6,
+    "neutral-mouth-oo-soft-half.jpg": 0.35,
+    "neutral-mouth-oo-soft-full.jpg": 0.6
+  },
+  "beats": {
+    "laughing": {
+      "plan": [
+        [
+          0,
+          "amused.jpg",
+          null,
+          0
+        ],
+        [
+          0.45,
+          "laugh-soft-to-amused-05.jpg",
+          null,
+          0
+        ],
+        [
+          0.72,
+          "laugh-soft-to-amused-04.jpg",
+          null,
+          0
+        ],
+        [
+          0.99,
+          "laugh-soft-to-amused-03.jpg",
+          null,
+          0
+        ],
+        [
+          1.26,
+          "laugh-soft-to-amused-02.jpg",
+          null,
+          0
+        ],
+        [
+          1.53,
+          "laugh-soft-to-amused-01.jpg",
+          null,
+          0
+        ],
+        [
+          1.8,
+          "laughing-soft.jpg",
+          null,
+          0
+        ],
+        [
+          2.6,
+          "laughing-soft.jpg",
+          null,
+          0
+        ],
+        [
+          2.9,
+          "laugh-soft-to-amused-01.jpg",
+          null,
+          0
+        ],
+        [
+          3.14,
+          "laugh-soft-to-amused-02.jpg",
+          null,
+          0
+        ],
+        [
+          3.38,
+          "laugh-soft-to-amused-03.jpg",
+          null,
+          0
+        ],
+        [
+          3.62,
+          "laugh-soft-to-amused-04.jpg",
+          null,
+          0
+        ],
+        [
+          3.86,
+          "laugh-soft-to-amused-05.jpg",
+          null,
+          0
+        ],
+        [
+          4.1,
+          "laugh-soft-to-amused-06.jpg",
+          null,
+          0
+        ],
+        [
+          4.5,
+          "amused.jpg",
+          null,
+          0
+        ]
+      ],
+      "dur": 4.8,
+      "peak_at": 1.8,
+      "n_ease_in": 5,
+      "peak_img": "laughing-soft.jpg"
+    },
+    "excited": {
+      "plan": [
+        [
+          0.0,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.25,
+          "br-amused-to-proud-01.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.31,
+          "br-amused-to-proud-02.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.37,
+          "br-amused-to-proud-03.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.43,
+          "br-amused-to-proud-04.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.49,
+          "proud.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.61,
+          "tr-excited-to-proud-12-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.69,
+          "tr-excited-to-proud-11-s098.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.77,
+          "tr-excited-to-proud-10-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.85,
+          "tr-excited-to-proud-09-s091.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.93,
+          "tr-excited-to-proud-08-s085.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.01,
+          "tr-excited-to-proud-07-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.09,
+          "tr-excited-to-proud-06-s071.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.09,
+          "tr-excited-to-proud-07-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.15,
+          "tr-excited-to-proud-08-s085.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.21,
+          "tr-excited-to-proud-09-s091.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.27,
+          "tr-excited-to-proud-10-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.33,
+          "tr-excited-to-proud-11-s098.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.39,
+          "tr-excited-to-proud-12-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.45,
+          "proud.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.9,
+          "br-amused-to-proud-04.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.96,
+          "br-amused-to-proud-03.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.02,
+          "br-amused-to-proud-02.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.08,
+          "br-amused-to-proud-01.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.14,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.19,
+          "amused.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "dur": 3.34,
+      "peak_at": 1.09,
+      "n_ease_in": 6,
+      "peak_img": "tr-excited-to-proud-06-s071.jpg"
+    },
+    "surprised": {
+      "plan": [
+        [
+          0.0,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.25,
+          "tr-amused-to-listening-01-s021.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.31,
+          "tr-amused-to-listening-02-s040.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.37,
+          "tr-amused-to-listening-03-s056.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.43,
+          "tr-amused-to-listening-04-s069.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.49,
+          "tr-amused-to-listening-05-s080.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.55,
+          "tr-amused-to-listening-06-s089.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.61,
+          "tr-amused-to-listening-07-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.67,
+          "tr-amused-to-listening-08-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.73,
+          "listening.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.85,
+          "tr-surprised-to-listening-10-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.93,
+          "tr-surprised-to-listening-09-s097.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.01,
+          "tr-surprised-to-listening-08-s093.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.09,
+          "tr-surprised-to-listening-07-s087.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.17,
+          "tr-surprised-to-listening-06-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.25,
+          "tr-surprised-to-listening-05-s070.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.33,
+          "tr-surprised-to-listening-04-s060.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.41,
+          "tr-surprised-to-listening-03-s047.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.49,
+          "tr-surprised-to-listening-02-s033.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.39,
+          "tr-surprised-to-listening-03-s047.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.45,
+          "tr-surprised-to-listening-04-s060.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.51,
+          "tr-surprised-to-listening-05-s070.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.57,
+          "tr-surprised-to-listening-06-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.63,
+          "tr-surprised-to-listening-07-s087.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.69,
+          "tr-surprised-to-listening-08-s093.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.75,
+          "tr-surprised-to-listening-09-s097.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.81,
+          "tr-surprised-to-listening-10-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.87,
+          "listening.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.32,
+          "tr-listening-to-amused-01-s021.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.38,
+          "tr-listening-to-amused-02-s040.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.44,
+          "tr-listening-to-amused-03-s056.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.5,
+          "tr-listening-to-amused-04-s069.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.56,
+          "tr-listening-to-amused-05-s080.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.62,
+          "tr-listening-to-amused-06-s089.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.68,
+          "tr-listening-to-amused-07-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.74,
+          "tr-listening-to-amused-08-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.8,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.85,
+          "amused.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "dur": 4.0,
+      "peak_at": 1.49,
+      "n_ease_in": 8,
+      "peak_img": "tr-surprised-to-listening-02-s033.jpg"
+    },
+    "alert": {
+      "plan": [
+        [
+          0.0,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.25,
+          "amused.jpg",
+          "focused.jpg",
+          0.057
+        ],
+        [
+          0.31,
+          "amused.jpg",
+          "focused.jpg",
+          0.172
+        ],
+        [
+          0.37,
+          "amused.jpg",
+          "focused.jpg",
+          0.33
+        ],
+        [
+          0.43,
+          "amused.jpg",
+          "focused.jpg",
+          0.523
+        ],
+        [
+          0.49,
+          "amused.jpg",
+          "focused.jpg",
+          0.747
+        ],
+        [
+          0.55,
+          "focused.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.67,
+          "tr-alert-to-focused-12-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.75,
+          "tr-alert-to-focused-11-s098.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.83,
+          "tr-alert-to-focused-10-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.91,
+          "tr-alert-to-focused-09-s091.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.99,
+          "tr-alert-to-focused-08-s085.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.07,
+          "tr-alert-to-focused-07-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.15,
+          "tr-alert-to-focused-06-s071.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.23,
+          "tr-alert-to-focused-05-s062.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.31,
+          "tr-alert-to-focused-04-s052.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.39,
+          "tr-alert-to-focused-03-s041.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.29,
+          "tr-alert-to-focused-04-s052.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.35,
+          "tr-alert-to-focused-05-s062.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.41,
+          "tr-alert-to-focused-06-s071.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.47,
+          "tr-alert-to-focused-07-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.53,
+          "tr-alert-to-focused-08-s085.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.59,
+          "tr-alert-to-focused-09-s091.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.65,
+          "tr-alert-to-focused-10-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.71,
+          "tr-alert-to-focused-11-s098.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.77,
+          "tr-alert-to-focused-12-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.83,
+          "focused.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.28,
+          "focused.jpg",
+          "amused.jpg",
+          0.057
+        ],
+        [
+          3.34,
+          "focused.jpg",
+          "amused.jpg",
+          0.172
+        ],
+        [
+          3.4,
+          "focused.jpg",
+          "amused.jpg",
+          0.33
+        ],
+        [
+          3.46,
+          "focused.jpg",
+          "amused.jpg",
+          0.523
+        ],
+        [
+          3.52,
+          "focused.jpg",
+          "amused.jpg",
+          0.747
+        ],
+        [
+          3.58,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.63,
+          "amused.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "dur": 3.78,
+      "peak_at": 1.39,
+      "n_ease_in": 9,
+      "peak_img": "tr-alert-to-focused-03-s041.jpg"
+    }
+  },
+  "rest": {
+    "laughing": "amused",
+    "excited": "proud",
+    "surprised": "listening",
+    "alert": "focused"
+  },
+  "tears": {
+    "furious-hurt-tears": {
+      "sprite": "tears-furious-hurt-tears.webp",
+      "box": [
+        262,
+        392,
+        512,
+        702
+      ],
+      "cols": 8,
+      "frames": 40,
+      "fps": 10,
+      "full": "furious-hurt-tears.jpg",
+      "w": 250,
+      "h": 310
+    },
+    "hurt-holding-back-tears": {
+      "sprite": "tears-hurt-holding-back-tears.webp",
+      "box": [
+        262,
+        392,
+        512,
+        702
+      ],
+      "cols": 8,
+      "frames": 40,
+      "fps": 10,
+      "full": "hurt-holding-back-tears.jpg",
+      "w": 250,
+      "h": 310
+    }
+  },
+  "mouth_sets": {
+    "furious": {
+      "closed": "furious-mouth-closed.jpg",
+      "amused.jpg": "furious-mouth-closed.jpg",
+      "mouth-slight-half.jpg": "furious-mouth-slight-half.jpg",
+      "mouth-slight-full.jpg": "furious-mouth-slight-full.jpg",
+      "mouth-ah-half.jpg": "furious-mouth-ah-half.jpg",
+      "mouth-ah-full.jpg": "furious-mouth-ah-full.jpg",
+      "mouth-ee-half.jpg": "furious-mouth-ee-half.jpg",
+      "mouth-ee-full.jpg": "furious-mouth-ee-full.jpg",
+      "mouth-oo-half.jpg": "furious-mouth-oo-half.jpg",
+      "mouth-oo-full.jpg": "furious-mouth-oo-full.jpg",
+      "mouth-oh-half.jpg": "furious-mouth-oo-half.jpg",
+      "mouth-oh-full.jpg": "furious-mouth-oo-full.jpg",
+      "mouth-oo-soft-half.jpg": "furious-mouth-oo-soft-half.jpg",
+      "mouth-oo-soft-full.jpg": "furious-mouth-oo-soft-full.jpg",
+      "mouth-pbm-full.jpg": "furious-mouth-closed.jpg",
+      "mouth-pbm-half.jpg": "furious-mouth-closed.jpg",
+      "mouth-fv-half.jpg": "furious-mouth-slight-half.jpg",
+      "mouth-fv-full.jpg": "furious-mouth-slight-full.jpg",
+      "mouth-th-half.jpg": "furious-mouth-slight-half.jpg",
+      "mouth-th-full.jpg": "furious-mouth-slight-full.jpg",
+      "mouth-l-half.jpg": "furious-mouth-slight-half.jpg",
+      "mouth-l-full.jpg": "furious-mouth-slight-full.jpg",
+      "mouth-sh-half.jpg": "furious-mouth-ee-half.jpg",
+      "mouth-sh-full.jpg": "furious-mouth-ee-full.jpg"
+    },
+    "neutral": {
+      "closed": "neutral-mouth-closed.jpg",
+      "amused.jpg": "neutral-mouth-closed.jpg",
+      "mouth-slight-half.jpg": "neutral-mouth-slight-half.jpg",
+      "mouth-slight-full.jpg": "neutral-mouth-slight-full.jpg",
+      "mouth-ah-half.jpg": "neutral-mouth-ah-half.jpg",
+      "mouth-ah-full.jpg": "neutral-mouth-ah-full.jpg",
+      "mouth-ee-half.jpg": "neutral-mouth-ee-half.jpg",
+      "mouth-ee-full.jpg": "neutral-mouth-ee-full.jpg",
+      "mouth-oo-half.jpg": "neutral-mouth-oo-half.jpg",
+      "mouth-oo-full.jpg": "neutral-mouth-oo-full.jpg",
+      "mouth-oh-half.jpg": "neutral-mouth-oo-half.jpg",
+      "mouth-oh-full.jpg": "neutral-mouth-oo-full.jpg",
+      "mouth-oo-soft-half.jpg": "neutral-mouth-oo-soft-half.jpg",
+      "mouth-oo-soft-full.jpg": "neutral-mouth-oo-soft-full.jpg",
+      "mouth-pbm-full.jpg": "neutral-mouth-closed.jpg",
+      "mouth-pbm-half.jpg": "neutral-mouth-closed.jpg",
+      "mouth-fv-half.jpg": "neutral-mouth-slight-half.jpg",
+      "mouth-fv-full.jpg": "neutral-mouth-slight-full.jpg",
+      "mouth-th-half.jpg": "neutral-mouth-slight-half.jpg",
+      "mouth-th-full.jpg": "neutral-mouth-slight-full.jpg",
+      "mouth-l-half.jpg": "neutral-mouth-slight-half.jpg",
+      "mouth-l-full.jpg": "neutral-mouth-slight-full.jpg",
+      "mouth-sh-half.jpg": "neutral-mouth-ee-half.jpg",
+      "mouth-sh-full.jpg": "neutral-mouth-ee-full.jpg"
+    }
+  },
+  "mouth_set_of": {
+    "furious": "furious",
+    "determined": "neutral",
+    "listening": "neutral"
+  },
+  "teeth": {
+    "br-amused-to-proud-02.jpg": true,
+    "br-amused-to-proud-03.jpg": true,
+    "br-amused-to-proud-04.jpg": true,
+    "excited-soft-closed.jpg": true,
+    "excited-soft.jpg": true,
+    "eyes-down.webp": true,
+    "eyes-left.webp": true,
+    "eyes-right.webp": true,
+    "eyes-up.webp": true,
+    "furious-closed.jpg": true,
+    "furious-mouth-ah-full.jpg": true,
+    "furious-mouth-ee-full.jpg": true,
+    "furious.jpg": true,
+    "laugh-soft-to-amused-01.jpg": true,
+    "laugh-soft-to-amused-02.jpg": true,
+    "laugh-soft-to-amused-03.jpg": true,
+    "laugh-soft-to-amused-04.jpg": true,
+    "laugh-soft-to-amused-05.jpg": true,
+    "laughing-soft-closed.jpg": true,
+    "laughing-soft.jpg": true,
+    "mp-furious-mouth-ah-full.webp": true,
+    "mp-furious-mouth-ee-full.webp": true,
+    "mp-mouth-ah-full.webp": true,
+    "mp-mouth-ah-half.webp": true,
+    "mp-mouth-ee-full.webp": true,
+    "mp-mouth-ee-half.webp": true,
+    "patch-amused-closed.webp": true,
+    "patch-amused.webp": true,
+    "patch-apologetic-closed.webp": true,
+    "patch-apologetic.webp": true,
+    "patch-confused-closed.webp": true,
+    "patch-confused.webp": true,
+    "patch-crosseyed-closed.webp": true,
+    "patch-crosseyed.webp": true,
+    "patch-determined-closed.webp": true,
+    "patch-determined.webp": true,
+    "patch-focused-closed.webp": true,
+    "patch-focused.webp": true,
+    "patch-furious-closed.webp": true,
+    "patch-furious-hurt-tears-closed.webp": true,
+    "patch-furious-hurt-tears.webp": true,
+    "patch-furious.webp": true,
+    "patch-hurt-holding-back-tears-closed.webp": true,
+    "patch-hurt-holding-back-tears.webp": true,
+    "patch-laughing-closed.webp": true,
+    "patch-laughing.webp": true,
+    "patch-listening-closed.webp": true,
+    "patch-listening.webp": true,
+    "patch-lookdown-closed.webp": true,
+    "patch-lookdown.webp": true,
+    "patch-lookup-closed.webp": true,
+    "patch-lookup.webp": true,
+    "patch-phone-down-closed.webp": true,
+    "patch-phone-down.webp": true,
+    "patch-proud-closed.webp": true,
+    "patch-proud.webp": true,
+    "patch-relieved-closed.webp": true,
+    "patch-relieved.webp": true,
+    "patch-sad-closed.webp": true,
+    "patch-sad.webp": true,
+    "patch-skeptical-closed.webp": true,
+    "patch-skeptical.webp": true,
+    "patch-sleepy-closed.webp": true,
+    "patch-sleepy.webp": true,
+    "patch-surprised-closed.webp": true,
+    "patch-surprised.webp": true,
+    "patch-thinking-closed.webp": true,
+    "patch-thinking-up.webp": true,
+    "patch-thinking.webp": true,
+    "patch-worried-closed.webp": true,
+    "patch-worried.webp": true,
+    "proud-closed.jpg": true,
+    "proud.jpg": true,
+    "tears-furious-hurt-tears.webp": true,
+    "tears-hurt-holding-back-tears.webp": true,
+    "tr-determined-to-furious-06-s073.jpg": true,
+    "tr-excited-to-proud-01-s015.jpg": true,
+    "tr-excited-to-proud-02-s028.jpg": true,
+    "tr-excited-to-proud-03-s041.jpg": true,
+    "tr-excited-to-proud-04-s052.jpg": true,
+    "tr-excited-to-proud-05-s062.jpg": true,
+    "tr-excited-to-proud-06-s071.jpg": true,
+    "tr-excited-to-proud-07-s079.jpg": true,
+    "tr-excited-to-proud-08-s085.jpg": true,
+    "tr-excited-to-proud-09-s091.jpg": true,
+    "tr-excited-to-proud-10-s095.jpg": true,
+    "tr-excited-to-proud-11-s098.jpg": true,
+    "tr-excited-to-proud-12-s099.jpg": true,
+    "tr-furious-to-determined-01-s027.jpg": true,
+    "neutral-mouth-ah-full.jpg": true,
+    "neutral-mouth-ah-half.jpg": true,
+    "neutral-mouth-ee-full.jpg": true,
+    "neutral-mouth-ee-half.jpg": true,
+    "neutral-mouth-oo-full.jpg": true,
+    "neutral-mouth-oo-half.jpg": true,
+    "furious-mouth-ah-half.jpg": true,
+    "mp-furious-mouth-ah-half.webp": true,
+    "fm-furious-mouth-ah-half.webp": true
+  },
+  "teeth_n_cut": 280,
+  "face_mouth": {
+    "alert-closed.jpg": "fm-alert-closed.webp",
+    "alert.jpg": "fm-alert.webp",
+    "amused-closed.jpg": "fm-amused-closed.webp",
+    "amused-sadtop.jpg": "fm-amused-sadtop.webp",
+    "amused.jpg": "fm-amused.webp",
+    "apologetic-closed.jpg": "fm-apologetic-closed.webp",
+    "apologetic.jpg": "fm-apologetic.webp",
+    "confused-closed.jpg": "fm-confused-closed.webp",
+    "confused.jpg": "fm-confused.webp",
+    "crosseyed-closed.jpg": "fm-crosseyed-closed.webp",
+    "crosseyed.jpg": "fm-crosseyed.webp",
+    "determined-closed.jpg": "fm-determined-closed.webp",
+    "determined.jpg": "fm-determined.webp",
+    "drowsy-closed.jpg": "fm-drowsy-closed.webp",
+    "drowsy.jpg": "fm-drowsy.webp",
+    "excited-soft-closed.jpg": "fm-excited-soft-closed.webp",
+    "excited-soft.jpg": "fm-excited-soft.webp",
+    "flirty-halflid-blush-closed.jpg": "fm-flirty-halflid-blush-closed.webp",
+    "flirty-halflid-blush.jpg": "fm-flirty-halflid-blush.webp",
+    "flirty-halflid-closed.jpg": "fm-flirty-halflid-closed.webp",
+    "flirty-halflid.jpg": "fm-flirty-halflid.webp",
+    "focused-closed.jpg": "fm-focused-closed.webp",
+    "focused.jpg": "fm-focused.webp",
+    "furious-closed.jpg": "fm-furious-closed.webp",
+    "furious-hurt-tears-closed.jpg": "fm-furious-hurt-tears-closed.webp",
+    "furious-hurt-tears.jpg": "fm-furious-hurt-tears.webp",
+    "furious.jpg": "fm-furious.webp",
+    "hurt-holding-back-tears-closed.jpg": "fm-hurt-holding-back-tears-closed.webp",
+    "hurt-holding-back-tears.jpg": "fm-hurt-holding-back-tears.webp",
+    "justwoke-closed.jpg": "fm-justwoke-closed.webp",
+    "justwoke.jpg": "fm-justwoke.webp",
+    "laughing-soft-closed.jpg": "fm-laughing-soft-closed.webp",
+    "laughing-soft.jpg": "fm-laughing-soft.webp",
+    "listening-closed.jpg": "fm-listening-closed.webp",
+    "listening.jpg": "fm-listening.webp",
+    "phone-down-closed.jpg": "fm-phone-down-closed.webp",
+    "phone-down.jpg": "fm-phone-down.webp",
+    "proud-closed.jpg": "fm-proud-closed.webp",
+    "proud.jpg": "fm-proud.webp",
+    "relieved-closed.jpg": "fm-relieved-closed.webp",
+    "relieved.jpg": "fm-relieved.webp",
+    "sad-closed.jpg": "fm-sad-closed.webp",
+    "sad.jpg": "fm-sad.webp",
+    "skeptical-closed.jpg": "fm-skeptical-closed.webp",
+    "skeptical.jpg": "fm-skeptical.webp",
+    "sleepy-closed.jpg": "fm-sleepy-closed.webp",
+    "sleepy.jpg": "fm-sleepy.webp",
+    "surprised-closed.jpg": "fm-surprised-closed.webp",
+    "surprised.jpg": "fm-surprised.webp",
+    "thinking-closed.jpg": "fm-thinking-closed.webp",
+    "thinking-up.jpg": "fm-thinking-up.webp",
+    "thinking.jpg": "fm-thinking.webp",
+    "wink-left-blush-closed.jpg": "fm-wink-left-blush-closed.webp",
+    "wink-left-blush.jpg": "fm-wink-left-blush.webp",
+    "worried-closed.jpg": "fm-worried-closed.webp",
+    "worried.jpg": "fm-worried.webp",
+    "br-amused-to-proud-01.jpg": "fm-br-amused-to-proud-01.webp",
+    "br-amused-to-proud-02.jpg": "fm-br-amused-to-proud-02.webp",
+    "br-amused-to-proud-03.jpg": "fm-br-amused-to-proud-03.webp",
+    "br-amused-to-proud-04.jpg": "fm-br-amused-to-proud-04.webp",
+    "furious-mouth-ah-full.jpg": "fm-furious-mouth-ah-full.webp",
+    "furious-mouth-ah-half.jpg": "fm-furious-mouth-ah-half.webp",
+    "furious-mouth-closed.jpg": "fm-furious-mouth-closed.webp",
+    "furious-mouth-ee-full.jpg": "fm-furious-mouth-ee-full.webp",
+    "furious-mouth-ee-half.jpg": "fm-furious-mouth-ee-half.webp",
+    "furious-mouth-oo-full.jpg": "fm-furious-mouth-oo-full.webp",
+    "furious-mouth-oo-half.jpg": "fm-furious-mouth-oo-half.webp",
+    "furious-mouth-oo-soft-full.jpg": "fm-furious-mouth-oo-soft-full.webp",
+    "furious-mouth-oo-soft-half.jpg": "fm-furious-mouth-oo-soft-half.webp",
+    "furious-mouth-slight-full.jpg": "fm-furious-mouth-slight-full.webp",
+    "furious-mouth-slight-half.jpg": "fm-furious-mouth-slight-half.webp",
+    "laugh-soft-to-amused-01.jpg": "fm-laugh-soft-to-amused-01.webp",
+    "laugh-soft-to-amused-02.jpg": "fm-laugh-soft-to-amused-02.webp",
+    "laugh-soft-to-amused-03.jpg": "fm-laugh-soft-to-amused-03.webp",
+    "laugh-soft-to-amused-04.jpg": "fm-laugh-soft-to-amused-04.webp",
+    "laugh-soft-to-amused-05.jpg": "fm-laugh-soft-to-amused-05.webp",
+    "laugh-soft-to-amused-06.jpg": "fm-laugh-soft-to-amused-06.webp",
+    "neutral-mouth-ah-full.jpg": "fm-neutral-mouth-ah-full.webp",
+    "neutral-mouth-ah-half.jpg": "fm-neutral-mouth-ah-half.webp",
+    "neutral-mouth-closed.jpg": "fm-neutral-mouth-closed.webp",
+    "neutral-mouth-ee-full.jpg": "fm-neutral-mouth-ee-full.webp",
+    "neutral-mouth-ee-half.jpg": "fm-neutral-mouth-ee-half.webp",
+    "neutral-mouth-oo-full.jpg": "fm-neutral-mouth-oo-full.webp",
+    "neutral-mouth-oo-half.jpg": "fm-neutral-mouth-oo-half.webp",
+    "neutral-mouth-oo-soft-full.jpg": "fm-neutral-mouth-oo-soft-full.webp",
+    "neutral-mouth-oo-soft-half.jpg": "fm-neutral-mouth-oo-soft-half.webp",
+    "neutral-mouth-slight-full.jpg": "fm-neutral-mouth-slight-full.webp",
+    "neutral-mouth-slight-half.jpg": "fm-neutral-mouth-slight-half.webp",
+    "tr-alert-to-focused-01-s015.jpg": "fm-tr-alert-to-focused-01-s015.webp",
+    "tr-alert-to-focused-02-s028.jpg": "fm-tr-alert-to-focused-02-s028.webp",
+    "tr-alert-to-focused-03-s041.jpg": "fm-tr-alert-to-focused-03-s041.webp",
+    "tr-alert-to-focused-04-s052.jpg": "fm-tr-alert-to-focused-04-s052.webp",
+    "tr-alert-to-focused-05-s062.jpg": "fm-tr-alert-to-focused-05-s062.webp",
+    "tr-alert-to-focused-06-s071.jpg": "fm-tr-alert-to-focused-06-s071.webp",
+    "tr-alert-to-focused-07-s079.jpg": "fm-tr-alert-to-focused-07-s079.webp",
+    "tr-alert-to-focused-08-s085.jpg": "fm-tr-alert-to-focused-08-s085.webp",
+    "tr-alert-to-focused-09-s091.jpg": "fm-tr-alert-to-focused-09-s091.webp",
+    "tr-alert-to-focused-10-s095.jpg": "fm-tr-alert-to-focused-10-s095.webp",
+    "tr-alert-to-focused-11-s098.jpg": "fm-tr-alert-to-focused-11-s098.webp",
+    "tr-alert-to-focused-12-s099.jpg": "fm-tr-alert-to-focused-12-s099.webp",
+    "tr-amused-to-listening-01-s021.jpg": "fm-tr-amused-to-listening-01-s021.webp",
+    "tr-amused-to-listening-02-s040.jpg": "fm-tr-amused-to-listening-02-s040.webp",
+    "tr-amused-to-listening-03-s056.jpg": "fm-tr-amused-to-listening-03-s056.webp",
+    "tr-amused-to-listening-04-s069.jpg": "fm-tr-amused-to-listening-04-s069.webp",
+    "tr-amused-to-listening-05-s080.jpg": "fm-tr-amused-to-listening-05-s080.webp",
+    "tr-amused-to-listening-06-s089.jpg": "fm-tr-amused-to-listening-06-s089.webp",
+    "tr-amused-to-listening-07-s095.jpg": "fm-tr-amused-to-listening-07-s095.webp",
+    "tr-amused-to-listening-08-s099.jpg": "fm-tr-amused-to-listening-08-s099.webp",
+    "tr-determined-to-furious-01-s002.jpg": "fm-tr-determined-to-furious-01-s002.webp",
+    "tr-determined-to-furious-02-s008.jpg": "fm-tr-determined-to-furious-02-s008.webp",
+    "tr-determined-to-furious-03-s018.jpg": "fm-tr-determined-to-furious-03-s018.webp",
+    "tr-determined-to-furious-04-s033.jpg": "fm-tr-determined-to-furious-04-s033.webp",
+    "tr-determined-to-furious-05-s051.jpg": "fm-tr-determined-to-furious-05-s051.webp",
+    "tr-determined-to-furious-06-s073.jpg": "fm-tr-determined-to-furious-06-s073.webp",
+    "tr-drowsy-to-justwoke-01-s044.jpg": "fm-tr-drowsy-to-justwoke-01-s044.webp",
+    "tr-drowsy-to-justwoke-02-s075.jpg": "fm-tr-drowsy-to-justwoke-02-s075.webp",
+    "tr-drowsy-to-justwoke-03-s094.jpg": "fm-tr-drowsy-to-justwoke-03-s094.webp",
+    "tr-excited-to-proud-01-s015.jpg": "fm-tr-excited-to-proud-01-s015.webp",
+    "tr-excited-to-proud-02-s028.jpg": "fm-tr-excited-to-proud-02-s028.webp",
+    "tr-excited-to-proud-03-s041.jpg": "fm-tr-excited-to-proud-03-s041.webp",
+    "tr-excited-to-proud-04-s052.jpg": "fm-tr-excited-to-proud-04-s052.webp",
+    "tr-excited-to-proud-05-s062.jpg": "fm-tr-excited-to-proud-05-s062.webp",
+    "tr-excited-to-proud-06-s071.jpg": "fm-tr-excited-to-proud-06-s071.webp",
+    "tr-excited-to-proud-07-s079.jpg": "fm-tr-excited-to-proud-07-s079.webp",
+    "tr-excited-to-proud-08-s085.jpg": "fm-tr-excited-to-proud-08-s085.webp",
+    "tr-excited-to-proud-09-s091.jpg": "fm-tr-excited-to-proud-09-s091.webp",
+    "tr-excited-to-proud-10-s095.jpg": "fm-tr-excited-to-proud-10-s095.webp",
+    "tr-excited-to-proud-11-s098.jpg": "fm-tr-excited-to-proud-11-s098.webp",
+    "tr-excited-to-proud-12-s099.jpg": "fm-tr-excited-to-proud-12-s099.webp",
+    "tr-furious-to-determined-01-s027.jpg": "fm-tr-furious-to-determined-01-s027.webp",
+    "tr-furious-to-determined-02-s049.jpg": "fm-tr-furious-to-determined-02-s049.webp",
+    "tr-furious-to-determined-03-s067.jpg": "fm-tr-furious-to-determined-03-s067.webp",
+    "tr-furious-to-determined-04-s082.jpg": "fm-tr-furious-to-determined-04-s082.webp",
+    "tr-furious-to-determined-05-s092.jpg": "fm-tr-furious-to-determined-05-s092.webp",
+    "tr-furious-to-determined-06-s098.jpg": "fm-tr-furious-to-determined-06-s098.webp",
+    "tr-justwoke-to-listening-01-s027.jpg": "fm-tr-justwoke-to-listening-01-s027.webp",
+    "tr-justwoke-to-listening-02-s049.jpg": "fm-tr-justwoke-to-listening-02-s049.webp",
+    "tr-justwoke-to-listening-03-s067.jpg": "fm-tr-justwoke-to-listening-03-s067.webp",
+    "tr-justwoke-to-listening-04-s082.jpg": "fm-tr-justwoke-to-listening-04-s082.webp",
+    "tr-justwoke-to-listening-05-s092.jpg": "fm-tr-justwoke-to-listening-05-s092.webp",
+    "tr-justwoke-to-listening-06-s098.jpg": "fm-tr-justwoke-to-listening-06-s098.webp",
+    "tr-listening-to-amused-01-s021.jpg": "fm-tr-listening-to-amused-01-s021.webp",
+    "tr-listening-to-amused-02-s040.jpg": "fm-tr-listening-to-amused-02-s040.webp",
+    "tr-listening-to-amused-03-s056.jpg": "fm-tr-listening-to-amused-03-s056.webp",
+    "tr-listening-to-amused-04-s069.jpg": "fm-tr-listening-to-amused-04-s069.webp",
+    "tr-listening-to-amused-05-s080.jpg": "fm-tr-listening-to-amused-05-s080.webp",
+    "tr-listening-to-amused-06-s089.jpg": "fm-tr-listening-to-amused-06-s089.webp",
+    "tr-listening-to-amused-07-s095.jpg": "fm-tr-listening-to-amused-07-s095.webp",
+    "tr-listening-to-amused-08-s099.jpg": "fm-tr-listening-to-amused-08-s099.webp",
+    "tr-sleepy-to-drowsy-01-s036.jpg": "fm-tr-sleepy-to-drowsy-01-s036.webp",
+    "tr-sleepy-to-drowsy-02-s064.jpg": "fm-tr-sleepy-to-drowsy-02-s064.webp",
+    "tr-sleepy-to-drowsy-03-s084.jpg": "fm-tr-sleepy-to-drowsy-03-s084.webp",
+    "tr-sleepy-to-drowsy-04-s096.jpg": "fm-tr-sleepy-to-drowsy-04-s096.webp",
+    "tr-surprised-to-listening-01-s017.jpg": "fm-tr-surprised-to-listening-01-s017.webp",
+    "tr-surprised-to-listening-02-s033.jpg": "fm-tr-surprised-to-listening-02-s033.webp",
+    "tr-surprised-to-listening-03-s047.jpg": "fm-tr-surprised-to-listening-03-s047.webp",
+    "tr-surprised-to-listening-04-s060.jpg": "fm-tr-surprised-to-listening-04-s060.webp",
+    "tr-surprised-to-listening-05-s070.jpg": "fm-tr-surprised-to-listening-05-s070.webp",
+    "tr-surprised-to-listening-06-s079.jpg": "fm-tr-surprised-to-listening-06-s079.webp",
+    "tr-surprised-to-listening-07-s087.jpg": "fm-tr-surprised-to-listening-07-s087.webp",
+    "tr-surprised-to-listening-08-s093.jpg": "fm-tr-surprised-to-listening-08-s093.webp",
+    "tr-surprised-to-listening-09-s097.jpg": "fm-tr-surprised-to-listening-09-s097.webp",
+    "tr-surprised-to-listening-10-s099.jpg": "fm-tr-surprised-to-listening-10-s099.webp"
+  },
+  "face_mouth_box": [
+    240,
+    505,
+    480,
+    695
+  ],
+  "_why_face_mouth": "v3.2.10-staged (Drue rule: two different mouths never on screen at once during a face change): each full face has a feathered mouth stamp; during a full-face crossfade only one face's mouth shows (hard switch at the midpoint), the rest of the face still blends.",
+  "_why_v335": "v3.3.5-staged (Drue 111526 8:51 PM double teeth; 11:20 PM 'Go, swap the repaints into the test copy'): Tweak's repaints (/workspace/board/avatars/qa-v335/repaint/) replace the bad pictures under the same names (excited-soft(+closed), laugh-soft-to-amused-01..04, tr-excited-to-proud-01..07, surprised(+closed), tr-surprised-to-listening-01..04, tr-alert-to-focused-03..06, tr-justwoke-to-listening-02, furious-mouth-ah-half); their fm-/mp-/patch- stamps re-cut from the new faces. Plans, pairs and faces are back to the v3.3.4 structure. furious-mouth-ah-half: Tweak's option o1 (clenched snarl) picked - the main repaint opens wider than furious ah-full; it now shows teeth, so it is teeth-flagged (hard cut, never blended with another mouth)."
+}
