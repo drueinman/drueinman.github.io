@@ -1,0 +1,6063 @@
+{
+  "W": 720,
+  "H": 1168,
+  "faces": {
+    "amused": "amused.jpg",
+    "amused-closed": "amused-closed.jpg",
+    "laughing": "laughing-soft.jpg",
+    "laughing-closed": "laughing-soft-closed.jpg",
+    "excited": "excited-soft.jpg",
+    "excited-closed": "excited-soft-closed.jpg",
+    "proud": "proud.jpg",
+    "proud-closed": "proud-closed.jpg",
+    "surprised": "surprised.jpg",
+    "surprised-closed": "surprised-closed.jpg",
+    "listening": "listening.jpg",
+    "listening-closed": "listening-closed.jpg",
+    "alert": "alert.jpg",
+    "alert-closed": "alert-closed.jpg",
+    "focused": "focused.jpg",
+    "focused-closed": "focused-closed.jpg",
+    "thinking": "thinking.jpg",
+    "thinking-closed": "thinking-closed.jpg",
+    "confused": "confused.jpg",
+    "confused-closed": "confused-closed.jpg",
+    "skeptical": "skeptical.jpg",
+    "skeptical-closed": "skeptical-closed.jpg",
+    "relieved": "relieved.jpg",
+    "relieved-closed": "relieved-closed.jpg",
+    "sleepy": "sleepy.jpg",
+    "sleepy-closed": "sleepy-closed.jpg",
+    "worried": "worried.jpg",
+    "worried-closed": "worried-closed.jpg",
+    "apologetic": "apologetic.jpg",
+    "apologetic-closed": "apologetic-closed.jpg",
+    "determined": "determined.jpg",
+    "determined-closed": "determined-closed.jpg",
+    "sad": "sad.jpg",
+    "sad-closed": "sad-closed.jpg",
+    "phone-down": "phone-down.jpg",
+    "phone-down-closed": "phone-down-closed.jpg",
+    "thinking-up": "thinking-up.jpg",
+    "amused-sadtop": "amused-sadtop.jpg",
+    "flirty-halflid": "flirty-halflid.jpg",
+    "flirty-halflid-closed": "flirty-halflid-closed.jpg",
+    "flirty-halflid-blush": "flirty-halflid-blush.jpg",
+    "flirty-halflid-blush-closed": "flirty-halflid-blush-closed.jpg",
+    "wink-left-blush": "wink-left-blush.jpg",
+    "wink-left-blush-closed": "wink-left-blush-closed.jpg",
+    "crosseyed": "crosseyed.jpg",
+    "crosseyed-closed": "crosseyed-closed.jpg",
+    "hurt-holding-back-tears": "hurt-holding-back-tears.jpg",
+    "hurt-holding-back-tears-closed": "hurt-holding-back-tears-closed.jpg",
+    "furious-hurt-tears": "furious-hurt-tears.jpg",
+    "furious-hurt-tears-closed": "furious-hurt-tears-closed.jpg",
+    "drowsy": "drowsy.jpg",
+    "drowsy-closed": "drowsy-closed.jpg",
+    "justwoke": "justwoke.jpg",
+    "justwoke-closed": "justwoke-closed.jpg",
+    "furious": "furious.jpg",
+    "furious-closed": "furious-closed.jpg",
+    "sc-rage-detdown": "sc-rage-detdown-v337p.jpg",
+    "sc-scan-left": "sc-scan-left-v337p.jpg",
+    "sc-scan-right": "sc-scan-right-v337p.jpg",
+    "sc-wink-left": "sc-wink-left-v337p.jpg",
+    "sc-rage-up1-v337p": "sc-rage-up1-v337p.jpg",
+    "sc-rage-up2-v337p": "sc-rage-up2-v337p.jpg",
+    "sc-rage-up3-v337p": "sc-rage-up3-v337p.jpg",
+    "sc-rage-up4-v337p": "sc-rage-up4-v337p.jpg",
+    "sc-rage-up5-v337p": "sc-rage-up5-v337p.jpg",
+    "sc-rage-up6-v337p": "sc-rage-up6-v337p.jpg",
+    "sc-rage-up7-v337p": "sc-rage-up7-v337p.jpg"
+  },
+  "patches": {
+    "amused": "patch-amused.webp",
+    "amused-closed": "patch-amused-closed.webp",
+    "laughing": "patch-laughing.webp",
+    "laughing-closed": "patch-laughing-closed.webp",
+    "proud": "patch-proud.webp",
+    "proud-closed": "patch-proud-closed.webp",
+    "surprised": "patch-surprised.webp",
+    "surprised-closed": "patch-surprised-closed.webp",
+    "listening": "patch-listening.webp",
+    "listening-closed": "patch-listening-closed.webp",
+    "focused": "patch-focused.webp",
+    "focused-closed": "patch-focused-closed.webp",
+    "thinking": "patch-thinking.webp",
+    "thinking-closed": "patch-thinking-closed.webp",
+    "confused": "patch-confused.webp",
+    "confused-closed": "patch-confused-closed.webp",
+    "skeptical": "patch-skeptical.webp",
+    "skeptical-closed": "patch-skeptical-closed.webp",
+    "relieved": "patch-relieved.webp",
+    "relieved-closed": "patch-relieved-closed.webp",
+    "sleepy": "patch-sleepy.webp",
+    "sleepy-closed": "patch-sleepy-closed.webp",
+    "worried": "patch-worried.webp",
+    "worried-closed": "patch-worried-closed.webp",
+    "apologetic": "patch-apologetic.webp",
+    "apologetic-closed": "patch-apologetic-closed.webp",
+    "determined": "patch-determined.webp",
+    "determined-closed": "patch-determined-closed.webp",
+    "sad": "patch-sad.webp",
+    "sad-closed": "patch-sad-closed.webp",
+    "lookdown": "patch-lookdown.webp",
+    "lookdown-closed": "patch-lookdown-closed.webp",
+    "lookup": "patch-lookup.webp",
+    "lookup-closed": "patch-lookup-closed.webp",
+    "phone-down": "patch-phone-down.webp",
+    "phone-down-closed": "patch-phone-down-closed.webp",
+    "skeptical-up-closed": "patch-skeptical-closed.webp",
+    "thinking-up": "patch-thinking-up.webp",
+    "thinking-up-closed": "patch-thinking-closed.webp",
+    "crosseyed": "patch-crosseyed.webp",
+    "crosseyed-closed": "patch-crosseyed-closed.webp",
+    "hurt-holding-back-tears": "patch-hurt-holding-back-tears.webp",
+    "hurt-holding-back-tears-closed": "patch-hurt-holding-back-tears-closed.webp",
+    "furious-hurt-tears": "patch-furious-hurt-tears.webp",
+    "furious-hurt-tears-closed": "patch-furious-hurt-tears-closed.webp",
+    "furious": "patch-furious.webp",
+    "furious-closed": "patch-furious-closed.webp",
+    "sc-hscan-left": "patch-sc-hscan-left.webp",
+    "sc-hscan-left-closed": "patch-sc-hscan-left-closed.webp",
+    "sc-fscan-left": "patch-sc-fscan-left.webp",
+    "sc-fscan-left-closed": "patch-sc-fscan-left-closed.webp",
+    "sc-hscan-right": "patch-sc-hscan-right.webp",
+    "sc-hscan-right-closed": "patch-sc-hscan-right-closed.webp",
+    "sc-fscan-right": "patch-sc-fscan-right.webp",
+    "sc-fscan-right-closed": "patch-sc-fscan-right-closed.webp",
+    "sc-cross": "patch-sc-cross.webp",
+    "sc-cross-closed": "patch-sc-cross-closed.webp",
+    "sc-goofy": "patch-sc-goofy.webp",
+    "sc-goofy-closed": "patch-sc-goofy-closed.webp"
+  },
+  "mouth": {
+    "slight": {
+      "half": "mouth-slight-half.jpg",
+      "full": "mouth-slight-full.jpg"
+    },
+    "ah": {
+      "half": "mouth-ah-half.jpg",
+      "full": "mouth-ah-full.jpg"
+    },
+    "oh": {
+      "half": "mouth-oh-half.jpg",
+      "full": "mouth-oh-full.jpg"
+    },
+    "ee": {
+      "half": "mouth-ee-half.jpg",
+      "full": "mouth-ee-full.jpg"
+    },
+    "pbm": {
+      "full": "mouth-pbm-full.jpg",
+      "half": "mouth-pbm-full.jpg"
+    },
+    "fv": {
+      "full": "mouth-fv-full.jpg",
+      "half": "mouth-fv-half.jpg"
+    },
+    "th": {
+      "full": "mouth-th-full.jpg",
+      "half": "mouth-th-half.jpg"
+    },
+    "l": {
+      "full": "mouth-l-full.jpg",
+      "half": "mouth-l-half.jpg"
+    },
+    "oo": {
+      "full": "mouth-oo-full.jpg",
+      "half": "mouth-oo-half.jpg"
+    },
+    "sh": {
+      "full": "mouth-sh-full.jpg",
+      "half": "mouth-sh-half.jpg"
+    },
+    "oosoft": {
+      "half": "mouth-oo-soft-half.jpg",
+      "full": "mouth-oo-soft-full.jpg"
+    }
+  },
+  "pairs": {
+    "alert-to-focused": [
+      "tr-alert-to-focused-01-s015.jpg",
+      "tr-alert-to-focused-02-s028.jpg",
+      "tr-alert-to-focused-03-s041.jpg",
+      "tr-alert-to-focused-04-s052.jpg",
+      "tr-alert-to-focused-05-s062.jpg",
+      "tr-alert-to-focused-06-s071.jpg",
+      "tr-alert-to-focused-07-s079.jpg",
+      "tr-alert-to-focused-08-s085.jpg",
+      "tr-alert-to-focused-09-s091.jpg",
+      "tr-alert-to-focused-10-s095.jpg",
+      "tr-alert-to-focused-11-s098.jpg",
+      "tr-alert-to-focused-12-s099.jpg"
+    ],
+    "amused-to-listening": [
+      "tr-amused-to-listening-01-s021.jpg",
+      "tr-amused-to-listening-02-s040.jpg",
+      "tr-amused-to-listening-03-s056.jpg",
+      "tr-amused-to-listening-04-s069.jpg",
+      "tr-amused-to-listening-05-s080.jpg",
+      "tr-amused-to-listening-06-s089.jpg",
+      "tr-amused-to-listening-07-s095.jpg",
+      "tr-amused-to-listening-08-s099.jpg"
+    ],
+    "excited-to-proud": [
+      "tr-excited-to-proud-01-s015.jpg",
+      "tr-excited-to-proud-02-s028.jpg",
+      "tr-excited-to-proud-03-s041.jpg",
+      "tr-excited-to-proud-04-s052.jpg",
+      "tr-excited-to-proud-05-s062.jpg",
+      "tr-excited-to-proud-06-s071.jpg",
+      "tr-excited-to-proud-07-s079.jpg",
+      "tr-excited-to-proud-08-s085.jpg",
+      "tr-excited-to-proud-09-s091.jpg",
+      "tr-excited-to-proud-10-s095.jpg",
+      "tr-excited-to-proud-11-s098.jpg",
+      "tr-excited-to-proud-12-s099.jpg"
+    ],
+    "laughing-to-amused": [
+      "laugh-soft-to-amused-01.jpg",
+      "laugh-soft-to-amused-02.jpg",
+      "laugh-soft-to-amused-03.jpg",
+      "laugh-soft-to-amused-04.jpg",
+      "laugh-soft-to-amused-05.jpg",
+      "laugh-soft-to-amused-06.jpg"
+    ],
+    "listening-to-amused": [
+      "tr-listening-to-amused-01-s021.jpg",
+      "tr-listening-to-amused-02-s040.jpg",
+      "tr-listening-to-amused-03-s056.jpg",
+      "tr-listening-to-amused-04-s069.jpg",
+      "tr-listening-to-amused-05-s080.jpg",
+      "tr-listening-to-amused-06-s089.jpg",
+      "tr-listening-to-amused-07-s095.jpg",
+      "tr-listening-to-amused-08-s099.jpg"
+    ],
+    "surprised-to-listening": [
+      "tr-surprised-to-listening-01-s017.jpg",
+      "tr-surprised-to-listening-02-s033.jpg",
+      "tr-surprised-to-listening-03-s047.jpg",
+      "tr-surprised-to-listening-04-s060.jpg",
+      "tr-surprised-to-listening-05-s070.jpg",
+      "tr-surprised-to-listening-06-s079.jpg",
+      "tr-surprised-to-listening-07-s087.jpg",
+      "tr-surprised-to-listening-08-s093.jpg",
+      "tr-surprised-to-listening-09-s097.jpg",
+      "tr-surprised-to-listening-10-s099.jpg"
+    ],
+    "amused-to-proud": [
+      "br-amused-to-proud-01.jpg",
+      "br-amused-to-proud-02.jpg",
+      "br-amused-to-proud-03.jpg",
+      "br-amused-to-proud-04.jpg"
+    ],
+    "proud-to-amused": [
+      "br-amused-to-proud-04.jpg",
+      "br-amused-to-proud-03.jpg",
+      "br-amused-to-proud-02.jpg",
+      "br-amused-to-proud-01.jpg"
+    ],
+    "sleepy-to-drowsy": [
+      "tr-sleepy-to-drowsy-01-s036.jpg",
+      "tr-sleepy-to-drowsy-02-s064.jpg",
+      "tr-sleepy-to-drowsy-03-s084.jpg",
+      "tr-sleepy-to-drowsy-04-s096.jpg"
+    ],
+    "drowsy-to-justwoke": [
+      "tr-drowsy-to-justwoke-01-s044.jpg",
+      "tr-drowsy-to-justwoke-02-s075.jpg",
+      "tr-drowsy-to-justwoke-03-s094.jpg"
+    ],
+    "justwoke-to-listening": [
+      "tr-justwoke-to-listening-01-s027.jpg",
+      "tr-justwoke-to-listening-02-s049.jpg",
+      "tr-justwoke-to-listening-03-s067.jpg",
+      "tr-justwoke-to-listening-04-s082.jpg",
+      "tr-justwoke-to-listening-05-s092.jpg",
+      "tr-justwoke-to-listening-06-s098.jpg"
+    ],
+    "determined-to-furious": [
+      "tr-determined-to-furious-01-s002.jpg",
+      "tr-determined-to-furious-02-s008.jpg",
+      "tr-determined-to-furious-03-s018.jpg",
+      "tr-determined-to-furious-04-s033.jpg",
+      "tr-determined-to-furious-05-s051.jpg",
+      "tr-determined-to-furious-06-s073.jpg"
+    ],
+    "furious-to-determined": [
+      "tr-furious-to-determined-01-s027.jpg",
+      "tr-furious-to-determined-02-s049.jpg",
+      "tr-furious-to-determined-03-s067.jpg",
+      "tr-furious-to-determined-04-s082.jpg",
+      "tr-furious-to-determined-05-s092.jpg",
+      "tr-furious-to-determined-06-s098.jpg"
+    ],
+    "laughing-to-excited": [
+      "sk-laughing-to-excited-01.jpg",
+      "sk-laughing-to-excited-02.jpg",
+      "sk-laughing-to-excited-03.jpg",
+      "sk-laughing-to-excited-04.jpg",
+      "sk-laughing-to-excited-05.jpg",
+      "sk-laughing-to-excited-06.jpg",
+      "sk-laughing-to-excited-07.jpg",
+      "sk-laughing-to-excited-08.jpg",
+      "sk-laughing-to-excited-09.jpg",
+      "sk-laughing-to-excited-10.jpg",
+      "sk-laughing-to-excited-11.jpg",
+      "sk-laughing-to-excited-12.jpg",
+      "sk-laughing-to-excited-13.jpg"
+    ],
+    "focused-to-thinking": [
+      "sk-focused-to-thinking-01.jpg",
+      "sk-focused-to-thinking-02.jpg",
+      "sk-focused-to-thinking-03.jpg",
+      "sk-focused-to-thinking-04.jpg",
+      "sk-focused-to-thinking-05.jpg",
+      "sk-focused-to-thinking-06.jpg",
+      "sk-focused-to-thinking-07.jpg"
+    ],
+    "sleepy-to-worried": [
+      "sk-sleepy-to-worried-01.jpg",
+      "sk-sleepy-to-worried-02.jpg",
+      "sk-sleepy-to-worried-03.jpg",
+      "sk-sleepy-to-worried-04.jpg",
+      "sk-sleepy-to-worried-05.jpg",
+      "sk-sleepy-to-worried-06.jpg"
+    ],
+    "worried-to-apologetic": [
+      "sk-worried-to-apologetic-01.jpg",
+      "sk-worried-to-apologetic-02.jpg",
+      "sk-worried-to-apologetic-03.jpg",
+      "sk-worried-to-apologetic-04.jpg",
+      "sk-worried-to-apologetic-05.jpg",
+      "sk-worried-to-apologetic-06.jpg",
+      "sk-worried-to-apologetic-07.jpg"
+    ],
+    "apologetic-to-determined": [
+      "sk-apologetic-to-determined-01.jpg",
+      "sk-apologetic-to-determined-02.jpg",
+      "sk-apologetic-to-determined-03.jpg",
+      "sk-apologetic-to-determined-04.jpg",
+      "sk-apologetic-to-determined-05.jpg",
+      "sk-apologetic-to-determined-06.jpg",
+      "sk-apologetic-to-determined-07.jpg"
+    ],
+    "determined-to-sad": [
+      "sk-determined-to-sad-01.jpg",
+      "sk-determined-to-sad-02.jpg",
+      "sk-determined-to-sad-03.jpg",
+      "sk-determined-to-sad-04.jpg",
+      "sk-determined-to-sad-05.jpg",
+      "sk-determined-to-sad-06.jpg",
+      "sk-determined-to-sad-07.jpg"
+    ],
+    "sad-to-phone-down": [
+      "sk-sad-to-phone-down-01.jpg",
+      "sk-sad-to-phone-down-02.jpg",
+      "sk-sad-to-phone-down-03.jpg",
+      "sk-sad-to-phone-down-04.jpg",
+      "sk-sad-to-phone-down-05.jpg",
+      "sk-sad-to-phone-down-06.jpg"
+    ],
+    "phone-down-to-thinking-up": [
+      "sk-phone-down-to-thinking-up-01.jpg",
+      "sk-phone-down-to-thinking-up-02.jpg",
+      "sk-phone-down-to-thinking-up-03.jpg",
+      "sk-phone-down-to-thinking-up-04.jpg",
+      "sk-phone-down-to-thinking-up-05.jpg",
+      "sk-phone-down-to-thinking-up-06.jpg"
+    ],
+    "thinking-up-to-flirty-halflid": [
+      "sk-thinking-up-to-flirty-halflid-01.jpg",
+      "sk-thinking-up-to-flirty-halflid-02.jpg",
+      "sk-thinking-up-to-flirty-halflid-03.jpg",
+      "sk-thinking-up-to-flirty-halflid-04.jpg",
+      "sk-thinking-up-to-flirty-halflid-05.jpg",
+      "sk-thinking-up-to-flirty-halflid-06.jpg",
+      "sk-thinking-up-to-flirty-halflid-07.jpg",
+      "sk-thinking-up-to-flirty-halflid-08.jpg"
+    ],
+    "flirty-halflid-to-flirty-halflid-blush": [
+      "sk-flirty-halflid-to-flirty-halflid-blush-01.jpg",
+      "sk-flirty-halflid-to-flirty-halflid-blush-02.jpg",
+      "sk-flirty-halflid-to-flirty-halflid-blush-03.jpg",
+      "sk-flirty-halflid-to-flirty-halflid-blush-04.jpg",
+      "sk-flirty-halflid-to-flirty-halflid-blush-05.jpg"
+    ],
+    "flirty-halflid-blush-to-wink-left-blush": [
+      "sk-flirty-halflid-blush-to-wink-left-blush-01.jpg",
+      "sk-flirty-halflid-blush-to-wink-left-blush-02.jpg",
+      "sk-flirty-halflid-blush-to-wink-left-blush-03.jpg",
+      "sk-flirty-halflid-blush-to-wink-left-blush-04.jpg",
+      "sk-flirty-halflid-blush-to-wink-left-blush-05.jpg"
+    ],
+    "wink-left-blush-to-crosseyed": [
+      "sk-wink-left-blush-to-crosseyed-01.jpg",
+      "sk-wink-left-blush-to-crosseyed-02.jpg",
+      "sk-wink-left-blush-to-crosseyed-03.jpg",
+      "sk-wink-left-blush-to-crosseyed-04.jpg",
+      "sk-wink-left-blush-to-crosseyed-05.jpg",
+      "sk-wink-left-blush-to-crosseyed-06.jpg"
+    ],
+    "crosseyed-to-hurt-holding-back-tears": [
+      "sk-crosseyed-to-hurt-holding-back-tears-01.jpg",
+      "sk-crosseyed-to-hurt-holding-back-tears-02.jpg",
+      "sk-crosseyed-to-hurt-holding-back-tears-03.jpg",
+      "sk-crosseyed-to-hurt-holding-back-tears-04.jpg",
+      "sk-crosseyed-to-hurt-holding-back-tears-05.jpg",
+      "sk-crosseyed-to-hurt-holding-back-tears-06.jpg",
+      "sk-crosseyed-to-hurt-holding-back-tears-07.jpg",
+      "sk-crosseyed-to-hurt-holding-back-tears-08.jpg"
+    ],
+    "hurt-holding-back-tears-to-furious-hurt-tears": [
+      "sk-hurt-holding-back-tears-to-furious-hurt-tears-01.jpg",
+      "sk-hurt-holding-back-tears-to-furious-hurt-tears-02.jpg",
+      "sk-hurt-holding-back-tears-to-furious-hurt-tears-03.jpg",
+      "sk-hurt-holding-back-tears-to-furious-hurt-tears-04.jpg",
+      "sk-hurt-holding-back-tears-to-furious-hurt-tears-05.jpg",
+      "sk-hurt-holding-back-tears-to-furious-hurt-tears-06.jpg",
+      "sk-hurt-holding-back-tears-to-furious-hurt-tears-07.jpg"
+    ],
+    "furious-hurt-tears-to-drowsy": [
+      "sk-furious-hurt-tears-to-drowsy-01.jpg",
+      "sk-furious-hurt-tears-to-drowsy-02.jpg",
+      "sk-furious-hurt-tears-to-drowsy-03.jpg",
+      "sk-furious-hurt-tears-to-drowsy-04.jpg",
+      "sk-furious-hurt-tears-to-drowsy-05.jpg",
+      "sk-furious-hurt-tears-to-drowsy-06.jpg",
+      "sk-furious-hurt-tears-to-drowsy-07.jpg",
+      "sk-furious-hurt-tears-to-drowsy-08.jpg"
+    ],
+    "justwoke-to-furious": [
+      "sk-justwoke-to-furious-01.jpg",
+      "sk-justwoke-to-furious-02.jpg",
+      "sk-justwoke-to-furious-03.jpg",
+      "sk-justwoke-to-furious-04.jpg",
+      "sk-justwoke-to-furious-05.jpg",
+      "sk-justwoke-to-furious-06.jpg",
+      "sk-justwoke-to-furious-07.jpg",
+      "sk-justwoke-to-furious-08.jpg"
+    ],
+    "listening-to-thinking": [
+      "sk-listening-to-thinking-01.jpg",
+      "sk-listening-to-thinking-02.jpg",
+      "sk-listening-to-thinking-03.jpg",
+      "sk-listening-to-thinking-04.jpg",
+      "sk-listening-to-thinking-05.jpg",
+      "sk-listening-to-thinking-06.jpg",
+      "sk-listening-to-thinking-07.jpg"
+    ],
+    "thinking-to-thinking-up": [
+      "sk-thinking-to-thinking-up-01.jpg",
+      "sk-thinking-to-thinking-up-02.jpg",
+      "sk-thinking-to-thinking-up-03.jpg",
+      "sk-thinking-to-thinking-up-04.jpg",
+      "sk-thinking-to-thinking-up-05.jpg"
+    ],
+    "thinking-up-to-focused": [
+      "sk-thinking-up-to-focused-01.jpg",
+      "sk-thinking-up-to-focused-02.jpg",
+      "sk-thinking-up-to-focused-03.jpg",
+      "sk-thinking-up-to-focused-04.jpg",
+      "sk-thinking-up-to-focused-05.jpg",
+      "sk-thinking-up-to-focused-06.jpg",
+      "sk-thinking-up-to-focused-07.jpg"
+    ],
+    "focused-to-determined": [
+      "sk-focused-to-determined-01.jpg",
+      "sk-focused-to-determined-02.jpg",
+      "sk-focused-to-determined-03.jpg",
+      "sk-focused-to-determined-04.jpg",
+      "sk-focused-to-determined-05.jpg",
+      "sk-focused-to-determined-06.jpg"
+    ],
+    "determined-to-skeptical": [
+      "sk-determined-to-skeptical-01.jpg",
+      "sk-determined-to-skeptical-02.jpg",
+      "sk-determined-to-skeptical-03.jpg",
+      "sk-determined-to-skeptical-04.jpg",
+      "sk-determined-to-skeptical-05.jpg",
+      "sk-determined-to-skeptical-06.jpg",
+      "sk-determined-to-skeptical-07.jpg"
+    ],
+    "apologetic-to-sad": [
+      "sk-apologetic-to-sad-01.jpg",
+      "sk-apologetic-to-sad-02.jpg",
+      "sk-apologetic-to-sad-03.jpg",
+      "sk-apologetic-to-sad-04.jpg",
+      "sk-apologetic-to-sad-05.jpg",
+      "sk-apologetic-to-sad-06.jpg",
+      "sk-apologetic-to-sad-07.jpg"
+    ],
+    "sad-to-sleepy": [
+      "sk-sad-to-sleepy-01.jpg",
+      "sk-sad-to-sleepy-02.jpg",
+      "sk-sad-to-sleepy-03.jpg",
+      "sk-sad-to-sleepy-04.jpg",
+      "sk-sad-to-sleepy-05.jpg",
+      "sk-sad-to-sleepy-06.jpg"
+    ],
+    "sleepy-to-phone-down": [
+      "sk-sleepy-to-phone-down-01.jpg",
+      "sk-sleepy-to-phone-down-02.jpg",
+      "sk-sleepy-to-phone-down-03.jpg",
+      "sk-sleepy-to-phone-down-04.jpg",
+      "sk-sleepy-to-phone-down-05.jpg",
+      "sk-sleepy-to-phone-down-06.jpg"
+    ],
+    "amused-to-amused-sadtop": [
+      "sk-amused-to-amused-sadtop-01.jpg",
+      "sk-amused-to-amused-sadtop-02.jpg",
+      "sk-amused-to-amused-sadtop-03.jpg",
+      "sk-amused-to-amused-sadtop-04.jpg",
+      "sk-amused-to-amused-sadtop-05.jpg",
+      "sk-amused-to-amused-sadtop-06.jpg"
+    ],
+    "amused-sadtop-to-sad": [
+      "sk-amused-sadtop-to-sad-01.jpg",
+      "sk-amused-sadtop-to-sad-02.jpg",
+      "sk-amused-sadtop-to-sad-03.jpg",
+      "sk-amused-sadtop-to-sad-04.jpg",
+      "sk-amused-sadtop-to-sad-05.jpg",
+      "sk-amused-sadtop-to-sad-06.jpg",
+      "sk-amused-sadtop-to-sad-07.jpg"
+    ],
+    "sad-to-amused-sadtop": [
+      "sk-sad-to-amused-sadtop-01.jpg",
+      "sk-sad-to-amused-sadtop-02.jpg",
+      "sk-sad-to-amused-sadtop-03.jpg",
+      "sk-sad-to-amused-sadtop-04.jpg",
+      "sk-sad-to-amused-sadtop-05.jpg",
+      "sk-sad-to-amused-sadtop-06.jpg",
+      "sk-sad-to-amused-sadtop-07.jpg"
+    ],
+    "amused-sadtop-to-amused": [
+      "sk-amused-sadtop-to-amused-01.jpg",
+      "sk-amused-sadtop-to-amused-02.jpg",
+      "sk-amused-sadtop-to-amused-03.jpg",
+      "sk-amused-sadtop-to-amused-04.jpg",
+      "sk-amused-sadtop-to-amused-05.jpg",
+      "sk-amused-sadtop-to-amused-06.jpg"
+    ],
+    "amused-to-determined": [
+      "sk-amused-to-determined-01.jpg",
+      "sk-amused-to-determined-02.jpg",
+      "sk-amused-to-determined-03.jpg",
+      "sk-amused-to-determined-04.jpg",
+      "sk-amused-to-determined-05.jpg",
+      "sk-amused-to-determined-06.jpg",
+      "sk-amused-to-determined-07.jpg"
+    ],
+    "determined-to-amused": [
+      "sk-determined-to-amused-01.jpg",
+      "sk-determined-to-amused-02.jpg",
+      "sk-determined-to-amused-03.jpg",
+      "sk-determined-to-amused-04.jpg",
+      "sk-determined-to-amused-05.jpg",
+      "sk-determined-to-amused-06.jpg",
+      "sk-determined-to-amused-07.jpg"
+    ],
+    "amused-to-focused": [
+      "sk-amused-to-focused-01.jpg",
+      "sk-amused-to-focused-02.jpg",
+      "sk-amused-to-focused-03.jpg",
+      "sk-amused-to-focused-04.jpg",
+      "sk-amused-to-focused-05.jpg",
+      "sk-amused-to-focused-06.jpg",
+      "sk-amused-to-focused-07.jpg",
+      "sk-amused-to-focused-08.jpg"
+    ],
+    "focused-to-amused": [
+      "sk-focused-to-amused-01.jpg",
+      "sk-focused-to-amused-02.jpg",
+      "sk-focused-to-amused-03.jpg",
+      "sk-focused-to-amused-04.jpg",
+      "sk-focused-to-amused-05.jpg",
+      "sk-focused-to-amused-06.jpg",
+      "sk-focused-to-amused-07.jpg",
+      "sk-focused-to-amused-08.jpg"
+    ],
+    "amused-to-worried": [
+      "sk-amused-to-worried-01.jpg",
+      "sk-amused-to-worried-02.jpg",
+      "sk-amused-to-worried-03.jpg",
+      "sk-amused-to-worried-04.jpg",
+      "sk-amused-to-worried-05.jpg",
+      "sk-amused-to-worried-06.jpg",
+      "sk-amused-to-worried-07.jpg",
+      "sk-amused-to-worried-08.jpg"
+    ],
+    "worried-to-amused": [
+      "sk-worried-to-amused-01.jpg",
+      "sk-worried-to-amused-02.jpg",
+      "sk-worried-to-amused-03.jpg",
+      "sk-worried-to-amused-04.jpg",
+      "sk-worried-to-amused-05.jpg",
+      "sk-worried-to-amused-06.jpg",
+      "sk-worried-to-amused-07.jpg",
+      "sk-worried-to-amused-08.jpg"
+    ],
+    "amused-to-flirty-halflid": [
+      "sk-amused-to-flirty-halflid-01.jpg",
+      "sk-amused-to-flirty-halflid-02.jpg",
+      "sk-amused-to-flirty-halflid-03.jpg",
+      "sk-amused-to-flirty-halflid-04.jpg",
+      "sk-amused-to-flirty-halflid-05.jpg"
+    ],
+    "wink-left-blush-to-flirty-halflid-blush": [
+      "sk-wink-left-blush-to-flirty-halflid-blush-01.jpg",
+      "sk-wink-left-blush-to-flirty-halflid-blush-02.jpg",
+      "sk-wink-left-blush-to-flirty-halflid-blush-03.jpg",
+      "sk-wink-left-blush-to-flirty-halflid-blush-04.jpg",
+      "sk-wink-left-blush-to-flirty-halflid-blush-05.jpg"
+    ],
+    "flirty-halflid-blush-to-flirty-halflid": [
+      "sk-flirty-halflid-blush-to-flirty-halflid-01.jpg",
+      "sk-flirty-halflid-blush-to-flirty-halflid-02.jpg",
+      "sk-flirty-halflid-blush-to-flirty-halflid-03.jpg",
+      "sk-flirty-halflid-blush-to-flirty-halflid-04.jpg",
+      "sk-flirty-halflid-blush-to-flirty-halflid-05.jpg"
+    ],
+    "flirty-halflid-to-amused": [
+      "sk-flirty-halflid-to-amused-01.jpg",
+      "sk-flirty-halflid-to-amused-02.jpg",
+      "sk-flirty-halflid-to-amused-03.jpg",
+      "sk-flirty-halflid-to-amused-04.jpg",
+      "sk-flirty-halflid-to-amused-05.jpg"
+    ],
+    "amused-to-laughing": [
+      "sk-amused-to-laughing-01.jpg",
+      "sk-amused-to-laughing-02.jpg",
+      "sk-amused-to-laughing-03.jpg",
+      "sk-amused-to-laughing-04.jpg",
+      "sk-amused-to-laughing-05.jpg",
+      "sk-amused-to-laughing-06.jpg",
+      "sk-amused-to-laughing-07.jpg",
+      "sk-amused-to-laughing-08.jpg",
+      "sk-amused-to-laughing-09.jpg",
+      "sk-amused-to-laughing-10.jpg",
+      "sk-amused-to-laughing-11.jpg",
+      "sk-amused-to-laughing-12.jpg"
+    ],
+    "listening-to-alert": [
+      "sk-listening-to-alert-01.jpg",
+      "sk-listening-to-alert-02.jpg",
+      "sk-listening-to-alert-03.jpg",
+      "sk-listening-to-alert-04.jpg",
+      "sk-listening-to-alert-05.jpg",
+      "sk-listening-to-alert-06.jpg",
+      "sk-listening-to-alert-07.jpg",
+      "sk-listening-to-alert-08.jpg",
+      "sk-listening-to-alert-09.jpg"
+    ],
+    "thinking-to-confused": [
+      "sk-thinking-to-confused-01.jpg",
+      "sk-thinking-to-confused-02.jpg",
+      "sk-thinking-to-confused-03.jpg",
+      "sk-thinking-to-confused-04.jpg",
+      "sk-thinking-to-confused-05.jpg",
+      "sk-thinking-to-confused-06.jpg",
+      "sk-thinking-to-confused-07.jpg",
+      "sk-thinking-to-confused-08.jpg"
+    ],
+    "skeptical-to-relieved": [
+      "sk-skeptical-to-relieved-01.jpg",
+      "sk-skeptical-to-relieved-02.jpg",
+      "sk-skeptical-to-relieved-03.jpg",
+      "sk-skeptical-to-relieved-04.jpg",
+      "sk-skeptical-to-relieved-05.jpg",
+      "sk-skeptical-to-relieved-06.jpg",
+      "sk-skeptical-to-relieved-07.jpg",
+      "sk-skeptical-to-relieved-08.jpg"
+    ],
+    "skeptical-to-confused": [
+      "sk-skeptical-to-confused-01.jpg",
+      "sk-skeptical-to-confused-02.jpg",
+      "sk-skeptical-to-confused-03.jpg",
+      "sk-skeptical-to-confused-04.jpg",
+      "sk-skeptical-to-confused-05.jpg",
+      "sk-skeptical-to-confused-06.jpg",
+      "sk-skeptical-to-confused-07.jpg",
+      "sk-skeptical-to-confused-08.jpg"
+    ],
+    "phone-down-to-relieved": [
+      "sk-phone-down-to-relieved-01.jpg",
+      "sk-phone-down-to-relieved-02.jpg",
+      "sk-phone-down-to-relieved-03.jpg",
+      "sk-phone-down-to-relieved-04.jpg",
+      "sk-phone-down-to-relieved-05.jpg",
+      "sk-phone-down-to-relieved-06.jpg",
+      "sk-phone-down-to-relieved-07.jpg",
+      "sk-phone-down-to-relieved-08.jpg"
+    ],
+    "confused-to-skeptical": [
+      "sk-confused-to-skeptical-01.jpg",
+      "sk-confused-to-skeptical-02.jpg",
+      "sk-confused-to-skeptical-03.jpg",
+      "sk-confused-to-skeptical-04.jpg",
+      "sk-confused-to-skeptical-05.jpg",
+      "sk-confused-to-skeptical-06.jpg",
+      "sk-confused-to-skeptical-07.jpg",
+      "sk-confused-to-skeptical-08.jpg"
+    ],
+    "relieved-to-sleepy": [
+      "sk-relieved-to-sleepy-01.jpg",
+      "sk-relieved-to-sleepy-02.jpg",
+      "sk-relieved-to-sleepy-03.jpg",
+      "sk-relieved-to-sleepy-04.jpg",
+      "sk-relieved-to-sleepy-05.jpg",
+      "sk-relieved-to-sleepy-06.jpg",
+      "sk-relieved-to-sleepy-07.jpg",
+      "sk-relieved-to-sleepy-08.jpg"
+    ],
+    "furious-to-amused": [
+      "sk-furious-to-amused-01.jpg",
+      "sk-furious-to-amused-02.jpg",
+      "sk-furious-to-amused-03.jpg",
+      "sk-furious-to-amused-04.jpg",
+      "sk-furious-to-amused-05.jpg",
+      "sk-furious-to-amused-06.jpg",
+      "sk-furious-to-amused-07.jpg",
+      "sk-furious-to-amused-08.jpg",
+      "sk-furious-to-amused-09.jpg"
+    ],
+    "confused-to-worried": [
+      "sk-confused-to-worried-01.jpg",
+      "sk-confused-to-worried-02.jpg",
+      "sk-confused-to-worried-03.jpg",
+      "sk-confused-to-worried-04.jpg",
+      "sk-confused-to-worried-05.jpg",
+      "sk-confused-to-worried-06.jpg",
+      "sk-confused-to-worried-07.jpg",
+      "sk-confused-to-worried-08.jpg"
+    ],
+    "relieved-to-amused": [
+      "sk-relieved-to-amused-01.jpg",
+      "sk-relieved-to-amused-02.jpg",
+      "sk-relieved-to-amused-03.jpg",
+      "sk-relieved-to-amused-04.jpg",
+      "sk-relieved-to-amused-05.jpg",
+      "sk-relieved-to-amused-06.jpg",
+      "sk-relieved-to-amused-07.jpg",
+      "sk-relieved-to-amused-08.jpg"
+    ],
+    "proud-to-surprised": [
+      "sk-proud-to-surprised-01.jpg",
+      "sk-proud-to-surprised-02.jpg",
+      "sk-proud-to-surprised-03.jpg",
+      "sk-proud-to-surprised-04.jpg",
+      "sk-proud-to-surprised-05.jpg",
+      "sk-proud-to-surprised-06.jpg",
+      "sk-proud-to-surprised-07.jpg",
+      "sk-proud-to-surprised-08.jpg",
+      "sk-proud-to-surprised-09.jpg",
+      "sk-proud-to-surprised-10.jpg",
+      "sk-proud-to-surprised-11.jpg",
+      "sk-proud-to-surprised-12.jpg",
+      "sk-proud-to-surprised-13.jpg"
+    ]
+  },
+  "slots": {
+    "sad": "wired",
+    "phone-down": "wired",
+    "thinking-up": "wired"
+  },
+  "closed_of": {
+    "amused.jpg": "amused-closed.jpg",
+    "proud.jpg": "proud-closed.jpg",
+    "surprised.jpg": "surprised-closed.jpg",
+    "listening.jpg": "listening-closed.jpg",
+    "alert.jpg": "alert-closed.jpg",
+    "focused.jpg": "focused-closed.jpg",
+    "thinking.jpg": "thinking-closed.jpg",
+    "confused.jpg": "confused-closed.jpg",
+    "skeptical.jpg": "skeptical-closed.jpg",
+    "relieved.jpg": "relieved-closed.jpg",
+    "sleepy.jpg": "sleepy-closed.jpg",
+    "worried.jpg": "worried-closed.jpg",
+    "apologetic.jpg": "apologetic-closed.jpg",
+    "determined.jpg": "determined-closed.jpg",
+    "sad.jpg": "sad-closed.jpg",
+    "phone-down.jpg": "phone-down-closed.jpg",
+    "flirty-halflid.jpg": "flirty-halflid-closed.jpg",
+    "flirty-halflid-blush.jpg": "flirty-halflid-blush-closed.jpg",
+    "wink-left-blush.jpg": "wink-left-blush-closed.jpg",
+    "crosseyed.jpg": "crosseyed-closed.jpg",
+    "laughing-soft.jpg": "laughing-soft-closed.jpg",
+    "excited-soft.jpg": "excited-soft-closed.jpg",
+    "hurt-holding-back-tears.jpg": "hurt-holding-back-tears-closed.jpg",
+    "furious-hurt-tears.jpg": "furious-hurt-tears-closed.jpg",
+    "drowsy.jpg": "drowsy-closed.jpg",
+    "justwoke.jpg": "justwoke-closed.jpg",
+    "furious.jpg": "furious-closed.jpg"
+  },
+  "no_blink": [],
+  "patch_box": [
+    150,
+    261,
+    574,
+    545
+  ],
+  "eyes": {
+    "box": [
+      205,
+      330,
+      565,
+      470
+    ],
+    "dirs": {
+      "left": "eyes-left.webp",
+      "right": "eyes-right.webp",
+      "up": "eyes-up.webp",
+      "down": "eyes-down.webp"
+    },
+    "closed": "listening-closed.jpg"
+  },
+  "mouth_box": [
+    190,
+    520,
+    530,
+    775
+  ],
+  "mouth_patch": {
+    "amused.jpg": "mp-amused.webp",
+    "mouth-ah-full.jpg": "mp-mouth-ah-full.webp",
+    "mouth-ah-half.jpg": "mp-mouth-ah-half.webp",
+    "mouth-ee-full.jpg": "mp-mouth-ee-full.webp",
+    "mouth-ee-half.jpg": "mp-mouth-ee-half.webp",
+    "mouth-fv-full.jpg": "mp-mouth-fv-full.webp",
+    "mouth-fv-half.jpg": "mp-mouth-fv-half.webp",
+    "mouth-l-full.jpg": "mp-mouth-l-full.webp",
+    "mouth-l-half.jpg": "mp-mouth-l-half.webp",
+    "mouth-oh-full.jpg": "mp-mouth-oh-full.webp",
+    "mouth-oh-half.jpg": "mp-mouth-oh-half.webp",
+    "mouth-oo-full.jpg": "mp-mouth-oo-full.webp",
+    "mouth-oo-half.jpg": "mp-mouth-oo-half.webp",
+    "mouth-pbm-full.jpg": "mp-mouth-pbm-full.webp",
+    "mouth-sh-full.jpg": "mp-mouth-sh-full.webp",
+    "mouth-sh-half.jpg": "mp-mouth-sh-half.webp",
+    "mouth-slight-full.jpg": "mp-mouth-slight-full.webp",
+    "mouth-slight-half.jpg": "mp-mouth-slight-half.webp",
+    "mouth-th-full.jpg": "mp-mouth-th-full.webp",
+    "mouth-th-half.jpg": "mp-mouth-th-half.webp",
+    "mouth-oo-soft-half.jpg": "mp-mouth-oo-soft-half.webp",
+    "mouth-oo-soft-full.jpg": "mp-mouth-oo-soft-full.webp",
+    "furious-mouth-closed.jpg": "mp-furious-mouth-closed.webp",
+    "furious-mouth-slight-half.jpg": "mp-furious-mouth-slight-half.webp",
+    "furious-mouth-slight-full.jpg": "mp-furious-mouth-slight-full.webp",
+    "furious-mouth-ah-half.jpg": "mp-furious-mouth-ah-half.webp",
+    "furious-mouth-ah-full.jpg": "mp-furious-mouth-ah-full.webp",
+    "furious-mouth-ee-half.jpg": "mp-furious-mouth-ee-half.webp",
+    "furious-mouth-ee-full.jpg": "mp-furious-mouth-ee-full.webp",
+    "furious-mouth-oo-half.jpg": "mp-furious-mouth-oo-half.webp",
+    "furious-mouth-oo-full.jpg": "mp-furious-mouth-oo-full.webp",
+    "neutral-mouth-closed.jpg": "mp-neutral-mouth-closed.webp",
+    "neutral-mouth-slight-half.jpg": "mp-neutral-mouth-slight-half.webp",
+    "neutral-mouth-slight-full.jpg": "mp-neutral-mouth-slight-full.webp",
+    "neutral-mouth-ah-half.jpg": "mp-neutral-mouth-ah-half.webp",
+    "neutral-mouth-ah-full.jpg": "mp-neutral-mouth-ah-full.webp",
+    "neutral-mouth-ee-half.jpg": "mp-neutral-mouth-ee-half.webp",
+    "neutral-mouth-ee-full.jpg": "mp-neutral-mouth-ee-full.webp",
+    "neutral-mouth-oo-half.jpg": "mp-neutral-mouth-oo-half.webp",
+    "neutral-mouth-oo-full.jpg": "mp-neutral-mouth-oo-full.webp",
+    "furious-mouth-oo-soft-half.jpg": "mp-furious-mouth-oo-soft-half.webp",
+    "furious-mouth-oo-soft-full.jpg": "mp-furious-mouth-oo-soft-full.webp",
+    "neutral-mouth-oo-soft-half.jpg": "mp-neutral-mouth-oo-soft-half.webp",
+    "neutral-mouth-oo-soft-full.jpg": "mp-neutral-mouth-oo-soft-full.webp"
+  },
+  "mouth_dy": {
+    "amused.jpg": 0.0,
+    "mouth-ah-full.jpg": -0.5,
+    "mouth-ah-half.jpg": -0.25,
+    "mouth-ee-full.jpg": -0.5,
+    "mouth-ee-half.jpg": -0.5,
+    "mouth-fv-full.jpg": 3.25,
+    "mouth-fv-half.jpg": 1.5,
+    "mouth-l-full.jpg": 3.25,
+    "mouth-l-half.jpg": 1.5,
+    "mouth-oh-full.jpg": 1.25,
+    "mouth-oh-half.jpg": 0.5,
+    "mouth-oo-full.jpg": 1.25,
+    "mouth-oo-half.jpg": 0.5,
+    "mouth-pbm-full.jpg": 3.25,
+    "mouth-sh-full.jpg": 3.25,
+    "mouth-sh-half.jpg": 0.5,
+    "mouth-slight-full.jpg": 3.25,
+    "mouth-slight-half.jpg": 1.5,
+    "mouth-th-full.jpg": 3.25,
+    "mouth-th-half.jpg": 3.25,
+    "mouth-oo-soft-half.jpg": 0.35,
+    "mouth-oo-soft-full.jpg": 0.6,
+    "furious-mouth-oo-soft-half.jpg": 0.35,
+    "furious-mouth-oo-soft-full.jpg": 0.6,
+    "neutral-mouth-oo-soft-half.jpg": 0.35,
+    "neutral-mouth-oo-soft-full.jpg": 0.6
+  },
+  "beats": {
+    "laughing": {
+      "plan": [
+        [
+          0,
+          "amused.jpg",
+          null,
+          0
+        ],
+        [
+          0.45,
+          "sk-amused-to-laughing-01.jpg",
+          null,
+          0
+        ],
+        [
+          0.562,
+          "sk-amused-to-laughing-02.jpg",
+          null,
+          0
+        ],
+        [
+          0.675,
+          "sk-amused-to-laughing-03.jpg",
+          null,
+          0
+        ],
+        [
+          0.788,
+          "sk-amused-to-laughing-04.jpg",
+          null,
+          0
+        ],
+        [
+          0.9,
+          "sk-amused-to-laughing-05.jpg",
+          null,
+          0
+        ],
+        [
+          1.012,
+          "sk-amused-to-laughing-06.jpg",
+          null,
+          0
+        ],
+        [
+          1.125,
+          "sk-amused-to-laughing-07.jpg",
+          null,
+          0
+        ],
+        [
+          1.238,
+          "sk-amused-to-laughing-08.jpg",
+          null,
+          0
+        ],
+        [
+          1.35,
+          "sk-amused-to-laughing-09.jpg",
+          null,
+          0
+        ],
+        [
+          1.462,
+          "sk-amused-to-laughing-10.jpg",
+          null,
+          0
+        ],
+        [
+          1.575,
+          "sk-amused-to-laughing-11.jpg",
+          null,
+          0
+        ],
+        [
+          1.688,
+          "sk-amused-to-laughing-12.jpg",
+          null,
+          0
+        ],
+        [
+          1.8,
+          "laughing-soft.jpg",
+          null,
+          0
+        ],
+        [
+          2.6,
+          "laughing-soft.jpg",
+          null,
+          0
+        ],
+        [
+          2.9,
+          "sk-amused-to-laughing-12.jpg",
+          null,
+          0
+        ],
+        [
+          3.02,
+          "sk-amused-to-laughing-11.jpg",
+          null,
+          0
+        ],
+        [
+          3.14,
+          "sk-amused-to-laughing-10.jpg",
+          null,
+          0
+        ],
+        [
+          3.26,
+          "sk-amused-to-laughing-09.jpg",
+          null,
+          0
+        ],
+        [
+          3.38,
+          "sk-amused-to-laughing-08.jpg",
+          null,
+          0
+        ],
+        [
+          3.5,
+          "sk-amused-to-laughing-07.jpg",
+          null,
+          0
+        ],
+        [
+          3.62,
+          "sk-amused-to-laughing-06.jpg",
+          null,
+          0
+        ],
+        [
+          3.74,
+          "sk-amused-to-laughing-05.jpg",
+          null,
+          0
+        ],
+        [
+          3.86,
+          "sk-amused-to-laughing-04.jpg",
+          null,
+          0
+        ],
+        [
+          3.98,
+          "sk-amused-to-laughing-03.jpg",
+          null,
+          0
+        ],
+        [
+          4.1,
+          "sk-amused-to-laughing-02.jpg",
+          null,
+          0
+        ],
+        [
+          4.22,
+          "sk-amused-to-laughing-01.jpg",
+          null,
+          0
+        ],
+        [
+          4.5,
+          "amused.jpg",
+          null,
+          0
+        ]
+      ],
+      "dur": 4.8,
+      "peak_at": 1.8,
+      "n_ease_in": 5,
+      "peak_img": "laughing-soft.jpg"
+    },
+    "excited": {
+      "plan": [
+        [
+          0.0,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.25,
+          "br-amused-to-proud-01.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.31,
+          "br-amused-to-proud-02.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.37,
+          "br-amused-to-proud-03.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.43,
+          "br-amused-to-proud-04.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.49,
+          "proud.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.61,
+          "tr-excited-to-proud-12-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.69,
+          "tr-excited-to-proud-11-s098.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.77,
+          "tr-excited-to-proud-10-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.85,
+          "tr-excited-to-proud-09-s091.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.93,
+          "tr-excited-to-proud-08-s085.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.01,
+          "tr-excited-to-proud-07-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.09,
+          "tr-excited-to-proud-06-s071.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.09,
+          "tr-excited-to-proud-07-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.15,
+          "tr-excited-to-proud-08-s085.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.21,
+          "tr-excited-to-proud-09-s091.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.27,
+          "tr-excited-to-proud-10-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.33,
+          "tr-excited-to-proud-11-s098.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.39,
+          "tr-excited-to-proud-12-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.45,
+          "proud.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.9,
+          "br-amused-to-proud-04.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.96,
+          "br-amused-to-proud-03.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.02,
+          "br-amused-to-proud-02.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.08,
+          "br-amused-to-proud-01.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.14,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.19,
+          "amused.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "dur": 3.34,
+      "peak_at": 1.09,
+      "n_ease_in": 6,
+      "peak_img": "tr-excited-to-proud-06-s071.jpg"
+    },
+    "surprised": {
+      "plan": [
+        [
+          0.0,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.25,
+          "tr-amused-to-listening-01-s021.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.31,
+          "tr-amused-to-listening-02-s040.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.37,
+          "tr-amused-to-listening-03-s056.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.43,
+          "tr-amused-to-listening-04-s069.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.49,
+          "tr-amused-to-listening-05-s080.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.55,
+          "tr-amused-to-listening-06-s089.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.61,
+          "tr-amused-to-listening-07-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.67,
+          "tr-amused-to-listening-08-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.73,
+          "listening.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.85,
+          "tr-surprised-to-listening-10-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.93,
+          "tr-surprised-to-listening-09-s097.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.01,
+          "tr-surprised-to-listening-08-s093.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.09,
+          "tr-surprised-to-listening-07-s087.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.17,
+          "tr-surprised-to-listening-06-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.25,
+          "tr-surprised-to-listening-05-s070.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.33,
+          "tr-surprised-to-listening-04-s060.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.41,
+          "tr-surprised-to-listening-03-s047.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.49,
+          "tr-surprised-to-listening-02-s033.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.39,
+          "tr-surprised-to-listening-03-s047.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.45,
+          "tr-surprised-to-listening-04-s060.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.51,
+          "tr-surprised-to-listening-05-s070.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.57,
+          "tr-surprised-to-listening-06-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.63,
+          "tr-surprised-to-listening-07-s087.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.69,
+          "tr-surprised-to-listening-08-s093.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.75,
+          "tr-surprised-to-listening-09-s097.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.81,
+          "tr-surprised-to-listening-10-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.87,
+          "listening.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.32,
+          "tr-listening-to-amused-01-s021.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.38,
+          "tr-listening-to-amused-02-s040.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.44,
+          "tr-listening-to-amused-03-s056.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.5,
+          "tr-listening-to-amused-04-s069.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.56,
+          "tr-listening-to-amused-05-s080.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.62,
+          "tr-listening-to-amused-06-s089.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.68,
+          "tr-listening-to-amused-07-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.74,
+          "tr-listening-to-amused-08-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.8,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.85,
+          "amused.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "dur": 4.0,
+      "peak_at": 1.49,
+      "n_ease_in": 8,
+      "peak_img": "tr-surprised-to-listening-02-s033.jpg"
+    },
+    "alert": {
+      "plan": [
+        [
+          0.0,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.25,
+          "sk-amused-to-focused-01.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.287,
+          "sk-amused-to-focused-02.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.325,
+          "sk-amused-to-focused-03.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.362,
+          "sk-amused-to-focused-04.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.4,
+          "sk-amused-to-focused-05.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.438,
+          "sk-amused-to-focused-06.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.475,
+          "sk-amused-to-focused-07.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.512,
+          "sk-amused-to-focused-08.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.55,
+          "focused.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.67,
+          "tr-alert-to-focused-12-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.75,
+          "tr-alert-to-focused-11-s098.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.83,
+          "tr-alert-to-focused-10-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.91,
+          "tr-alert-to-focused-09-s091.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.99,
+          "tr-alert-to-focused-08-s085.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.07,
+          "tr-alert-to-focused-07-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.15,
+          "tr-alert-to-focused-06-s071.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.23,
+          "tr-alert-to-focused-05-s062.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.31,
+          "tr-alert-to-focused-04-s052.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.39,
+          "tr-alert-to-focused-03-s041.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.29,
+          "tr-alert-to-focused-04-s052.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.35,
+          "tr-alert-to-focused-05-s062.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.41,
+          "tr-alert-to-focused-06-s071.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.47,
+          "tr-alert-to-focused-07-s079.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.53,
+          "tr-alert-to-focused-08-s085.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.59,
+          "tr-alert-to-focused-09-s091.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.65,
+          "tr-alert-to-focused-10-s095.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.71,
+          "tr-alert-to-focused-11-s098.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.77,
+          "tr-alert-to-focused-12-s099.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.83,
+          "focused.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.28,
+          "sk-focused-to-amused-01.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.317,
+          "sk-focused-to-amused-02.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.355,
+          "sk-focused-to-amused-03.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.392,
+          "sk-focused-to-amused-04.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.43,
+          "sk-focused-to-amused-05.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.467,
+          "sk-focused-to-amused-06.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.505,
+          "sk-focused-to-amused-07.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.542,
+          "sk-focused-to-amused-08.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.58,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.63,
+          "amused.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "dur": 3.78,
+      "peak_at": 1.39,
+      "n_ease_in": 9,
+      "peak_img": "tr-alert-to-focused-03-s041.jpg"
+    },
+    "rage-intro": {
+      "plan": [
+        [
+          0.0,
+          "phone-down.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.2,
+          "phone-down-closed.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.45,
+          "phone-down.jpg",
+          null,
+          0.0
+        ],
+        [
+          4.085,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.004
+        ],
+        [
+          4.169,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.017
+        ],
+        [
+          4.254,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.037
+        ],
+        [
+          4.338,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.064
+        ],
+        [
+          4.423,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.097
+        ],
+        [
+          4.508,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.135
+        ],
+        [
+          4.592,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.178
+        ],
+        [
+          4.677,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.226
+        ],
+        [
+          4.762,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.277
+        ],
+        [
+          4.846,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.33
+        ],
+        [
+          4.931,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.386
+        ],
+        [
+          5.015,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.442
+        ],
+        [
+          5.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.5
+        ],
+        [
+          5.185,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.558
+        ],
+        [
+          5.269,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.614
+        ],
+        [
+          5.354,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.67
+        ],
+        [
+          5.438,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.723
+        ],
+        [
+          5.523,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.774
+        ],
+        [
+          5.608,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.822
+        ],
+        [
+          5.692,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.865
+        ],
+        [
+          5.777,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.903
+        ],
+        [
+          5.862,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.936
+        ],
+        [
+          5.946,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.963
+        ],
+        [
+          6.031,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.983
+        ],
+        [
+          6.115,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.996
+        ],
+        [
+          6.2,
+          "sc-rage-detdown-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          7.1000000000000005,
+          "determined-closed.jpg",
+          null,
+          0.0
+        ],
+        [
+          7.4,
+          "sc-rage-detdown-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          8.184,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.001
+        ],
+        [
+          8.267,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.004
+        ],
+        [
+          8.351,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.009
+        ],
+        [
+          8.435,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.015
+        ],
+        [
+          8.518,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.023
+        ],
+        [
+          8.602,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.033
+        ],
+        [
+          8.685,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.044
+        ],
+        [
+          8.769,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.057
+        ],
+        [
+          8.853,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.072
+        ],
+        [
+          8.936,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.087
+        ],
+        [
+          9.02,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.104
+        ],
+        [
+          9.104,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.122
+        ],
+        [
+          9.187,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.141
+        ],
+        [
+          9.271,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.161
+        ],
+        [
+          9.355,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.183
+        ],
+        [
+          9.438,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.205
+        ],
+        [
+          9.522,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.228
+        ],
+        [
+          9.605,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.251
+        ],
+        [
+          9.689,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.276
+        ],
+        [
+          9.773,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.301
+        ],
+        [
+          9.856,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.326
+        ],
+        [
+          9.94,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.352
+        ],
+        [
+          10.024,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.378
+        ],
+        [
+          10.107,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.405
+        ],
+        [
+          10.191,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.432
+        ],
+        [
+          10.275,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.459
+        ],
+        [
+          10.358,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.486
+        ],
+        [
+          10.442,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.514
+        ],
+        [
+          10.525,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.541
+        ],
+        [
+          10.609,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.568
+        ],
+        [
+          10.693,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.595
+        ],
+        [
+          10.776,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.622
+        ],
+        [
+          10.86,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.648
+        ],
+        [
+          10.944,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.674
+        ],
+        [
+          11.027,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.699
+        ],
+        [
+          11.111,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.724
+        ],
+        [
+          11.195,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.749
+        ],
+        [
+          11.278,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.772
+        ],
+        [
+          11.362,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.795
+        ],
+        [
+          11.445,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.817
+        ],
+        [
+          11.529,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.839
+        ],
+        [
+          11.613,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.859
+        ],
+        [
+          11.696,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.878
+        ],
+        [
+          11.78,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.896
+        ],
+        [
+          11.864,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.913
+        ],
+        [
+          11.947,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.928
+        ],
+        [
+          12.031,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.943
+        ],
+        [
+          12.115,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.956
+        ],
+        [
+          12.198,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.967
+        ],
+        [
+          12.282,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.977
+        ],
+        [
+          12.365,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.985
+        ],
+        [
+          12.449,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.991
+        ],
+        [
+          12.533,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.996
+        ],
+        [
+          12.616,
+          "sc-rage-detdown-v337p.jpg",
+          "determined.jpg",
+          0.999
+        ],
+        [
+          12.7,
+          "determined.jpg",
+          null,
+          0.0
+        ],
+        [
+          12.899999999999999,
+          "determined.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "peak_at": 12.7,
+      "n_ease_in": 0,
+      "peak_img": "determined.jpg",
+      "dur": 12.95
+    },
+    "nico-scan": {
+      "plan": [
+        [
+          0.0,
+          "hurt-holding-back-tears.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.335,
+          "hurt-holding-back-tears.jpg",
+          "sc-scan-left-v337p.jpg",
+          0.156
+        ],
+        [
+          0.37,
+          "hurt-holding-back-tears.jpg",
+          "sc-scan-left-v337p.jpg",
+          0.5
+        ],
+        [
+          0.405,
+          "hurt-holding-back-tears.jpg",
+          "sc-scan-left-v337p.jpg",
+          0.844
+        ],
+        [
+          0.44,
+          "sc-scan-left-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.815,
+          "sc-scan-left-v337p.jpg",
+          "sc-scan-right-v337p.jpg",
+          0.156
+        ],
+        [
+          0.85,
+          "sc-scan-left-v337p.jpg",
+          "sc-scan-right-v337p.jpg",
+          0.5
+        ],
+        [
+          0.885,
+          "sc-scan-left-v337p.jpg",
+          "sc-scan-right-v337p.jpg",
+          0.844
+        ],
+        [
+          0.92,
+          "sc-scan-right-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.3,
+          "sc-scan-right-v337p.jpg",
+          "sc-scan-left-v337p.jpg",
+          0.259
+        ],
+        [
+          1.34,
+          "sc-scan-right-v337p.jpg",
+          "sc-scan-left-v337p.jpg",
+          0.741
+        ],
+        [
+          1.38,
+          "sc-scan-left-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.7,
+          "sc-scan-left-v337p.jpg",
+          "sc-scan-right-v337p.jpg",
+          0.259
+        ],
+        [
+          1.74,
+          "sc-scan-left-v337p.jpg",
+          "sc-scan-right-v337p.jpg",
+          0.741
+        ],
+        [
+          1.78,
+          "sc-scan-right-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.055,
+          "sc-scan-right-v337p.jpg",
+          "hurt-holding-back-tears.jpg",
+          0.156
+        ],
+        [
+          2.09,
+          "sc-scan-right-v337p.jpg",
+          "hurt-holding-back-tears.jpg",
+          0.5
+        ],
+        [
+          2.125,
+          "sc-scan-right-v337p.jpg",
+          "hurt-holding-back-tears.jpg",
+          0.844
+        ],
+        [
+          2.16,
+          "hurt-holding-back-tears.jpg",
+          null,
+          0.0
+        ],
+        [
+          2.3,
+          "hurt-holding-back-tears.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "peak_at": 0.3,
+      "n_ease_in": 0,
+      "peak_img": "hurt-holding-back-tears.jpg",
+      "dur": 2.35
+    },
+    "nico-wink": {
+      "plan": [
+        [
+          0.0,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.295,
+          "amused.jpg",
+          "sc-wink-left-v337p.jpg",
+          0.156
+        ],
+        [
+          0.34,
+          "amused.jpg",
+          "sc-wink-left-v337p.jpg",
+          0.5
+        ],
+        [
+          0.385,
+          "amused.jpg",
+          "sc-wink-left-v337p.jpg",
+          0.844
+        ],
+        [
+          0.43,
+          "sc-wink-left-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          0.85,
+          "sc-wink-left-v337p.jpg",
+          "amused.jpg",
+          0.0
+        ],
+        [
+          0.887,
+          "sc-wink-left-v337p.jpg",
+          "amused.jpg",
+          0.074
+        ],
+        [
+          0.923,
+          "sc-wink-left-v337p.jpg",
+          "amused.jpg",
+          0.259
+        ],
+        [
+          0.96,
+          "sc-wink-left-v337p.jpg",
+          "amused.jpg",
+          0.5
+        ],
+        [
+          0.997,
+          "sc-wink-left-v337p.jpg",
+          "amused.jpg",
+          0.741
+        ],
+        [
+          1.033,
+          "sc-wink-left-v337p.jpg",
+          "amused.jpg",
+          0.926
+        ],
+        [
+          1.07,
+          "amused.jpg",
+          null,
+          0.0
+        ],
+        [
+          1.1700000000000002,
+          "amused.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "peak_at": 0.43,
+      "n_ease_in": 0,
+      "peak_img": "sc-wink-left-v337p.jpg",
+      "dur": 1.22
+    },
+    "rage-intro-nin": {
+      "plan": [
+        [
+          0.0,
+          "phone-down.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.7,
+          "phone-down-closed.jpg",
+          null,
+          0.0
+        ],
+        [
+          3.95,
+          "phone-down.jpg",
+          null,
+          0.0
+        ],
+        [
+          6.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.0
+        ],
+        [
+          6.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.0
+        ],
+        [
+          7.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.0
+        ],
+        [
+          7.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.001
+        ],
+        [
+          7.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.001
+        ],
+        [
+          7.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.001
+        ],
+        [
+          7.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.002
+        ],
+        [
+          7.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.002
+        ],
+        [
+          7.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.003
+        ],
+        [
+          7.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.004
+        ],
+        [
+          7.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.005
+        ],
+        [
+          7.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.006
+        ],
+        [
+          7.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.006
+        ],
+        [
+          7.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.008
+        ],
+        [
+          7.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.009
+        ],
+        [
+          7.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.01
+        ],
+        [
+          7.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.011
+        ],
+        [
+          7.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.012
+        ],
+        [
+          7.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.014
+        ],
+        [
+          7.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.015
+        ],
+        [
+          7.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.017
+        ],
+        [
+          7.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.018
+        ],
+        [
+          7.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.02
+        ],
+        [
+          7.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.022
+        ],
+        [
+          7.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.023
+        ],
+        [
+          7.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.025
+        ],
+        [
+          7.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.027
+        ],
+        [
+          8.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.029
+        ],
+        [
+          8.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.031
+        ],
+        [
+          8.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.033
+        ],
+        [
+          8.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.035
+        ],
+        [
+          8.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.037
+        ],
+        [
+          8.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.04
+        ],
+        [
+          8.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.042
+        ],
+        [
+          8.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.044
+        ],
+        [
+          8.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.047
+        ],
+        [
+          8.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.049
+        ],
+        [
+          8.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.052
+        ],
+        [
+          8.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.055
+        ],
+        [
+          8.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.057
+        ],
+        [
+          8.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.06
+        ],
+        [
+          8.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.063
+        ],
+        [
+          8.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.066
+        ],
+        [
+          8.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.069
+        ],
+        [
+          8.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.072
+        ],
+        [
+          8.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.075
+        ],
+        [
+          8.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.078
+        ],
+        [
+          8.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.081
+        ],
+        [
+          8.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.084
+        ],
+        [
+          8.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.087
+        ],
+        [
+          8.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.09
+        ],
+        [
+          8.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.094
+        ],
+        [
+          9.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.097
+        ],
+        [
+          9.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.101
+        ],
+        [
+          9.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.104
+        ],
+        [
+          9.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.108
+        ],
+        [
+          9.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.111
+        ],
+        [
+          9.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.115
+        ],
+        [
+          9.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.118
+        ],
+        [
+          9.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.122
+        ],
+        [
+          9.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.126
+        ],
+        [
+          9.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.13
+        ],
+        [
+          9.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.133
+        ],
+        [
+          9.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.137
+        ],
+        [
+          9.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.141
+        ],
+        [
+          9.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.145
+        ],
+        [
+          9.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.149
+        ],
+        [
+          9.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.153
+        ],
+        [
+          9.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.157
+        ],
+        [
+          9.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.161
+        ],
+        [
+          9.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.166
+        ],
+        [
+          9.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.17
+        ],
+        [
+          9.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.174
+        ],
+        [
+          9.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.178
+        ],
+        [
+          9.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.183
+        ],
+        [
+          9.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.187
+        ],
+        [
+          9.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.191
+        ],
+        [
+          10.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.196
+        ],
+        [
+          10.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.2
+        ],
+        [
+          10.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.205
+        ],
+        [
+          10.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.209
+        ],
+        [
+          10.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.214
+        ],
+        [
+          10.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.218
+        ],
+        [
+          10.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.223
+        ],
+        [
+          10.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.228
+        ],
+        [
+          10.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.232
+        ],
+        [
+          10.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.237
+        ],
+        [
+          10.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.242
+        ],
+        [
+          10.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.246
+        ],
+        [
+          10.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.251
+        ],
+        [
+          10.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.256
+        ],
+        [
+          10.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.261
+        ],
+        [
+          10.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.266
+        ],
+        [
+          10.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.271
+        ],
+        [
+          10.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.276
+        ],
+        [
+          10.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.281
+        ],
+        [
+          10.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.285
+        ],
+        [
+          10.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.29
+        ],
+        [
+          10.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.295
+        ],
+        [
+          10.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.301
+        ],
+        [
+          10.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.306
+        ],
+        [
+          10.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.311
+        ],
+        [
+          11.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.316
+        ],
+        [
+          11.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.321
+        ],
+        [
+          11.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.326
+        ],
+        [
+          11.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.331
+        ],
+        [
+          11.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.336
+        ],
+        [
+          11.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.342
+        ],
+        [
+          11.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.347
+        ],
+        [
+          11.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.352
+        ],
+        [
+          11.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.357
+        ],
+        [
+          11.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.363
+        ],
+        [
+          11.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.368
+        ],
+        [
+          11.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.373
+        ],
+        [
+          11.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.378
+        ],
+        [
+          11.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.384
+        ],
+        [
+          11.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.389
+        ],
+        [
+          11.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.394
+        ],
+        [
+          11.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.4
+        ],
+        [
+          11.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.405
+        ],
+        [
+          11.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.41
+        ],
+        [
+          11.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.416
+        ],
+        [
+          11.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.421
+        ],
+        [
+          11.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.427
+        ],
+        [
+          11.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.432
+        ],
+        [
+          11.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.437
+        ],
+        [
+          11.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.443
+        ],
+        [
+          12.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.448
+        ],
+        [
+          12.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.454
+        ],
+        [
+          12.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.459
+        ],
+        [
+          12.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.465
+        ],
+        [
+          12.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.47
+        ],
+        [
+          12.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.475
+        ],
+        [
+          12.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.481
+        ],
+        [
+          12.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.486
+        ],
+        [
+          12.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.492
+        ],
+        [
+          12.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.497
+        ],
+        [
+          12.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.503
+        ],
+        [
+          12.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.508
+        ],
+        [
+          12.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.514
+        ],
+        [
+          12.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.519
+        ],
+        [
+          12.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.525
+        ],
+        [
+          12.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.53
+        ],
+        [
+          12.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.535
+        ],
+        [
+          12.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.541
+        ],
+        [
+          12.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.546
+        ],
+        [
+          12.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.552
+        ],
+        [
+          12.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.557
+        ],
+        [
+          12.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.563
+        ],
+        [
+          12.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.568
+        ],
+        [
+          12.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.573
+        ],
+        [
+          12.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.579
+        ],
+        [
+          13.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.584
+        ],
+        [
+          13.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.59
+        ],
+        [
+          13.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.595
+        ],
+        [
+          13.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.6
+        ],
+        [
+          13.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.606
+        ],
+        [
+          13.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.611
+        ],
+        [
+          13.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.616
+        ],
+        [
+          13.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.622
+        ],
+        [
+          13.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.627
+        ],
+        [
+          13.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.632
+        ],
+        [
+          13.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.637
+        ],
+        [
+          13.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.643
+        ],
+        [
+          13.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.648
+        ],
+        [
+          13.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.653
+        ],
+        [
+          13.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.658
+        ],
+        [
+          13.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.664
+        ],
+        [
+          13.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.669
+        ],
+        [
+          13.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.674
+        ],
+        [
+          13.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.679
+        ],
+        [
+          13.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.684
+        ],
+        [
+          13.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.689
+        ],
+        [
+          13.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.694
+        ],
+        [
+          13.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.699
+        ],
+        [
+          13.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.705
+        ],
+        [
+          13.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.71
+        ],
+        [
+          14.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.715
+        ],
+        [
+          14.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.719
+        ],
+        [
+          14.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.724
+        ],
+        [
+          14.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.729
+        ],
+        [
+          14.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.734
+        ],
+        [
+          14.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.739
+        ],
+        [
+          14.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.744
+        ],
+        [
+          14.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.749
+        ],
+        [
+          14.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.754
+        ],
+        [
+          14.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.758
+        ],
+        [
+          14.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.763
+        ],
+        [
+          14.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.768
+        ],
+        [
+          14.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.772
+        ],
+        [
+          14.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.777
+        ],
+        [
+          14.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.782
+        ],
+        [
+          14.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.786
+        ],
+        [
+          14.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.791
+        ],
+        [
+          14.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.795
+        ],
+        [
+          14.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.8
+        ],
+        [
+          14.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.804
+        ],
+        [
+          14.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.809
+        ],
+        [
+          14.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.813
+        ],
+        [
+          14.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.817
+        ],
+        [
+          14.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.822
+        ],
+        [
+          14.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.826
+        ],
+        [
+          15.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.83
+        ],
+        [
+          15.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.834
+        ],
+        [
+          15.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.839
+        ],
+        [
+          15.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.843
+        ],
+        [
+          15.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.847
+        ],
+        [
+          15.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.851
+        ],
+        [
+          15.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.855
+        ],
+        [
+          15.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.859
+        ],
+        [
+          15.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.863
+        ],
+        [
+          15.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.867
+        ],
+        [
+          15.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.87
+        ],
+        [
+          15.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.874
+        ],
+        [
+          15.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.878
+        ],
+        [
+          15.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.882
+        ],
+        [
+          15.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.885
+        ],
+        [
+          15.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.889
+        ],
+        [
+          15.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.892
+        ],
+        [
+          15.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.896
+        ],
+        [
+          15.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.899
+        ],
+        [
+          15.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.903
+        ],
+        [
+          15.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.906
+        ],
+        [
+          15.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.91
+        ],
+        [
+          15.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.913
+        ],
+        [
+          15.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.916
+        ],
+        [
+          15.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.919
+        ],
+        [
+          16.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.922
+        ],
+        [
+          16.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.925
+        ],
+        [
+          16.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.928
+        ],
+        [
+          16.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.931
+        ],
+        [
+          16.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.934
+        ],
+        [
+          16.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.937
+        ],
+        [
+          16.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.94
+        ],
+        [
+          16.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.943
+        ],
+        [
+          16.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.945
+        ],
+        [
+          16.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.948
+        ],
+        [
+          16.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.951
+        ],
+        [
+          16.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.953
+        ],
+        [
+          16.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.956
+        ],
+        [
+          16.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.958
+        ],
+        [
+          16.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.96
+        ],
+        [
+          16.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.963
+        ],
+        [
+          16.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.965
+        ],
+        [
+          16.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.967
+        ],
+        [
+          16.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.969
+        ],
+        [
+          16.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.971
+        ],
+        [
+          16.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.973
+        ],
+        [
+          16.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.975
+        ],
+        [
+          16.9,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.977
+        ],
+        [
+          16.94,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.978
+        ],
+        [
+          16.98,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.98
+        ],
+        [
+          17.02,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.982
+        ],
+        [
+          17.06,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.983
+        ],
+        [
+          17.1,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.985
+        ],
+        [
+          17.14,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.986
+        ],
+        [
+          17.18,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.988
+        ],
+        [
+          17.22,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.989
+        ],
+        [
+          17.26,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.99
+        ],
+        [
+          17.3,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.991
+        ],
+        [
+          17.34,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.992
+        ],
+        [
+          17.38,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.994
+        ],
+        [
+          17.42,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.994
+        ],
+        [
+          17.46,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.995
+        ],
+        [
+          17.5,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.996
+        ],
+        [
+          17.54,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.997
+        ],
+        [
+          17.58,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.998
+        ],
+        [
+          17.62,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.998
+        ],
+        [
+          17.66,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.999
+        ],
+        [
+          17.7,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.999
+        ],
+        [
+          17.74,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          0.999
+        ],
+        [
+          17.78,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          1.0
+        ],
+        [
+          17.82,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          1.0
+        ],
+        [
+          17.86,
+          "phone-down.jpg",
+          "sc-rage-detdown-v337p.jpg",
+          1.0
+        ],
+        [
+          17.9,
+          "sc-rage-detdown-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          19.3,
+          "determined-closed.jpg",
+          null,
+          0.0
+        ],
+        [
+          19.6,
+          "sc-rage-detdown-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          20.84,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.001
+        ],
+        [
+          20.88,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.003
+        ],
+        [
+          20.92,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.007
+        ],
+        [
+          20.96,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.012
+        ],
+        [
+          21.0,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.018
+        ],
+        [
+          21.04,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.026
+        ],
+        [
+          21.08,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.035
+        ],
+        [
+          21.12,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.046
+        ],
+        [
+          21.16,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.058
+        ],
+        [
+          21.2,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.071
+        ],
+        [
+          21.24,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.086
+        ],
+        [
+          21.28,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.102
+        ],
+        [
+          21.32,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.119
+        ],
+        [
+          21.36,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.138
+        ],
+        [
+          21.4,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.157
+        ],
+        [
+          21.44,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.178
+        ],
+        [
+          21.48,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.201
+        ],
+        [
+          21.52,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.224
+        ],
+        [
+          21.56,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.249
+        ],
+        [
+          21.6,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.274
+        ],
+        [
+          21.64,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.301
+        ],
+        [
+          21.68,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.329
+        ],
+        [
+          21.72,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.358
+        ],
+        [
+          21.76,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.389
+        ],
+        [
+          21.8,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.42
+        ],
+        [
+          21.84,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.453
+        ],
+        [
+          21.88,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.486
+        ],
+        [
+          21.92,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.521
+        ],
+        [
+          21.96,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.556
+        ],
+        [
+          22.0,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.593
+        ],
+        [
+          22.04,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.63
+        ],
+        [
+          22.08,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.669
+        ],
+        [
+          22.12,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.708
+        ],
+        [
+          22.16,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.748
+        ],
+        [
+          22.2,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.79
+        ],
+        [
+          22.24,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.832
+        ],
+        [
+          22.28,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.875
+        ],
+        [
+          22.32,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.919
+        ],
+        [
+          22.36,
+          "sc-rage-detdown-v337p.jpg",
+          "sc-rage-up1-v337p.jpg",
+          0.964
+        ],
+        [
+          22.4,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.01
+        ],
+        [
+          22.44,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.056
+        ],
+        [
+          22.48,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.103
+        ],
+        [
+          22.52,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.152
+        ],
+        [
+          22.56,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.2
+        ],
+        [
+          22.6,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.25
+        ],
+        [
+          22.64,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.3
+        ],
+        [
+          22.68,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.351
+        ],
+        [
+          22.72,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.403
+        ],
+        [
+          22.76,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.456
+        ],
+        [
+          22.8,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.509
+        ],
+        [
+          22.84,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.563
+        ],
+        [
+          22.88,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.617
+        ],
+        [
+          22.92,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.672
+        ],
+        [
+          22.96,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.728
+        ],
+        [
+          23.0,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.784
+        ],
+        [
+          23.04,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.841
+        ],
+        [
+          23.08,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.899
+        ],
+        [
+          23.12,
+          "sc-rage-up1-v337p.jpg",
+          "sc-rage-up2-v337p.jpg",
+          0.957
+        ],
+        [
+          23.16,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.015
+        ],
+        [
+          23.2,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.074
+        ],
+        [
+          23.24,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.134
+        ],
+        [
+          23.28,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.194
+        ],
+        [
+          23.32,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.254
+        ],
+        [
+          23.36,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.315
+        ],
+        [
+          23.4,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.376
+        ],
+        [
+          23.44,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.438
+        ],
+        [
+          23.48,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.5
+        ],
+        [
+          23.52,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.563
+        ],
+        [
+          23.56,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.625
+        ],
+        [
+          23.6,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.689
+        ],
+        [
+          23.64,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.752
+        ],
+        [
+          23.68,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.816
+        ],
+        [
+          23.72,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.88
+        ],
+        [
+          23.76,
+          "sc-rage-up2-v337p.jpg",
+          "sc-rage-up3-v337p.jpg",
+          0.945
+        ],
+        [
+          23.8,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.009
+        ],
+        [
+          23.84,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.074
+        ],
+        [
+          23.88,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.139
+        ],
+        [
+          23.92,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.205
+        ],
+        [
+          23.96,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.27
+        ],
+        [
+          24.0,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.336
+        ],
+        [
+          24.04,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.402
+        ],
+        [
+          24.08,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.468
+        ],
+        [
+          24.12,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.534
+        ],
+        [
+          24.16,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.601
+        ],
+        [
+          24.2,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.667
+        ],
+        [
+          24.24,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.734
+        ],
+        [
+          24.28,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.8
+        ],
+        [
+          24.32,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.867
+        ],
+        [
+          24.36,
+          "sc-rage-up3-v337p.jpg",
+          "sc-rage-up4-v337p.jpg",
+          0.933
+        ],
+        [
+          24.4,
+          "sc-rage-up4-v337p.jpg",
+          null,
+          0.0
+        ],
+        [
+          24.44,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.067
+        ],
+        [
+          24.48,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.133
+        ],
+        [
+          24.52,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.2
+        ],
+        [
+          24.56,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.266
+        ],
+        [
+          24.6,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.333
+        ],
+        [
+          24.64,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.399
+        ],
+        [
+          24.68,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.466
+        ],
+        [
+          24.72,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.532
+        ],
+        [
+          24.76,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.598
+        ],
+        [
+          24.8,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.664
+        ],
+        [
+          24.84,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.73
+        ],
+        [
+          24.88,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.795
+        ],
+        [
+          24.92,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.861
+        ],
+        [
+          24.96,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.926
+        ],
+        [
+          25.0,
+          "sc-rage-up4-v337p.jpg",
+          "sc-rage-up5-v337p.jpg",
+          0.991
+        ],
+        [
+          25.04,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.055
+        ],
+        [
+          25.08,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.12
+        ],
+        [
+          25.12,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.184
+        ],
+        [
+          25.16,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.248
+        ],
+        [
+          25.2,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.311
+        ],
+        [
+          25.24,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.375
+        ],
+        [
+          25.28,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.437
+        ],
+        [
+          25.32,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.5
+        ],
+        [
+          25.36,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.562
+        ],
+        [
+          25.4,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.624
+        ],
+        [
+          25.44,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.685
+        ],
+        [
+          25.48,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.746
+        ],
+        [
+          25.52,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.806
+        ],
+        [
+          25.56,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.866
+        ],
+        [
+          25.6,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.926
+        ],
+        [
+          25.64,
+          "sc-rage-up5-v337p.jpg",
+          "sc-rage-up6-v337p.jpg",
+          0.985
+        ],
+        [
+          25.68,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.043
+        ],
+        [
+          25.72,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.101
+        ],
+        [
+          25.76,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.159
+        ],
+        [
+          25.8,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.216
+        ],
+        [
+          25.84,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.272
+        ],
+        [
+          25.88,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.328
+        ],
+        [
+          25.92,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.383
+        ],
+        [
+          25.96,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.437
+        ],
+        [
+          26.0,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.491
+        ],
+        [
+          26.04,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.544
+        ],
+        [
+          26.08,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.597
+        ],
+        [
+          26.12,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.649
+        ],
+        [
+          26.16,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.7
+        ],
+        [
+          26.2,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.75
+        ],
+        [
+          26.24,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.8
+        ],
+        [
+          26.28,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.848
+        ],
+        [
+          26.32,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.897
+        ],
+        [
+          26.36,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.944
+        ],
+        [
+          26.4,
+          "sc-rage-up6-v337p.jpg",
+          "sc-rage-up7-v337p.jpg",
+          0.99
+        ],
+        [
+          26.44,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.036
+        ],
+        [
+          26.48,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.081
+        ],
+        [
+          26.52,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.125
+        ],
+        [
+          26.56,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.168
+        ],
+        [
+          26.6,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.21
+        ],
+        [
+          26.64,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.252
+        ],
+        [
+          26.68,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.292
+        ],
+        [
+          26.72,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.331
+        ],
+        [
+          26.76,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.37
+        ],
+        [
+          26.8,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.407
+        ],
+        [
+          26.84,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.444
+        ],
+        [
+          26.88,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.479
+        ],
+        [
+          26.92,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.514
+        ],
+        [
+          26.96,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.547
+        ],
+        [
+          27.0,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.58
+        ],
+        [
+          27.04,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.611
+        ],
+        [
+          27.08,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.642
+        ],
+        [
+          27.12,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.671
+        ],
+        [
+          27.16,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.699
+        ],
+        [
+          27.2,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.726
+        ],
+        [
+          27.24,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.751
+        ],
+        [
+          27.28,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.776
+        ],
+        [
+          27.32,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.799
+        ],
+        [
+          27.36,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.822
+        ],
+        [
+          27.4,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.843
+        ],
+        [
+          27.44,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.862
+        ],
+        [
+          27.48,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.881
+        ],
+        [
+          27.52,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.898
+        ],
+        [
+          27.56,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.914
+        ],
+        [
+          27.6,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.929
+        ],
+        [
+          27.64,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.942
+        ],
+        [
+          27.68,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.954
+        ],
+        [
+          27.72,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.965
+        ],
+        [
+          27.76,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.974
+        ],
+        [
+          27.8,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.982
+        ],
+        [
+          27.84,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.988
+        ],
+        [
+          27.88,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.993
+        ],
+        [
+          27.92,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.997
+        ],
+        [
+          27.96,
+          "sc-rage-up7-v337p.jpg",
+          "determined.jpg",
+          0.999
+        ],
+        [
+          28.0,
+          "determined.jpg",
+          null,
+          0.0
+        ],
+        [
+          28.2,
+          "determined.jpg",
+          null,
+          0.0
+        ]
+      ],
+      "peak_at": 28.0,
+      "n_ease_in": 0,
+      "peak_img": "determined.jpg",
+      "dur": 28.25
+    }
+  },
+  "rest": {
+    "laughing": "amused",
+    "excited": "proud",
+    "surprised": "listening",
+    "alert": "focused"
+  },
+  "tears": {
+    "furious-hurt-tears": {
+      "sprite": "tears-furious-hurt-tears.webp",
+      "box": [
+        262,
+        392,
+        512,
+        702
+      ],
+      "cols": 8,
+      "frames": 40,
+      "fps": 10,
+      "full": "furious-hurt-tears.jpg",
+      "w": 250,
+      "h": 310
+    },
+    "hurt-holding-back-tears": {
+      "sprite": "tears-hurt-holding-back-tears.webp",
+      "box": [
+        262,
+        392,
+        512,
+        702
+      ],
+      "cols": 8,
+      "frames": 40,
+      "fps": 10,
+      "full": "hurt-holding-back-tears.jpg",
+      "w": 250,
+      "h": 310
+    }
+  },
+  "mouth_sets": {
+    "furious": {
+      "closed": "furious-mouth-closed.jpg",
+      "amused.jpg": "furious-mouth-closed.jpg",
+      "mouth-slight-half.jpg": "furious-mouth-slight-half.jpg",
+      "mouth-slight-full.jpg": "furious-mouth-slight-full.jpg",
+      "mouth-ah-half.jpg": "furious-mouth-ah-half.jpg",
+      "mouth-ah-full.jpg": "furious-mouth-ah-full.jpg",
+      "mouth-ee-half.jpg": "furious-mouth-ee-half.jpg",
+      "mouth-ee-full.jpg": "furious-mouth-ee-full.jpg",
+      "mouth-oo-half.jpg": "furious-mouth-oo-half.jpg",
+      "mouth-oo-full.jpg": "furious-mouth-oo-full.jpg",
+      "mouth-oh-half.jpg": "furious-mouth-oo-half.jpg",
+      "mouth-oh-full.jpg": "furious-mouth-oo-full.jpg",
+      "mouth-oo-soft-half.jpg": "furious-mouth-oo-soft-half.jpg",
+      "mouth-oo-soft-full.jpg": "furious-mouth-oo-soft-full.jpg",
+      "mouth-pbm-full.jpg": "furious-mouth-closed.jpg",
+      "mouth-pbm-half.jpg": "furious-mouth-closed.jpg",
+      "mouth-fv-half.jpg": "furious-mouth-slight-half.jpg",
+      "mouth-fv-full.jpg": "furious-mouth-slight-full.jpg",
+      "mouth-th-half.jpg": "furious-mouth-slight-half.jpg",
+      "mouth-th-full.jpg": "furious-mouth-slight-full.jpg",
+      "mouth-l-half.jpg": "furious-mouth-slight-half.jpg",
+      "mouth-l-full.jpg": "furious-mouth-slight-full.jpg",
+      "mouth-sh-half.jpg": "furious-mouth-ee-half.jpg",
+      "mouth-sh-full.jpg": "furious-mouth-ee-full.jpg"
+    },
+    "neutral": {
+      "closed": "neutral-mouth-closed.jpg",
+      "amused.jpg": "neutral-mouth-closed.jpg",
+      "mouth-slight-half.jpg": "neutral-mouth-slight-half.jpg",
+      "mouth-slight-full.jpg": "neutral-mouth-slight-full.jpg",
+      "mouth-ah-half.jpg": "neutral-mouth-ah-half.jpg",
+      "mouth-ah-full.jpg": "neutral-mouth-ah-full.jpg",
+      "mouth-ee-half.jpg": "neutral-mouth-ee-half.jpg",
+      "mouth-ee-full.jpg": "neutral-mouth-ee-full.jpg",
+      "mouth-oo-half.jpg": "neutral-mouth-oo-half.jpg",
+      "mouth-oo-full.jpg": "neutral-mouth-oo-full.jpg",
+      "mouth-oh-half.jpg": "neutral-mouth-oo-half.jpg",
+      "mouth-oh-full.jpg": "neutral-mouth-oo-full.jpg",
+      "mouth-oo-soft-half.jpg": "neutral-mouth-oo-soft-half.jpg",
+      "mouth-oo-soft-full.jpg": "neutral-mouth-oo-soft-full.jpg",
+      "mouth-pbm-full.jpg": "neutral-mouth-closed.jpg",
+      "mouth-pbm-half.jpg": "neutral-mouth-closed.jpg",
+      "mouth-fv-half.jpg": "neutral-mouth-slight-half.jpg",
+      "mouth-fv-full.jpg": "neutral-mouth-slight-full.jpg",
+      "mouth-th-half.jpg": "neutral-mouth-slight-half.jpg",
+      "mouth-th-full.jpg": "neutral-mouth-slight-full.jpg",
+      "mouth-l-half.jpg": "neutral-mouth-slight-half.jpg",
+      "mouth-l-full.jpg": "neutral-mouth-slight-full.jpg",
+      "mouth-sh-half.jpg": "neutral-mouth-ee-half.jpg",
+      "mouth-sh-full.jpg": "neutral-mouth-ee-full.jpg"
+    }
+  },
+  "mouth_set_of": {
+    "furious": "furious",
+    "determined": "neutral",
+    "listening": "neutral"
+  },
+  "teeth": {
+    "br-amused-to-proud-02.jpg": true,
+    "br-amused-to-proud-03.jpg": true,
+    "br-amused-to-proud-04.jpg": true,
+    "excited-soft-closed.jpg": true,
+    "excited-soft.jpg": true,
+    "eyes-down.webp": true,
+    "eyes-left.webp": true,
+    "eyes-right.webp": true,
+    "eyes-up.webp": true,
+    "furious-closed.jpg": true,
+    "furious-mouth-ah-full.jpg": true,
+    "furious-mouth-ee-full.jpg": true,
+    "furious.jpg": true,
+    "laugh-soft-to-amused-01.jpg": true,
+    "laugh-soft-to-amused-02.jpg": true,
+    "laugh-soft-to-amused-03.jpg": true,
+    "laugh-soft-to-amused-04.jpg": true,
+    "laugh-soft-to-amused-05.jpg": true,
+    "laughing-soft-closed.jpg": true,
+    "laughing-soft.jpg": true,
+    "mp-furious-mouth-ah-full.webp": true,
+    "mp-furious-mouth-ee-full.webp": true,
+    "mp-mouth-ah-full.webp": true,
+    "mp-mouth-ah-half.webp": true,
+    "mp-mouth-ee-full.webp": true,
+    "mp-mouth-ee-half.webp": true,
+    "patch-amused-closed.webp": true,
+    "patch-amused.webp": true,
+    "patch-apologetic-closed.webp": true,
+    "patch-apologetic.webp": true,
+    "patch-confused-closed.webp": true,
+    "patch-confused.webp": true,
+    "patch-crosseyed-closed.webp": true,
+    "patch-crosseyed.webp": true,
+    "patch-determined-closed.webp": true,
+    "patch-determined.webp": true,
+    "patch-focused-closed.webp": true,
+    "patch-focused.webp": true,
+    "patch-furious-closed.webp": true,
+    "patch-furious-hurt-tears-closed.webp": true,
+    "patch-furious-hurt-tears.webp": true,
+    "patch-furious.webp": true,
+    "patch-hurt-holding-back-tears-closed.webp": true,
+    "patch-hurt-holding-back-tears.webp": true,
+    "patch-laughing-closed.webp": true,
+    "patch-laughing.webp": true,
+    "patch-listening-closed.webp": true,
+    "patch-listening.webp": true,
+    "patch-lookdown-closed.webp": true,
+    "patch-lookdown.webp": true,
+    "patch-lookup-closed.webp": true,
+    "patch-lookup.webp": true,
+    "patch-phone-down-closed.webp": true,
+    "patch-phone-down.webp": true,
+    "patch-proud-closed.webp": true,
+    "patch-proud.webp": true,
+    "patch-relieved-closed.webp": true,
+    "patch-relieved.webp": true,
+    "patch-sad-closed.webp": true,
+    "patch-sad.webp": true,
+    "patch-skeptical-closed.webp": true,
+    "patch-skeptical.webp": true,
+    "patch-sleepy-closed.webp": true,
+    "patch-sleepy.webp": true,
+    "patch-surprised-closed.webp": true,
+    "patch-surprised.webp": true,
+    "patch-thinking-closed.webp": true,
+    "patch-thinking-up.webp": true,
+    "patch-thinking.webp": true,
+    "patch-worried-closed.webp": true,
+    "patch-worried.webp": true,
+    "proud-closed.jpg": true,
+    "proud.jpg": true,
+    "tears-furious-hurt-tears.webp": true,
+    "tears-hurt-holding-back-tears.webp": true,
+    "tr-determined-to-furious-06-s073.jpg": true,
+    "tr-excited-to-proud-01-s015.jpg": true,
+    "tr-excited-to-proud-02-s028.jpg": true,
+    "tr-excited-to-proud-03-s041.jpg": true,
+    "tr-excited-to-proud-04-s052.jpg": true,
+    "tr-excited-to-proud-05-s062.jpg": true,
+    "tr-excited-to-proud-06-s071.jpg": true,
+    "tr-excited-to-proud-07-s079.jpg": true,
+    "tr-excited-to-proud-08-s085.jpg": true,
+    "tr-excited-to-proud-09-s091.jpg": true,
+    "tr-excited-to-proud-10-s095.jpg": true,
+    "tr-excited-to-proud-11-s098.jpg": true,
+    "tr-excited-to-proud-12-s099.jpg": true,
+    "tr-furious-to-determined-01-s027.jpg": true,
+    "neutral-mouth-ah-full.jpg": true,
+    "neutral-mouth-ah-half.jpg": true,
+    "neutral-mouth-ee-full.jpg": true,
+    "neutral-mouth-ee-half.jpg": true,
+    "neutral-mouth-oo-full.jpg": true,
+    "neutral-mouth-oo-half.jpg": true,
+    "furious-mouth-ah-half.jpg": true,
+    "mp-furious-mouth-ah-half.webp": true,
+    "fm-furious-mouth-ah-half.webp": true,
+    "sk-laughing-to-excited-01.jpg": true,
+    "sk-laughing-to-excited-02.jpg": true,
+    "sk-laughing-to-excited-03.jpg": true,
+    "sk-laughing-to-excited-04.jpg": true,
+    "sk-laughing-to-excited-05.jpg": true,
+    "sk-laughing-to-excited-06.jpg": true,
+    "sk-laughing-to-excited-07.jpg": true,
+    "sk-laughing-to-excited-08.jpg": true,
+    "sk-laughing-to-excited-09.jpg": true,
+    "sk-laughing-to-excited-10.jpg": true,
+    "sk-laughing-to-excited-11.jpg": true,
+    "sk-laughing-to-excited-12.jpg": true,
+    "sk-laughing-to-excited-13.jpg": true,
+    "sk-worried-to-apologetic-05.jpg": true,
+    "sk-worried-to-apologetic-06.jpg": true,
+    "sk-worried-to-apologetic-07.jpg": true,
+    "sk-wink-left-blush-to-crosseyed-06.jpg": true,
+    "sk-justwoke-to-furious-03.jpg": true,
+    "sk-justwoke-to-furious-04.jpg": true,
+    "sk-justwoke-to-furious-05.jpg": true,
+    "sk-justwoke-to-furious-06.jpg": true,
+    "sk-justwoke-to-furious-07.jpg": true,
+    "sk-justwoke-to-furious-08.jpg": true,
+    "sk-amused-to-amused-sadtop-01.jpg": true,
+    "sk-amused-to-amused-sadtop-02.jpg": true,
+    "sk-amused-to-amused-sadtop-03.jpg": true,
+    "sk-amused-to-amused-sadtop-04.jpg": true,
+    "sk-amused-to-amused-sadtop-05.jpg": true,
+    "sk-amused-to-amused-sadtop-06.jpg": true,
+    "sk-sad-to-amused-sadtop-06.jpg": true,
+    "sk-sad-to-amused-sadtop-07.jpg": true,
+    "sk-amused-sadtop-to-amused-01.jpg": true,
+    "sk-amused-sadtop-to-amused-02.jpg": true,
+    "sk-amused-sadtop-to-amused-03.jpg": true,
+    "sk-amused-sadtop-to-amused-04.jpg": true,
+    "sk-amused-sadtop-to-amused-05.jpg": true,
+    "sk-amused-sadtop-to-amused-06.jpg": true,
+    "sk-determined-to-amused-07.jpg": true,
+    "sk-focused-to-amused-08.jpg": true,
+    "sk-worried-to-amused-07.jpg": true,
+    "sk-amused-to-flirty-halflid-01.jpg": true,
+    "sk-amused-to-flirty-halflid-02.jpg": true,
+    "sk-amused-to-flirty-halflid-03.jpg": true,
+    "sk-amused-to-flirty-halflid-04.jpg": true,
+    "sk-amused-to-flirty-halflid-05.jpg": true,
+    "sk-flirty-halflid-blush-to-flirty-halflid-05.jpg": true,
+    "sk-flirty-halflid-to-amused-01.jpg": true,
+    "sk-flirty-halflid-to-amused-02.jpg": true,
+    "sk-flirty-halflid-to-amused-03.jpg": true,
+    "sk-flirty-halflid-to-amused-04.jpg": true,
+    "sk-flirty-halflid-to-amused-05.jpg": true,
+    "sk-amused-to-laughing-02.jpg": true,
+    "sk-amused-to-laughing-03.jpg": true,
+    "sk-amused-to-laughing-04.jpg": true,
+    "sk-amused-to-laughing-05.jpg": true,
+    "sk-amused-to-laughing-06.jpg": true,
+    "sk-amused-to-laughing-07.jpg": true,
+    "sk-amused-to-laughing-08.jpg": true,
+    "sk-amused-to-laughing-09.jpg": true,
+    "sk-amused-to-laughing-10.jpg": true,
+    "sk-amused-to-laughing-11.jpg": true,
+    "sk-amused-to-laughing-12.jpg": true,
+    "sk-furious-to-amused-01.jpg": true,
+    "sk-furious-to-amused-02.jpg": true,
+    "sk-furious-to-amused-03.jpg": true,
+    "sk-furious-to-amused-04.jpg": true,
+    "sk-furious-to-amused-05.jpg": true,
+    "sk-furious-to-amused-06.jpg": true,
+    "sk-furious-to-amused-07.jpg": true,
+    "sk-furious-to-amused-08.jpg": true,
+    "sk-proud-to-surprised-01.jpg": true,
+    "sk-proud-to-surprised-02.jpg": true,
+    "sk-proud-to-surprised-03.jpg": true,
+    "sk-proud-to-surprised-04.jpg": true,
+    "sk-proud-to-surprised-05.jpg": true,
+    "sk-proud-to-surprised-06.jpg": true
+  },
+  "teeth_n_cut": 280,
+  "face_mouth": {
+    "alert-closed.jpg": "fm-alert-closed.webp",
+    "alert.jpg": "fm-alert.webp",
+    "amused-closed.jpg": "fm-amused-closed.webp",
+    "amused-sadtop.jpg": "fm-amused-sadtop.webp",
+    "amused.jpg": "fm-amused.webp",
+    "apologetic-closed.jpg": "fm-apologetic-closed.webp",
+    "apologetic.jpg": "fm-apologetic.webp",
+    "confused-closed.jpg": "fm-confused-closed.webp",
+    "confused.jpg": "fm-confused.webp",
+    "crosseyed-closed.jpg": "fm-crosseyed-closed.webp",
+    "crosseyed.jpg": "fm-crosseyed.webp",
+    "determined-closed.jpg": "fm-determined-closed.webp",
+    "determined.jpg": "fm-determined.webp",
+    "drowsy-closed.jpg": "fm-drowsy-closed.webp",
+    "drowsy.jpg": "fm-drowsy.webp",
+    "excited-soft-closed.jpg": "fm-excited-soft-closed.webp",
+    "excited-soft.jpg": "fm-excited-soft.webp",
+    "flirty-halflid-blush-closed.jpg": "fm-flirty-halflid-blush-closed.webp",
+    "flirty-halflid-blush.jpg": "fm-flirty-halflid-blush.webp",
+    "flirty-halflid-closed.jpg": "fm-flirty-halflid-closed.webp",
+    "flirty-halflid.jpg": "fm-flirty-halflid.webp",
+    "focused-closed.jpg": "fm-focused-closed.webp",
+    "focused.jpg": "fm-focused.webp",
+    "furious-closed.jpg": "fm-furious-closed.webp",
+    "furious-hurt-tears-closed.jpg": "fm-furious-hurt-tears-closed.webp",
+    "furious-hurt-tears.jpg": "fm-furious-hurt-tears.webp",
+    "furious.jpg": "fm-furious.webp",
+    "hurt-holding-back-tears-closed.jpg": "fm-hurt-holding-back-tears-closed.webp",
+    "hurt-holding-back-tears.jpg": "fm-hurt-holding-back-tears.webp",
+    "justwoke-closed.jpg": "fm-justwoke-closed.webp",
+    "justwoke.jpg": "fm-justwoke.webp",
+    "laughing-soft-closed.jpg": "fm-laughing-soft-closed.webp",
+    "laughing-soft.jpg": "fm-laughing-soft.webp",
+    "listening-closed.jpg": "fm-listening-closed.webp",
+    "listening.jpg": "fm-listening.webp",
+    "phone-down-closed.jpg": "fm-phone-down-closed.webp",
+    "phone-down.jpg": "fm-phone-down.webp",
+    "proud-closed.jpg": "fm-proud-closed.webp",
+    "proud.jpg": "fm-proud.webp",
+    "relieved-closed.jpg": "fm-relieved-closed.webp",
+    "relieved.jpg": "fm-relieved.webp",
+    "sad-closed.jpg": "fm-sad-closed.webp",
+    "sad.jpg": "fm-sad.webp",
+    "skeptical-closed.jpg": "fm-skeptical-closed.webp",
+    "skeptical.jpg": "fm-skeptical.webp",
+    "sleepy-closed.jpg": "fm-sleepy-closed.webp",
+    "sleepy.jpg": "fm-sleepy.webp",
+    "surprised-closed.jpg": "fm-surprised-closed.webp",
+    "surprised.jpg": "fm-surprised.webp",
+    "thinking-closed.jpg": "fm-thinking-closed.webp",
+    "thinking-up.jpg": "fm-thinking-up.webp",
+    "thinking.jpg": "fm-thinking.webp",
+    "wink-left-blush-closed.jpg": "fm-wink-left-blush-closed.webp",
+    "wink-left-blush.jpg": "fm-wink-left-blush.webp",
+    "worried-closed.jpg": "fm-worried-closed.webp",
+    "worried.jpg": "fm-worried.webp",
+    "br-amused-to-proud-01.jpg": "fm-br-amused-to-proud-01.webp",
+    "br-amused-to-proud-02.jpg": "fm-br-amused-to-proud-02.webp",
+    "br-amused-to-proud-03.jpg": "fm-br-amused-to-proud-03.webp",
+    "br-amused-to-proud-04.jpg": "fm-br-amused-to-proud-04.webp",
+    "furious-mouth-ah-full.jpg": "fm-furious-mouth-ah-full.webp",
+    "furious-mouth-ah-half.jpg": "fm-furious-mouth-ah-half.webp",
+    "furious-mouth-closed.jpg": "fm-furious-mouth-closed.webp",
+    "furious-mouth-ee-full.jpg": "fm-furious-mouth-ee-full.webp",
+    "furious-mouth-ee-half.jpg": "fm-furious-mouth-ee-half.webp",
+    "furious-mouth-oo-full.jpg": "fm-furious-mouth-oo-full.webp",
+    "furious-mouth-oo-half.jpg": "fm-furious-mouth-oo-half.webp",
+    "furious-mouth-oo-soft-full.jpg": "fm-furious-mouth-oo-soft-full.webp",
+    "furious-mouth-oo-soft-half.jpg": "fm-furious-mouth-oo-soft-half.webp",
+    "furious-mouth-slight-full.jpg": "fm-furious-mouth-slight-full.webp",
+    "furious-mouth-slight-half.jpg": "fm-furious-mouth-slight-half.webp",
+    "laugh-soft-to-amused-01.jpg": "fm-laugh-soft-to-amused-01.webp",
+    "laugh-soft-to-amused-02.jpg": "fm-laugh-soft-to-amused-02.webp",
+    "laugh-soft-to-amused-03.jpg": "fm-laugh-soft-to-amused-03.webp",
+    "laugh-soft-to-amused-04.jpg": "fm-laugh-soft-to-amused-04.webp",
+    "laugh-soft-to-amused-05.jpg": "fm-laugh-soft-to-amused-05.webp",
+    "laugh-soft-to-amused-06.jpg": "fm-laugh-soft-to-amused-06.webp",
+    "neutral-mouth-ah-full.jpg": "fm-neutral-mouth-ah-full.webp",
+    "neutral-mouth-ah-half.jpg": "fm-neutral-mouth-ah-half.webp",
+    "neutral-mouth-closed.jpg": "fm-neutral-mouth-closed.webp",
+    "neutral-mouth-ee-full.jpg": "fm-neutral-mouth-ee-full.webp",
+    "neutral-mouth-ee-half.jpg": "fm-neutral-mouth-ee-half.webp",
+    "neutral-mouth-oo-full.jpg": "fm-neutral-mouth-oo-full.webp",
+    "neutral-mouth-oo-half.jpg": "fm-neutral-mouth-oo-half.webp",
+    "neutral-mouth-oo-soft-full.jpg": "fm-neutral-mouth-oo-soft-full.webp",
+    "neutral-mouth-oo-soft-half.jpg": "fm-neutral-mouth-oo-soft-half.webp",
+    "neutral-mouth-slight-full.jpg": "fm-neutral-mouth-slight-full.webp",
+    "neutral-mouth-slight-half.jpg": "fm-neutral-mouth-slight-half.webp",
+    "tr-alert-to-focused-01-s015.jpg": "fm-tr-alert-to-focused-01-s015.webp",
+    "tr-alert-to-focused-02-s028.jpg": "fm-tr-alert-to-focused-02-s028.webp",
+    "tr-alert-to-focused-03-s041.jpg": "fm-tr-alert-to-focused-03-s041.webp",
+    "tr-alert-to-focused-04-s052.jpg": "fm-tr-alert-to-focused-04-s052.webp",
+    "tr-alert-to-focused-05-s062.jpg": "fm-tr-alert-to-focused-05-s062.webp",
+    "tr-alert-to-focused-06-s071.jpg": "fm-tr-alert-to-focused-06-s071.webp",
+    "tr-alert-to-focused-07-s079.jpg": "fm-tr-alert-to-focused-07-s079.webp",
+    "tr-alert-to-focused-08-s085.jpg": "fm-tr-alert-to-focused-08-s085.webp",
+    "tr-alert-to-focused-09-s091.jpg": "fm-tr-alert-to-focused-09-s091.webp",
+    "tr-alert-to-focused-10-s095.jpg": "fm-tr-alert-to-focused-10-s095.webp",
+    "tr-alert-to-focused-11-s098.jpg": "fm-tr-alert-to-focused-11-s098.webp",
+    "tr-alert-to-focused-12-s099.jpg": "fm-tr-alert-to-focused-12-s099.webp",
+    "tr-amused-to-listening-01-s021.jpg": "fm-tr-amused-to-listening-01-s021.webp",
+    "tr-amused-to-listening-02-s040.jpg": "fm-tr-amused-to-listening-02-s040.webp",
+    "tr-amused-to-listening-03-s056.jpg": "fm-tr-amused-to-listening-03-s056.webp",
+    "tr-amused-to-listening-04-s069.jpg": "fm-tr-amused-to-listening-04-s069.webp",
+    "tr-amused-to-listening-05-s080.jpg": "fm-tr-amused-to-listening-05-s080.webp",
+    "tr-amused-to-listening-06-s089.jpg": "fm-tr-amused-to-listening-06-s089.webp",
+    "tr-amused-to-listening-07-s095.jpg": "fm-tr-amused-to-listening-07-s095.webp",
+    "tr-amused-to-listening-08-s099.jpg": "fm-tr-amused-to-listening-08-s099.webp",
+    "tr-determined-to-furious-01-s002.jpg": "fm-tr-determined-to-furious-01-s002.webp",
+    "tr-determined-to-furious-02-s008.jpg": "fm-tr-determined-to-furious-02-s008.webp",
+    "tr-determined-to-furious-03-s018.jpg": "fm-tr-determined-to-furious-03-s018.webp",
+    "tr-determined-to-furious-04-s033.jpg": "fm-tr-determined-to-furious-04-s033.webp",
+    "tr-determined-to-furious-05-s051.jpg": "fm-tr-determined-to-furious-05-s051.webp",
+    "tr-determined-to-furious-06-s073.jpg": "fm-tr-determined-to-furious-06-s073.webp",
+    "tr-drowsy-to-justwoke-01-s044.jpg": "fm-tr-drowsy-to-justwoke-01-s044.webp",
+    "tr-drowsy-to-justwoke-02-s075.jpg": "fm-tr-drowsy-to-justwoke-02-s075.webp",
+    "tr-drowsy-to-justwoke-03-s094.jpg": "fm-tr-drowsy-to-justwoke-03-s094.webp",
+    "tr-excited-to-proud-01-s015.jpg": "fm-tr-excited-to-proud-01-s015.webp",
+    "tr-excited-to-proud-02-s028.jpg": "fm-tr-excited-to-proud-02-s028.webp",
+    "tr-excited-to-proud-03-s041.jpg": "fm-tr-excited-to-proud-03-s041.webp",
+    "tr-excited-to-proud-04-s052.jpg": "fm-tr-excited-to-proud-04-s052.webp",
+    "tr-excited-to-proud-05-s062.jpg": "fm-tr-excited-to-proud-05-s062.webp",
+    "tr-excited-to-proud-06-s071.jpg": "fm-tr-excited-to-proud-06-s071.webp",
+    "tr-excited-to-proud-07-s079.jpg": "fm-tr-excited-to-proud-07-s079.webp",
+    "tr-excited-to-proud-08-s085.jpg": "fm-tr-excited-to-proud-08-s085.webp",
+    "tr-excited-to-proud-09-s091.jpg": "fm-tr-excited-to-proud-09-s091.webp",
+    "tr-excited-to-proud-10-s095.jpg": "fm-tr-excited-to-proud-10-s095.webp",
+    "tr-excited-to-proud-11-s098.jpg": "fm-tr-excited-to-proud-11-s098.webp",
+    "tr-excited-to-proud-12-s099.jpg": "fm-tr-excited-to-proud-12-s099.webp",
+    "tr-furious-to-determined-01-s027.jpg": "fm-tr-furious-to-determined-01-s027.webp",
+    "tr-furious-to-determined-02-s049.jpg": "fm-tr-furious-to-determined-02-s049.webp",
+    "tr-furious-to-determined-03-s067.jpg": "fm-tr-furious-to-determined-03-s067.webp",
+    "tr-furious-to-determined-04-s082.jpg": "fm-tr-furious-to-determined-04-s082.webp",
+    "tr-furious-to-determined-05-s092.jpg": "fm-tr-furious-to-determined-05-s092.webp",
+    "tr-furious-to-determined-06-s098.jpg": "fm-tr-furious-to-determined-06-s098.webp",
+    "tr-justwoke-to-listening-01-s027.jpg": "fm-tr-justwoke-to-listening-01-s027.webp",
+    "tr-justwoke-to-listening-02-s049.jpg": "fm-tr-justwoke-to-listening-02-s049.webp",
+    "tr-justwoke-to-listening-03-s067.jpg": "fm-tr-justwoke-to-listening-03-s067.webp",
+    "tr-justwoke-to-listening-04-s082.jpg": "fm-tr-justwoke-to-listening-04-s082.webp",
+    "tr-justwoke-to-listening-05-s092.jpg": "fm-tr-justwoke-to-listening-05-s092.webp",
+    "tr-justwoke-to-listening-06-s098.jpg": "fm-tr-justwoke-to-listening-06-s098.webp",
+    "tr-listening-to-amused-01-s021.jpg": "fm-tr-listening-to-amused-01-s021.webp",
+    "tr-listening-to-amused-02-s040.jpg": "fm-tr-listening-to-amused-02-s040.webp",
+    "tr-listening-to-amused-03-s056.jpg": "fm-tr-listening-to-amused-03-s056.webp",
+    "tr-listening-to-amused-04-s069.jpg": "fm-tr-listening-to-amused-04-s069.webp",
+    "tr-listening-to-amused-05-s080.jpg": "fm-tr-listening-to-amused-05-s080.webp",
+    "tr-listening-to-amused-06-s089.jpg": "fm-tr-listening-to-amused-06-s089.webp",
+    "tr-listening-to-amused-07-s095.jpg": "fm-tr-listening-to-amused-07-s095.webp",
+    "tr-listening-to-amused-08-s099.jpg": "fm-tr-listening-to-amused-08-s099.webp",
+    "tr-sleepy-to-drowsy-01-s036.jpg": "fm-tr-sleepy-to-drowsy-01-s036.webp",
+    "tr-sleepy-to-drowsy-02-s064.jpg": "fm-tr-sleepy-to-drowsy-02-s064.webp",
+    "tr-sleepy-to-drowsy-03-s084.jpg": "fm-tr-sleepy-to-drowsy-03-s084.webp",
+    "tr-sleepy-to-drowsy-04-s096.jpg": "fm-tr-sleepy-to-drowsy-04-s096.webp",
+    "tr-surprised-to-listening-01-s017.jpg": "fm-tr-surprised-to-listening-01-s017.webp",
+    "tr-surprised-to-listening-02-s033.jpg": "fm-tr-surprised-to-listening-02-s033.webp",
+    "tr-surprised-to-listening-03-s047.jpg": "fm-tr-surprised-to-listening-03-s047.webp",
+    "tr-surprised-to-listening-04-s060.jpg": "fm-tr-surprised-to-listening-04-s060.webp",
+    "tr-surprised-to-listening-05-s070.jpg": "fm-tr-surprised-to-listening-05-s070.webp",
+    "tr-surprised-to-listening-06-s079.jpg": "fm-tr-surprised-to-listening-06-s079.webp",
+    "tr-surprised-to-listening-07-s087.jpg": "fm-tr-surprised-to-listening-07-s087.webp",
+    "tr-surprised-to-listening-08-s093.jpg": "fm-tr-surprised-to-listening-08-s093.webp",
+    "tr-surprised-to-listening-09-s097.jpg": "fm-tr-surprised-to-listening-09-s097.webp",
+    "tr-surprised-to-listening-10-s099.jpg": "fm-tr-surprised-to-listening-10-s099.webp",
+    "sk-laughing-to-excited-01.jpg": "fm-sk-laughing-to-excited-01.webp",
+    "sk-laughing-to-excited-02.jpg": "fm-sk-laughing-to-excited-02.webp",
+    "sk-laughing-to-excited-03.jpg": "fm-sk-laughing-to-excited-03.webp",
+    "sk-laughing-to-excited-04.jpg": "fm-sk-laughing-to-excited-04.webp",
+    "sk-laughing-to-excited-05.jpg": "fm-sk-laughing-to-excited-05.webp",
+    "sk-laughing-to-excited-06.jpg": "fm-sk-laughing-to-excited-06.webp",
+    "sk-laughing-to-excited-07.jpg": "fm-sk-laughing-to-excited-07.webp",
+    "sk-laughing-to-excited-08.jpg": "fm-sk-laughing-to-excited-08.webp",
+    "sk-laughing-to-excited-09.jpg": "fm-sk-laughing-to-excited-09.webp",
+    "sk-laughing-to-excited-10.jpg": "fm-sk-laughing-to-excited-10.webp",
+    "sk-laughing-to-excited-11.jpg": "fm-sk-laughing-to-excited-11.webp",
+    "sk-laughing-to-excited-12.jpg": "fm-sk-laughing-to-excited-12.webp",
+    "sk-laughing-to-excited-13.jpg": "fm-sk-laughing-to-excited-13.webp",
+    "sk-focused-to-thinking-01.jpg": "fm-sk-focused-to-thinking-01.webp",
+    "sk-focused-to-thinking-02.jpg": "fm-sk-focused-to-thinking-02.webp",
+    "sk-focused-to-thinking-03.jpg": "fm-sk-focused-to-thinking-03.webp",
+    "sk-focused-to-thinking-04.jpg": "fm-sk-focused-to-thinking-04.webp",
+    "sk-focused-to-thinking-05.jpg": "fm-sk-focused-to-thinking-05.webp",
+    "sk-focused-to-thinking-06.jpg": "fm-sk-focused-to-thinking-06.webp",
+    "sk-focused-to-thinking-07.jpg": "fm-sk-focused-to-thinking-07.webp",
+    "sk-sleepy-to-worried-01.jpg": "fm-sk-sleepy-to-worried-01.webp",
+    "sk-sleepy-to-worried-02.jpg": "fm-sk-sleepy-to-worried-02.webp",
+    "sk-sleepy-to-worried-03.jpg": "fm-sk-sleepy-to-worried-03.webp",
+    "sk-sleepy-to-worried-04.jpg": "fm-sk-sleepy-to-worried-04.webp",
+    "sk-sleepy-to-worried-05.jpg": "fm-sk-sleepy-to-worried-05.webp",
+    "sk-sleepy-to-worried-06.jpg": "fm-sk-sleepy-to-worried-06.webp",
+    "sk-worried-to-apologetic-01.jpg": "fm-sk-worried-to-apologetic-01.webp",
+    "sk-worried-to-apologetic-02.jpg": "fm-sk-worried-to-apologetic-02.webp",
+    "sk-worried-to-apologetic-03.jpg": "fm-sk-worried-to-apologetic-03.webp",
+    "sk-worried-to-apologetic-04.jpg": "fm-sk-worried-to-apologetic-04.webp",
+    "sk-worried-to-apologetic-05.jpg": "fm-sk-worried-to-apologetic-05.webp",
+    "sk-worried-to-apologetic-06.jpg": "fm-sk-worried-to-apologetic-06.webp",
+    "sk-worried-to-apologetic-07.jpg": "fm-sk-worried-to-apologetic-07.webp",
+    "sk-apologetic-to-determined-01.jpg": "fm-sk-apologetic-to-determined-01.webp",
+    "sk-apologetic-to-determined-02.jpg": "fm-sk-apologetic-to-determined-02.webp",
+    "sk-apologetic-to-determined-03.jpg": "fm-sk-apologetic-to-determined-03.webp",
+    "sk-apologetic-to-determined-04.jpg": "fm-sk-apologetic-to-determined-04.webp",
+    "sk-apologetic-to-determined-05.jpg": "fm-sk-apologetic-to-determined-05.webp",
+    "sk-apologetic-to-determined-06.jpg": "fm-sk-apologetic-to-determined-06.webp",
+    "sk-apologetic-to-determined-07.jpg": "fm-sk-apologetic-to-determined-07.webp",
+    "sk-determined-to-sad-01.jpg": "fm-sk-determined-to-sad-01.webp",
+    "sk-determined-to-sad-02.jpg": "fm-sk-determined-to-sad-02.webp",
+    "sk-determined-to-sad-03.jpg": "fm-sk-determined-to-sad-03.webp",
+    "sk-determined-to-sad-04.jpg": "fm-sk-determined-to-sad-04.webp",
+    "sk-determined-to-sad-05.jpg": "fm-sk-determined-to-sad-05.webp",
+    "sk-determined-to-sad-06.jpg": "fm-sk-determined-to-sad-06.webp",
+    "sk-determined-to-sad-07.jpg": "fm-sk-determined-to-sad-07.webp",
+    "sk-sad-to-phone-down-01.jpg": "fm-sk-sad-to-phone-down-01.webp",
+    "sk-sad-to-phone-down-02.jpg": "fm-sk-sad-to-phone-down-02.webp",
+    "sk-sad-to-phone-down-03.jpg": "fm-sk-sad-to-phone-down-03.webp",
+    "sk-sad-to-phone-down-04.jpg": "fm-sk-sad-to-phone-down-04.webp",
+    "sk-sad-to-phone-down-05.jpg": "fm-sk-sad-to-phone-down-05.webp",
+    "sk-sad-to-phone-down-06.jpg": "fm-sk-sad-to-phone-down-06.webp",
+    "sk-phone-down-to-thinking-up-01.jpg": "fm-sk-phone-down-to-thinking-up-01.webp",
+    "sk-phone-down-to-thinking-up-02.jpg": "fm-sk-phone-down-to-thinking-up-02.webp",
+    "sk-phone-down-to-thinking-up-03.jpg": "fm-sk-phone-down-to-thinking-up-03.webp",
+    "sk-phone-down-to-thinking-up-04.jpg": "fm-sk-phone-down-to-thinking-up-04.webp",
+    "sk-phone-down-to-thinking-up-05.jpg": "fm-sk-phone-down-to-thinking-up-05.webp",
+    "sk-phone-down-to-thinking-up-06.jpg": "fm-sk-phone-down-to-thinking-up-06.webp",
+    "sk-thinking-up-to-flirty-halflid-01.jpg": "fm-sk-thinking-up-to-flirty-halflid-01.webp",
+    "sk-thinking-up-to-flirty-halflid-02.jpg": "fm-sk-thinking-up-to-flirty-halflid-02.webp",
+    "sk-thinking-up-to-flirty-halflid-03.jpg": "fm-sk-thinking-up-to-flirty-halflid-03.webp",
+    "sk-thinking-up-to-flirty-halflid-04.jpg": "fm-sk-thinking-up-to-flirty-halflid-04.webp",
+    "sk-thinking-up-to-flirty-halflid-05.jpg": "fm-sk-thinking-up-to-flirty-halflid-05.webp",
+    "sk-thinking-up-to-flirty-halflid-06.jpg": "fm-sk-thinking-up-to-flirty-halflid-06.webp",
+    "sk-thinking-up-to-flirty-halflid-07.jpg": "fm-sk-thinking-up-to-flirty-halflid-07.webp",
+    "sk-thinking-up-to-flirty-halflid-08.jpg": "fm-sk-thinking-up-to-flirty-halflid-08.webp",
+    "sk-flirty-halflid-to-flirty-halflid-blush-01.jpg": "fm-sk-flirty-halflid-to-flirty-halflid-blush-01.webp",
+    "sk-flirty-halflid-to-flirty-halflid-blush-02.jpg": "fm-sk-flirty-halflid-to-flirty-halflid-blush-02.webp",
+    "sk-flirty-halflid-to-flirty-halflid-blush-03.jpg": "fm-sk-flirty-halflid-to-flirty-halflid-blush-03.webp",
+    "sk-flirty-halflid-to-flirty-halflid-blush-04.jpg": "fm-sk-flirty-halflid-to-flirty-halflid-blush-04.webp",
+    "sk-flirty-halflid-to-flirty-halflid-blush-05.jpg": "fm-sk-flirty-halflid-to-flirty-halflid-blush-05.webp",
+    "sk-flirty-halflid-blush-to-wink-left-blush-01.jpg": "fm-sk-flirty-halflid-blush-to-wink-left-blush-01.webp",
+    "sk-flirty-halflid-blush-to-wink-left-blush-02.jpg": "fm-sk-flirty-halflid-blush-to-wink-left-blush-02.webp",
+    "sk-flirty-halflid-blush-to-wink-left-blush-03.jpg": "fm-sk-flirty-halflid-blush-to-wink-left-blush-03.webp",
+    "sk-flirty-halflid-blush-to-wink-left-blush-04.jpg": "fm-sk-flirty-halflid-blush-to-wink-left-blush-04.webp",
+    "sk-flirty-halflid-blush-to-wink-left-blush-05.jpg": "fm-sk-flirty-halflid-blush-to-wink-left-blush-05.webp",
+    "sk-wink-left-blush-to-crosseyed-01.jpg": "fm-sk-wink-left-blush-to-crosseyed-01.webp",
+    "sk-wink-left-blush-to-crosseyed-02.jpg": "fm-sk-wink-left-blush-to-crosseyed-02.webp",
+    "sk-wink-left-blush-to-crosseyed-03.jpg": "fm-sk-wink-left-blush-to-crosseyed-03.webp",
+    "sk-wink-left-blush-to-crosseyed-04.jpg": "fm-sk-wink-left-blush-to-crosseyed-04.webp",
+    "sk-wink-left-blush-to-crosseyed-05.jpg": "fm-sk-wink-left-blush-to-crosseyed-05.webp",
+    "sk-wink-left-blush-to-crosseyed-06.jpg": "fm-sk-wink-left-blush-to-crosseyed-06.webp",
+    "sk-crosseyed-to-hurt-holding-back-tears-01.jpg": "fm-sk-crosseyed-to-hurt-holding-back-tears-01.webp",
+    "sk-crosseyed-to-hurt-holding-back-tears-02.jpg": "fm-sk-crosseyed-to-hurt-holding-back-tears-02.webp",
+    "sk-crosseyed-to-hurt-holding-back-tears-03.jpg": "fm-sk-crosseyed-to-hurt-holding-back-tears-03.webp",
+    "sk-crosseyed-to-hurt-holding-back-tears-04.jpg": "fm-sk-crosseyed-to-hurt-holding-back-tears-04.webp",
+    "sk-crosseyed-to-hurt-holding-back-tears-05.jpg": "fm-sk-crosseyed-to-hurt-holding-back-tears-05.webp",
+    "sk-crosseyed-to-hurt-holding-back-tears-06.jpg": "fm-sk-crosseyed-to-hurt-holding-back-tears-06.webp",
+    "sk-crosseyed-to-hurt-holding-back-tears-07.jpg": "fm-sk-crosseyed-to-hurt-holding-back-tears-07.webp",
+    "sk-crosseyed-to-hurt-holding-back-tears-08.jpg": "fm-sk-crosseyed-to-hurt-holding-back-tears-08.webp",
+    "sk-hurt-holding-back-tears-to-furious-hurt-tears-01.jpg": "fm-sk-hurt-holding-back-tears-to-furious-hurt-tears-01.webp",
+    "sk-hurt-holding-back-tears-to-furious-hurt-tears-02.jpg": "fm-sk-hurt-holding-back-tears-to-furious-hurt-tears-02.webp",
+    "sk-hurt-holding-back-tears-to-furious-hurt-tears-03.jpg": "fm-sk-hurt-holding-back-tears-to-furious-hurt-tears-03.webp",
+    "sk-hurt-holding-back-tears-to-furious-hurt-tears-04.jpg": "fm-sk-hurt-holding-back-tears-to-furious-hurt-tears-04.webp",
+    "sk-hurt-holding-back-tears-to-furious-hurt-tears-05.jpg": "fm-sk-hurt-holding-back-tears-to-furious-hurt-tears-05.webp",
+    "sk-hurt-holding-back-tears-to-furious-hurt-tears-06.jpg": "fm-sk-hurt-holding-back-tears-to-furious-hurt-tears-06.webp",
+    "sk-hurt-holding-back-tears-to-furious-hurt-tears-07.jpg": "fm-sk-hurt-holding-back-tears-to-furious-hurt-tears-07.webp",
+    "sk-furious-hurt-tears-to-drowsy-01.jpg": "fm-sk-furious-hurt-tears-to-drowsy-01.webp",
+    "sk-furious-hurt-tears-to-drowsy-02.jpg": "fm-sk-furious-hurt-tears-to-drowsy-02.webp",
+    "sk-furious-hurt-tears-to-drowsy-03.jpg": "fm-sk-furious-hurt-tears-to-drowsy-03.webp",
+    "sk-furious-hurt-tears-to-drowsy-04.jpg": "fm-sk-furious-hurt-tears-to-drowsy-04.webp",
+    "sk-furious-hurt-tears-to-drowsy-05.jpg": "fm-sk-furious-hurt-tears-to-drowsy-05.webp",
+    "sk-furious-hurt-tears-to-drowsy-06.jpg": "fm-sk-furious-hurt-tears-to-drowsy-06.webp",
+    "sk-furious-hurt-tears-to-drowsy-07.jpg": "fm-sk-furious-hurt-tears-to-drowsy-07.webp",
+    "sk-furious-hurt-tears-to-drowsy-08.jpg": "fm-sk-furious-hurt-tears-to-drowsy-08.webp",
+    "sk-justwoke-to-furious-01.jpg": "fm-sk-justwoke-to-furious-01.webp",
+    "sk-justwoke-to-furious-02.jpg": "fm-sk-justwoke-to-furious-02.webp",
+    "sk-justwoke-to-furious-03.jpg": "fm-sk-justwoke-to-furious-03.webp",
+    "sk-justwoke-to-furious-04.jpg": "fm-sk-justwoke-to-furious-04.webp",
+    "sk-justwoke-to-furious-05.jpg": "fm-sk-justwoke-to-furious-05.webp",
+    "sk-justwoke-to-furious-06.jpg": "fm-sk-justwoke-to-furious-06.webp",
+    "sk-justwoke-to-furious-07.jpg": "fm-sk-justwoke-to-furious-07.webp",
+    "sk-justwoke-to-furious-08.jpg": "fm-sk-justwoke-to-furious-08.webp",
+    "sk-listening-to-thinking-01.jpg": "fm-sk-listening-to-thinking-01.webp",
+    "sk-listening-to-thinking-02.jpg": "fm-sk-listening-to-thinking-02.webp",
+    "sk-listening-to-thinking-03.jpg": "fm-sk-listening-to-thinking-03.webp",
+    "sk-listening-to-thinking-04.jpg": "fm-sk-listening-to-thinking-04.webp",
+    "sk-listening-to-thinking-05.jpg": "fm-sk-listening-to-thinking-05.webp",
+    "sk-listening-to-thinking-06.jpg": "fm-sk-listening-to-thinking-06.webp",
+    "sk-listening-to-thinking-07.jpg": "fm-sk-listening-to-thinking-07.webp",
+    "sk-thinking-to-thinking-up-01.jpg": "fm-sk-thinking-to-thinking-up-01.webp",
+    "sk-thinking-to-thinking-up-02.jpg": "fm-sk-thinking-to-thinking-up-02.webp",
+    "sk-thinking-to-thinking-up-03.jpg": "fm-sk-thinking-to-thinking-up-03.webp",
+    "sk-thinking-to-thinking-up-04.jpg": "fm-sk-thinking-to-thinking-up-04.webp",
+    "sk-thinking-to-thinking-up-05.jpg": "fm-sk-thinking-to-thinking-up-05.webp",
+    "sk-thinking-up-to-focused-01.jpg": "fm-sk-thinking-up-to-focused-01.webp",
+    "sk-thinking-up-to-focused-02.jpg": "fm-sk-thinking-up-to-focused-02.webp",
+    "sk-thinking-up-to-focused-03.jpg": "fm-sk-thinking-up-to-focused-03.webp",
+    "sk-thinking-up-to-focused-04.jpg": "fm-sk-thinking-up-to-focused-04.webp",
+    "sk-thinking-up-to-focused-05.jpg": "fm-sk-thinking-up-to-focused-05.webp",
+    "sk-thinking-up-to-focused-06.jpg": "fm-sk-thinking-up-to-focused-06.webp",
+    "sk-thinking-up-to-focused-07.jpg": "fm-sk-thinking-up-to-focused-07.webp",
+    "sk-focused-to-determined-01.jpg": "fm-sk-focused-to-determined-01.webp",
+    "sk-focused-to-determined-02.jpg": "fm-sk-focused-to-determined-02.webp",
+    "sk-focused-to-determined-03.jpg": "fm-sk-focused-to-determined-03.webp",
+    "sk-focused-to-determined-04.jpg": "fm-sk-focused-to-determined-04.webp",
+    "sk-focused-to-determined-05.jpg": "fm-sk-focused-to-determined-05.webp",
+    "sk-focused-to-determined-06.jpg": "fm-sk-focused-to-determined-06.webp",
+    "sk-determined-to-skeptical-01.jpg": "fm-sk-determined-to-skeptical-01.webp",
+    "sk-determined-to-skeptical-02.jpg": "fm-sk-determined-to-skeptical-02.webp",
+    "sk-determined-to-skeptical-03.jpg": "fm-sk-determined-to-skeptical-03.webp",
+    "sk-determined-to-skeptical-04.jpg": "fm-sk-determined-to-skeptical-04.webp",
+    "sk-determined-to-skeptical-05.jpg": "fm-sk-determined-to-skeptical-05.webp",
+    "sk-determined-to-skeptical-06.jpg": "fm-sk-determined-to-skeptical-06.webp",
+    "sk-determined-to-skeptical-07.jpg": "fm-sk-determined-to-skeptical-07.webp",
+    "sk-apologetic-to-sad-01.jpg": "fm-sk-apologetic-to-sad-01.webp",
+    "sk-apologetic-to-sad-02.jpg": "fm-sk-apologetic-to-sad-02.webp",
+    "sk-apologetic-to-sad-03.jpg": "fm-sk-apologetic-to-sad-03.webp",
+    "sk-apologetic-to-sad-04.jpg": "fm-sk-apologetic-to-sad-04.webp",
+    "sk-apologetic-to-sad-05.jpg": "fm-sk-apologetic-to-sad-05.webp",
+    "sk-apologetic-to-sad-06.jpg": "fm-sk-apologetic-to-sad-06.webp",
+    "sk-apologetic-to-sad-07.jpg": "fm-sk-apologetic-to-sad-07.webp",
+    "sk-sad-to-sleepy-01.jpg": "fm-sk-sad-to-sleepy-01.webp",
+    "sk-sad-to-sleepy-02.jpg": "fm-sk-sad-to-sleepy-02.webp",
+    "sk-sad-to-sleepy-03.jpg": "fm-sk-sad-to-sleepy-03.webp",
+    "sk-sad-to-sleepy-04.jpg": "fm-sk-sad-to-sleepy-04.webp",
+    "sk-sad-to-sleepy-05.jpg": "fm-sk-sad-to-sleepy-05.webp",
+    "sk-sad-to-sleepy-06.jpg": "fm-sk-sad-to-sleepy-06.webp",
+    "sk-sleepy-to-phone-down-01.jpg": "fm-sk-sleepy-to-phone-down-01.webp",
+    "sk-sleepy-to-phone-down-02.jpg": "fm-sk-sleepy-to-phone-down-02.webp",
+    "sk-sleepy-to-phone-down-03.jpg": "fm-sk-sleepy-to-phone-down-03.webp",
+    "sk-sleepy-to-phone-down-04.jpg": "fm-sk-sleepy-to-phone-down-04.webp",
+    "sk-sleepy-to-phone-down-05.jpg": "fm-sk-sleepy-to-phone-down-05.webp",
+    "sk-sleepy-to-phone-down-06.jpg": "fm-sk-sleepy-to-phone-down-06.webp",
+    "sk-amused-to-amused-sadtop-01.jpg": "fm-sk-amused-to-amused-sadtop-01.webp",
+    "sk-amused-to-amused-sadtop-02.jpg": "fm-sk-amused-to-amused-sadtop-02.webp",
+    "sk-amused-to-amused-sadtop-03.jpg": "fm-sk-amused-to-amused-sadtop-03.webp",
+    "sk-amused-to-amused-sadtop-04.jpg": "fm-sk-amused-to-amused-sadtop-04.webp",
+    "sk-amused-to-amused-sadtop-05.jpg": "fm-sk-amused-to-amused-sadtop-05.webp",
+    "sk-amused-to-amused-sadtop-06.jpg": "fm-sk-amused-to-amused-sadtop-06.webp",
+    "sk-amused-sadtop-to-sad-01.jpg": "fm-sk-amused-sadtop-to-sad-01.webp",
+    "sk-amused-sadtop-to-sad-02.jpg": "fm-sk-amused-sadtop-to-sad-02.webp",
+    "sk-amused-sadtop-to-sad-03.jpg": "fm-sk-amused-sadtop-to-sad-03.webp",
+    "sk-amused-sadtop-to-sad-04.jpg": "fm-sk-amused-sadtop-to-sad-04.webp",
+    "sk-amused-sadtop-to-sad-05.jpg": "fm-sk-amused-sadtop-to-sad-05.webp",
+    "sk-amused-sadtop-to-sad-06.jpg": "fm-sk-amused-sadtop-to-sad-06.webp",
+    "sk-amused-sadtop-to-sad-07.jpg": "fm-sk-amused-sadtop-to-sad-07.webp",
+    "sk-sad-to-amused-sadtop-01.jpg": "fm-sk-sad-to-amused-sadtop-01.webp",
+    "sk-sad-to-amused-sadtop-02.jpg": "fm-sk-sad-to-amused-sadtop-02.webp",
+    "sk-sad-to-amused-sadtop-03.jpg": "fm-sk-sad-to-amused-sadtop-03.webp",
+    "sk-sad-to-amused-sadtop-04.jpg": "fm-sk-sad-to-amused-sadtop-04.webp",
+    "sk-sad-to-amused-sadtop-05.jpg": "fm-sk-sad-to-amused-sadtop-05.webp",
+    "sk-sad-to-amused-sadtop-06.jpg": "fm-sk-sad-to-amused-sadtop-06.webp",
+    "sk-sad-to-amused-sadtop-07.jpg": "fm-sk-sad-to-amused-sadtop-07.webp",
+    "sk-amused-sadtop-to-amused-01.jpg": "fm-sk-amused-sadtop-to-amused-01.webp",
+    "sk-amused-sadtop-to-amused-02.jpg": "fm-sk-amused-sadtop-to-amused-02.webp",
+    "sk-amused-sadtop-to-amused-03.jpg": "fm-sk-amused-sadtop-to-amused-03.webp",
+    "sk-amused-sadtop-to-amused-04.jpg": "fm-sk-amused-sadtop-to-amused-04.webp",
+    "sk-amused-sadtop-to-amused-05.jpg": "fm-sk-amused-sadtop-to-amused-05.webp",
+    "sk-amused-sadtop-to-amused-06.jpg": "fm-sk-amused-sadtop-to-amused-06.webp",
+    "sk-amused-to-determined-01.jpg": "fm-sk-amused-to-determined-01.webp",
+    "sk-amused-to-determined-02.jpg": "fm-sk-amused-to-determined-02.webp",
+    "sk-amused-to-determined-03.jpg": "fm-sk-amused-to-determined-03.webp",
+    "sk-amused-to-determined-04.jpg": "fm-sk-amused-to-determined-04.webp",
+    "sk-amused-to-determined-05.jpg": "fm-sk-amused-to-determined-05.webp",
+    "sk-amused-to-determined-06.jpg": "fm-sk-amused-to-determined-06.webp",
+    "sk-amused-to-determined-07.jpg": "fm-sk-amused-to-determined-07.webp",
+    "sk-determined-to-amused-01.jpg": "fm-sk-determined-to-amused-01.webp",
+    "sk-determined-to-amused-02.jpg": "fm-sk-determined-to-amused-02.webp",
+    "sk-determined-to-amused-03.jpg": "fm-sk-determined-to-amused-03.webp",
+    "sk-determined-to-amused-04.jpg": "fm-sk-determined-to-amused-04.webp",
+    "sk-determined-to-amused-05.jpg": "fm-sk-determined-to-amused-05.webp",
+    "sk-determined-to-amused-06.jpg": "fm-sk-determined-to-amused-06.webp",
+    "sk-determined-to-amused-07.jpg": "fm-sk-determined-to-amused-07.webp",
+    "sk-amused-to-focused-01.jpg": "fm-sk-amused-to-focused-01.webp",
+    "sk-amused-to-focused-02.jpg": "fm-sk-amused-to-focused-02.webp",
+    "sk-amused-to-focused-03.jpg": "fm-sk-amused-to-focused-03.webp",
+    "sk-amused-to-focused-04.jpg": "fm-sk-amused-to-focused-04.webp",
+    "sk-amused-to-focused-05.jpg": "fm-sk-amused-to-focused-05.webp",
+    "sk-amused-to-focused-06.jpg": "fm-sk-amused-to-focused-06.webp",
+    "sk-amused-to-focused-07.jpg": "fm-sk-amused-to-focused-07.webp",
+    "sk-amused-to-focused-08.jpg": "fm-sk-amused-to-focused-08.webp",
+    "sk-focused-to-amused-01.jpg": "fm-sk-focused-to-amused-01.webp",
+    "sk-focused-to-amused-02.jpg": "fm-sk-focused-to-amused-02.webp",
+    "sk-focused-to-amused-03.jpg": "fm-sk-focused-to-amused-03.webp",
+    "sk-focused-to-amused-04.jpg": "fm-sk-focused-to-amused-04.webp",
+    "sk-focused-to-amused-05.jpg": "fm-sk-focused-to-amused-05.webp",
+    "sk-focused-to-amused-06.jpg": "fm-sk-focused-to-amused-06.webp",
+    "sk-focused-to-amused-07.jpg": "fm-sk-focused-to-amused-07.webp",
+    "sk-focused-to-amused-08.jpg": "fm-sk-focused-to-amused-08.webp",
+    "sk-amused-to-worried-01.jpg": "fm-sk-amused-to-worried-01.webp",
+    "sk-amused-to-worried-02.jpg": "fm-sk-amused-to-worried-02.webp",
+    "sk-amused-to-worried-03.jpg": "fm-sk-amused-to-worried-03.webp",
+    "sk-amused-to-worried-04.jpg": "fm-sk-amused-to-worried-04.webp",
+    "sk-amused-to-worried-05.jpg": "fm-sk-amused-to-worried-05.webp",
+    "sk-amused-to-worried-06.jpg": "fm-sk-amused-to-worried-06.webp",
+    "sk-amused-to-worried-07.jpg": "fm-sk-amused-to-worried-07.webp",
+    "sk-amused-to-worried-08.jpg": "fm-sk-amused-to-worried-08.webp",
+    "sk-worried-to-amused-01.jpg": "fm-sk-worried-to-amused-01.webp",
+    "sk-worried-to-amused-02.jpg": "fm-sk-worried-to-amused-02.webp",
+    "sk-worried-to-amused-03.jpg": "fm-sk-worried-to-amused-03.webp",
+    "sk-worried-to-amused-04.jpg": "fm-sk-worried-to-amused-04.webp",
+    "sk-worried-to-amused-05.jpg": "fm-sk-worried-to-amused-05.webp",
+    "sk-worried-to-amused-06.jpg": "fm-sk-worried-to-amused-06.webp",
+    "sk-worried-to-amused-07.jpg": "fm-sk-worried-to-amused-07.webp",
+    "sk-worried-to-amused-08.jpg": "fm-sk-worried-to-amused-08.webp",
+    "sk-amused-to-flirty-halflid-01.jpg": "fm-sk-amused-to-flirty-halflid-01.webp",
+    "sk-amused-to-flirty-halflid-02.jpg": "fm-sk-amused-to-flirty-halflid-02.webp",
+    "sk-amused-to-flirty-halflid-03.jpg": "fm-sk-amused-to-flirty-halflid-03.webp",
+    "sk-amused-to-flirty-halflid-04.jpg": "fm-sk-amused-to-flirty-halflid-04.webp",
+    "sk-amused-to-flirty-halflid-05.jpg": "fm-sk-amused-to-flirty-halflid-05.webp",
+    "sk-wink-left-blush-to-flirty-halflid-blush-01.jpg": "fm-sk-wink-left-blush-to-flirty-halflid-blush-01.webp",
+    "sk-wink-left-blush-to-flirty-halflid-blush-02.jpg": "fm-sk-wink-left-blush-to-flirty-halflid-blush-02.webp",
+    "sk-wink-left-blush-to-flirty-halflid-blush-03.jpg": "fm-sk-wink-left-blush-to-flirty-halflid-blush-03.webp",
+    "sk-wink-left-blush-to-flirty-halflid-blush-04.jpg": "fm-sk-wink-left-blush-to-flirty-halflid-blush-04.webp",
+    "sk-wink-left-blush-to-flirty-halflid-blush-05.jpg": "fm-sk-wink-left-blush-to-flirty-halflid-blush-05.webp",
+    "sk-flirty-halflid-blush-to-flirty-halflid-01.jpg": "fm-sk-flirty-halflid-blush-to-flirty-halflid-01.webp",
+    "sk-flirty-halflid-blush-to-flirty-halflid-02.jpg": "fm-sk-flirty-halflid-blush-to-flirty-halflid-02.webp",
+    "sk-flirty-halflid-blush-to-flirty-halflid-03.jpg": "fm-sk-flirty-halflid-blush-to-flirty-halflid-03.webp",
+    "sk-flirty-halflid-blush-to-flirty-halflid-04.jpg": "fm-sk-flirty-halflid-blush-to-flirty-halflid-04.webp",
+    "sk-flirty-halflid-blush-to-flirty-halflid-05.jpg": "fm-sk-flirty-halflid-blush-to-flirty-halflid-05.webp",
+    "sk-flirty-halflid-to-amused-01.jpg": "fm-sk-flirty-halflid-to-amused-01.webp",
+    "sk-flirty-halflid-to-amused-02.jpg": "fm-sk-flirty-halflid-to-amused-02.webp",
+    "sk-flirty-halflid-to-amused-03.jpg": "fm-sk-flirty-halflid-to-amused-03.webp",
+    "sk-flirty-halflid-to-amused-04.jpg": "fm-sk-flirty-halflid-to-amused-04.webp",
+    "sk-flirty-halflid-to-amused-05.jpg": "fm-sk-flirty-halflid-to-amused-05.webp",
+    "sk-amused-to-laughing-01.jpg": "fm-sk-amused-to-laughing-01.webp",
+    "sk-amused-to-laughing-02.jpg": "fm-sk-amused-to-laughing-02.webp",
+    "sk-amused-to-laughing-03.jpg": "fm-sk-amused-to-laughing-03.webp",
+    "sk-amused-to-laughing-04.jpg": "fm-sk-amused-to-laughing-04.webp",
+    "sk-amused-to-laughing-05.jpg": "fm-sk-amused-to-laughing-05.webp",
+    "sk-amused-to-laughing-06.jpg": "fm-sk-amused-to-laughing-06.webp",
+    "sk-amused-to-laughing-07.jpg": "fm-sk-amused-to-laughing-07.webp",
+    "sk-amused-to-laughing-08.jpg": "fm-sk-amused-to-laughing-08.webp",
+    "sk-amused-to-laughing-09.jpg": "fm-sk-amused-to-laughing-09.webp",
+    "sk-amused-to-laughing-10.jpg": "fm-sk-amused-to-laughing-10.webp",
+    "sk-amused-to-laughing-11.jpg": "fm-sk-amused-to-laughing-11.webp",
+    "sk-amused-to-laughing-12.jpg": "fm-sk-amused-to-laughing-12.webp",
+    "sk-listening-to-alert-01.jpg": "fm-sk-listening-to-alert-01.webp",
+    "sk-listening-to-alert-02.jpg": "fm-sk-listening-to-alert-02.webp",
+    "sk-listening-to-alert-03.jpg": "fm-sk-listening-to-alert-03.webp",
+    "sk-listening-to-alert-04.jpg": "fm-sk-listening-to-alert-04.webp",
+    "sk-listening-to-alert-05.jpg": "fm-sk-listening-to-alert-05.webp",
+    "sk-listening-to-alert-06.jpg": "fm-sk-listening-to-alert-06.webp",
+    "sk-listening-to-alert-07.jpg": "fm-sk-listening-to-alert-07.webp",
+    "sk-listening-to-alert-08.jpg": "fm-sk-listening-to-alert-08.webp",
+    "sk-listening-to-alert-09.jpg": "fm-sk-listening-to-alert-09.webp",
+    "sk-thinking-to-confused-01.jpg": "fm-sk-thinking-to-confused-01.webp",
+    "sk-thinking-to-confused-02.jpg": "fm-sk-thinking-to-confused-02.webp",
+    "sk-thinking-to-confused-03.jpg": "fm-sk-thinking-to-confused-03.webp",
+    "sk-thinking-to-confused-04.jpg": "fm-sk-thinking-to-confused-04.webp",
+    "sk-thinking-to-confused-05.jpg": "fm-sk-thinking-to-confused-05.webp",
+    "sk-thinking-to-confused-06.jpg": "fm-sk-thinking-to-confused-06.webp",
+    "sk-thinking-to-confused-07.jpg": "fm-sk-thinking-to-confused-07.webp",
+    "sk-thinking-to-confused-08.jpg": "fm-sk-thinking-to-confused-08.webp",
+    "sk-skeptical-to-relieved-01.jpg": "fm-sk-skeptical-to-relieved-01.webp",
+    "sk-skeptical-to-relieved-02.jpg": "fm-sk-skeptical-to-relieved-02.webp",
+    "sk-skeptical-to-relieved-03.jpg": "fm-sk-skeptical-to-relieved-03.webp",
+    "sk-skeptical-to-relieved-04.jpg": "fm-sk-skeptical-to-relieved-04.webp",
+    "sk-skeptical-to-relieved-05.jpg": "fm-sk-skeptical-to-relieved-05.webp",
+    "sk-skeptical-to-relieved-06.jpg": "fm-sk-skeptical-to-relieved-06.webp",
+    "sk-skeptical-to-relieved-07.jpg": "fm-sk-skeptical-to-relieved-07.webp",
+    "sk-skeptical-to-relieved-08.jpg": "fm-sk-skeptical-to-relieved-08.webp",
+    "sk-skeptical-to-confused-01.jpg": "fm-sk-skeptical-to-confused-01.webp",
+    "sk-skeptical-to-confused-02.jpg": "fm-sk-skeptical-to-confused-02.webp",
+    "sk-skeptical-to-confused-03.jpg": "fm-sk-skeptical-to-confused-03.webp",
+    "sk-skeptical-to-confused-04.jpg": "fm-sk-skeptical-to-confused-04.webp",
+    "sk-skeptical-to-confused-05.jpg": "fm-sk-skeptical-to-confused-05.webp",
+    "sk-skeptical-to-confused-06.jpg": "fm-sk-skeptical-to-confused-06.webp",
+    "sk-skeptical-to-confused-07.jpg": "fm-sk-skeptical-to-confused-07.webp",
+    "sk-skeptical-to-confused-08.jpg": "fm-sk-skeptical-to-confused-08.webp",
+    "sk-phone-down-to-relieved-01.jpg": "fm-sk-phone-down-to-relieved-01.webp",
+    "sk-phone-down-to-relieved-02.jpg": "fm-sk-phone-down-to-relieved-02.webp",
+    "sk-phone-down-to-relieved-03.jpg": "fm-sk-phone-down-to-relieved-03.webp",
+    "sk-phone-down-to-relieved-04.jpg": "fm-sk-phone-down-to-relieved-04.webp",
+    "sk-phone-down-to-relieved-05.jpg": "fm-sk-phone-down-to-relieved-05.webp",
+    "sk-phone-down-to-relieved-06.jpg": "fm-sk-phone-down-to-relieved-06.webp",
+    "sk-phone-down-to-relieved-07.jpg": "fm-sk-phone-down-to-relieved-07.webp",
+    "sk-phone-down-to-relieved-08.jpg": "fm-sk-phone-down-to-relieved-08.webp",
+    "sk-confused-to-skeptical-01.jpg": "fm-sk-confused-to-skeptical-01.webp",
+    "sk-confused-to-skeptical-02.jpg": "fm-sk-confused-to-skeptical-02.webp",
+    "sk-confused-to-skeptical-03.jpg": "fm-sk-confused-to-skeptical-03.webp",
+    "sk-confused-to-skeptical-04.jpg": "fm-sk-confused-to-skeptical-04.webp",
+    "sk-confused-to-skeptical-05.jpg": "fm-sk-confused-to-skeptical-05.webp",
+    "sk-confused-to-skeptical-06.jpg": "fm-sk-confused-to-skeptical-06.webp",
+    "sk-confused-to-skeptical-07.jpg": "fm-sk-confused-to-skeptical-07.webp",
+    "sk-confused-to-skeptical-08.jpg": "fm-sk-confused-to-skeptical-08.webp",
+    "sk-relieved-to-sleepy-01.jpg": "fm-sk-relieved-to-sleepy-01.webp",
+    "sk-relieved-to-sleepy-02.jpg": "fm-sk-relieved-to-sleepy-02.webp",
+    "sk-relieved-to-sleepy-03.jpg": "fm-sk-relieved-to-sleepy-03.webp",
+    "sk-relieved-to-sleepy-04.jpg": "fm-sk-relieved-to-sleepy-04.webp",
+    "sk-relieved-to-sleepy-05.jpg": "fm-sk-relieved-to-sleepy-05.webp",
+    "sk-relieved-to-sleepy-06.jpg": "fm-sk-relieved-to-sleepy-06.webp",
+    "sk-relieved-to-sleepy-07.jpg": "fm-sk-relieved-to-sleepy-07.webp",
+    "sk-relieved-to-sleepy-08.jpg": "fm-sk-relieved-to-sleepy-08.webp",
+    "sk-furious-to-amused-01.jpg": "fm-sk-furious-to-amused-01.webp",
+    "sk-furious-to-amused-02.jpg": "fm-sk-furious-to-amused-02.webp",
+    "sk-furious-to-amused-03.jpg": "fm-sk-furious-to-amused-03.webp",
+    "sk-furious-to-amused-04.jpg": "fm-sk-furious-to-amused-04.webp",
+    "sk-furious-to-amused-05.jpg": "fm-sk-furious-to-amused-05.webp",
+    "sk-furious-to-amused-06.jpg": "fm-sk-furious-to-amused-06.webp",
+    "sk-furious-to-amused-07.jpg": "fm-sk-furious-to-amused-07.webp",
+    "sk-furious-to-amused-08.jpg": "fm-sk-furious-to-amused-08.webp",
+    "sk-furious-to-amused-09.jpg": "fm-sk-furious-to-amused-09.webp",
+    "sk-confused-to-worried-01.jpg": "fm-sk-confused-to-worried-01.webp",
+    "sk-confused-to-worried-02.jpg": "fm-sk-confused-to-worried-02.webp",
+    "sk-confused-to-worried-03.jpg": "fm-sk-confused-to-worried-03.webp",
+    "sk-confused-to-worried-04.jpg": "fm-sk-confused-to-worried-04.webp",
+    "sk-confused-to-worried-05.jpg": "fm-sk-confused-to-worried-05.webp",
+    "sk-confused-to-worried-06.jpg": "fm-sk-confused-to-worried-06.webp",
+    "sk-confused-to-worried-07.jpg": "fm-sk-confused-to-worried-07.webp",
+    "sk-confused-to-worried-08.jpg": "fm-sk-confused-to-worried-08.webp",
+    "sk-relieved-to-amused-01.jpg": "fm-sk-relieved-to-amused-01.webp",
+    "sk-relieved-to-amused-02.jpg": "fm-sk-relieved-to-amused-02.webp",
+    "sk-relieved-to-amused-03.jpg": "fm-sk-relieved-to-amused-03.webp",
+    "sk-relieved-to-amused-04.jpg": "fm-sk-relieved-to-amused-04.webp",
+    "sk-relieved-to-amused-05.jpg": "fm-sk-relieved-to-amused-05.webp",
+    "sk-relieved-to-amused-06.jpg": "fm-sk-relieved-to-amused-06.webp",
+    "sk-relieved-to-amused-07.jpg": "fm-sk-relieved-to-amused-07.webp",
+    "sk-relieved-to-amused-08.jpg": "fm-sk-relieved-to-amused-08.webp",
+    "sk-proud-to-surprised-01.jpg": "fm-sk-proud-to-surprised-01.webp",
+    "sk-proud-to-surprised-02.jpg": "fm-sk-proud-to-surprised-02.webp",
+    "sk-proud-to-surprised-03.jpg": "fm-sk-proud-to-surprised-03.webp",
+    "sk-proud-to-surprised-04.jpg": "fm-sk-proud-to-surprised-04.webp",
+    "sk-proud-to-surprised-05.jpg": "fm-sk-proud-to-surprised-05.webp",
+    "sk-proud-to-surprised-06.jpg": "fm-sk-proud-to-surprised-06.webp",
+    "sk-proud-to-surprised-07.jpg": "fm-sk-proud-to-surprised-07.webp",
+    "sk-proud-to-surprised-08.jpg": "fm-sk-proud-to-surprised-08.webp",
+    "sk-proud-to-surprised-09.jpg": "fm-sk-proud-to-surprised-09.webp",
+    "sk-proud-to-surprised-10.jpg": "fm-sk-proud-to-surprised-10.webp",
+    "sk-proud-to-surprised-11.jpg": "fm-sk-proud-to-surprised-11.webp",
+    "sk-proud-to-surprised-12.jpg": "fm-sk-proud-to-surprised-12.webp",
+    "sk-proud-to-surprised-13.jpg": "fm-sk-proud-to-surprised-13.webp",
+    "sc-rage-detdown-v337p.jpg": "fm-sc-rage-detdown-v337p.webp",
+    "sc-scan-left-v337p.jpg": "fm-sc-scan-left-v337p.webp",
+    "sc-scan-right-v337p.jpg": "fm-sc-scan-right-v337p.webp",
+    "sc-wink-left-v337p.jpg": "fm-sc-wink-left-v337p.webp",
+    "sc-rage-up1-v337p.jpg": "fm-sc-rage-up1-v337p.webp",
+    "sc-rage-up2-v337p.jpg": "fm-sc-rage-up2-v337p.webp",
+    "sc-rage-up3-v337p.jpg": "fm-sc-rage-up3-v337p.webp",
+    "sc-rage-up4-v337p.jpg": "fm-sc-rage-up4-v337p.webp",
+    "sc-rage-up5-v337p.jpg": "fm-sc-rage-up5-v337p.webp",
+    "sc-rage-up6-v337p.jpg": "fm-sc-rage-up6-v337p.webp",
+    "sc-rage-up7-v337p.jpg": "fm-sc-rage-up7-v337p.webp"
+  },
+  "face_mouth_box": [
+    240,
+    505,
+    480,
+    695
+  ],
+  "_why_face_mouth": "v3.2.10-staged (Drue rule: two different mouths never on screen at once during a face change): each full face has a feathered mouth stamp; during a full-face crossfade only one face's mouth shows (hard switch at the midpoint), the rest of the face still blends.",
+  "_why_v335": "v3.3.5-staged (Drue 111526 8:51 PM double teeth; 11:20 PM 'Go, swap the repaints into the test copy'): Tweak's repaints (/workspace/board/avatars/qa-v335/repaint/) replace the bad pictures under the same names (excited-soft(+closed), laugh-soft-to-amused-01..04, tr-excited-to-proud-01..07, surprised(+closed), tr-surprised-to-listening-01..04, tr-alert-to-focused-03..06, tr-justwoke-to-listening-02, furious-mouth-ah-half); their fm-/mp-/patch- stamps re-cut from the new faces. Plans, pairs and faces are back to the v3.3.4 structure. furious-mouth-ah-half: Tweak's option o1 (clenched snarl) picked - the main repaint opens wider than furious ah-full; it now shows teeth, so it is teeth-flagged (hard cut, never blended with another mouth)."
+}
