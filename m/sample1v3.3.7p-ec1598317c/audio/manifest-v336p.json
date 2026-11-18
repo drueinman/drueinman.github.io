@@ -1,0 +1,59 @@
+{
+  "private_only": true,
+  "version": "v3.3.6p",
+  "note": "Staged into the private copy. Playback timing on the clips is not wired; that needs Drue.",
+  "tracks": [
+    {
+      "file": "audio/NIN-In-This-Together-v336p.m4a",
+      "use": "Behind the angry / Cold to rage clip",
+      "status": "staged, timing needs Drue",
+      "duration_s": 378.416
+    },
+    {
+      "file": "audio/ASPCA-v336p.m4a",
+      "use": "Drop-in behind the Nico clip (pita commercial)",
+      "status": "staged, timing needs Drue",
+      "duration_s": 120.628
+    },
+    {
+      "file": "audio/THE-CLODYSSEY-v336p.m4a",
+      "use": "Background play when the other two aren't playing",
+      "status": "staged, timing needs Drue",
+      "duration_s": 191.634
+    }
+  ],
+  "tweak_bites": [
+    {
+      "file": "tweak/tweak-coffee-nodude-v1-v336p.mp3",
+      "use": "idle fidget + slurp",
+      "wired": "tweak-d"
+    },
+    {
+      "file": "tweak/tweak-calmed-down-12s-v1-v336p.mp3",
+      "use": "after being calmed down",
+      "wired": "tweak-e (GIF stand-in from stage4 to stage1 over 12s; smooth expression-level ramp still estimate-only)"
+    },
+    {
+      "file": "tweak/tweak-screams-3to7-v1-v336p.mp3",
+      "use": "scream burst",
+      "wired": "tweak-f",
+      "alts_in_folder": [
+        "tweak-screams-3to7-hotstart-v1-v336p.mp3",
+        "tweak-screams-3to7-with-jesus-v1-v336p.mp3"
+      ]
+    },
+    {
+      "file": "tweak/tweak-headexplode-long-v3-v336p.mp3",
+      "use": "HEAD EXPLOSION, long (CURRENT; hit at 5.0s)",
+      "wired": "tweak-b, sfx.at 16.769"
+    }
+  ],
+  "also_in_folder_not_wired": [
+    "tweak/tweak-find-center-18s-v1-v336p.mp3",
+    "tweak/tweak-find-center-first18-nodad-12s-v1-v336p.mp3",
+    "tweak/tweak-headexplode-long-v1-v336p.mp3",
+    "tweak/tweak-headexplode-long-v2-v336p.mp3",
+    "tweak/tweak-headexplode-short-v1-v336p.mp3",
+    "tweak/tweak-headexplode-short-v2-v336p.mp3"
+  ]
+}
