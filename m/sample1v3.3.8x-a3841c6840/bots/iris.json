@@ -1,0 +1,13 @@
+{
+  "_note": "v3.2.2: same voice host as Aloy for now (typed play). Face set is this bot's; Focus stays Aloy-only.",
+  "bot": "iris",
+  "name": "Iris",
+  "voice": "xAI.eve",
+  "voice_label": "Eve",
+  "speak": {
+    "endpoints_file": "eve-endpoint.json",
+    "health_timeout_ms": 2500,
+    "speak_timeout_ms": 12000,
+    "down_for_s": 60
+  }
+}
