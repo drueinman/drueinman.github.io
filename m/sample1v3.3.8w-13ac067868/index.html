@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Aloy · Emote</title>
+<meta property="og:title" content="Aloy · Emote v3.3.8w"><meta property="og:description" content="Unlisted">
+<meta name="googlebot" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#000000">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Aloy Emote">
+<link rel="apple-touch-icon" href="icon-180.png"><link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="pad.css">
+<link rel="stylesheet" href="msg-v338p.css">
+</head><body>
+<div id="app">
+  <div id="topBar">
+    <div id="topRail" aria-hidden="true"></div>
+    <button id="settingsBtn" class="btn gear" type="button" aria-label="Settings" title="Settings: Demos, Emotes, Info"></button>
+    <button id="pdRoundBtn" class="btn gear pdround" type="button" aria-label="Expressions" aria-expanded="false" title="Expressions: open Compose with the expression pull-down"></button>
+    <div id="pull">
+      <button id="botPick" class="btn" type="button" title="Switch bot" aria-haspopup="listbox" aria-expanded="false"><span id="botNameWrap"><span id="botName">Aloy</span><span id="verStamp">v3.3.8w</span></span></button>
+      <div id="menu" role="listbox" aria-label="Bots"></div>
+      <button id="pullChev" class="btn" type="button" aria-label="Open bot list" title="Switch bot"><svg viewBox="0 0 20 10" aria-hidden="true"><path d="M3 2.5l7 5 7-5"/></svg></button>
+    </div>
+  </div>
+  <div id="stage"><img id="gifFace" alt="" hidden><button id="focusBtn" class="focusBtn first" type="button" aria-label="Focus: off. Tap to cycle Focus on, earpiece only, and off." title="Focus: cycle on, earpiece only, or off"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7.2"/><circle cx="12" cy="12" r="3.4"/></svg><span id="focusLbl">Focus</span></button><div id="pcNote" hidden>PC mode: the desktop layout comes later. For now it's the phone layout.</div><div id="tapGate" hidden><button id="tapGo" class="btn stadium go" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg><span id="tapLbl">Tap to hear Aloy</span></button></div><canvas id="face" width="720" height="1168" aria-label="Aloy's face"></canvas><div id="padSurface" hidden aria-hidden="true"><span id="padDot" hidden></span><span id="padLabel" hidden></span></div><div id="statusLine" hidden></div><div id="toast" hidden></div></div>
+  <div id="controls">
+    <div id="caption" aria-live="polite"></div>
+    <a id="verLine" href="#">v3.3.8w</a>
+    <div id="actionRow">
+      <button id="playbackBtn" class="btn src" type="button" title="Play the selected demo"><svg viewBox="0 0 24 24"><path id="pbIcon" d="M8 5.5v13l10.5-6.5z"/></svg><span id="pbLbl">Playback</span></button>
+      <button id="composeBtn" class="btn src" type="button" title="Type a sentence with emoji and play it"><svg viewBox="0 0 24 24"><path d="M4 20l1-4.5L15.5 5l3.5 3.5L8.5 19z M13.5 7l3.5 3.5"/></svg><span>Compose</span></button>
+      <button id="callBtn" class="btn src future" type="button" data-msg="Call: Phase 2, not wired yet"><svg viewBox="0 0 24 24"><path d="M6.5 3.5l3 3.5-2 2.2c1.2 2.6 3.2 4.6 5.8 5.8l2.2-2 3.5 3-1.6 3c-7.6-.5-13.4-6.3-13.9-13.9z"/></svg><span>Call</span></button>
+      <button id="msgBtn" class="btn src" type="button" title="Messages: write to Aloy or TweakX and get their real replies with face and voice"><svg viewBox="0 0 24 24"><path d="M4 5.5h16v10H10l-4.5 3.5v-3.5H4z"/></svg><span>Messages</span></button>
+    </div>
+    <button id="bgmMute" class="bgmMute" type="button" aria-label="Background music: on. Tap to mute." aria-pressed="false" title="Mute or unmute the background music (The Clodyssey) only. Voices, clips and TweakX audio stay as they are."><svg viewBox="0 0 24 24" aria-hidden="true"><path class="spk" d="M4 9.5h3.6L12 5.8v12.4L7.6 14.5H4z"/><path class="wv" d="M15.3 9.2c1.3 1.5 1.3 4.1 0 5.6M17.8 6.8c2.7 2.9 2.7 7.5 0 10.4"/><path class="sl" d="M15 9.5l5.5 5M20.5 9.5L15 14.5"/></svg></button>
+  </div>
+  <div id="lights"><div id="ledDetail" aria-live="polite"></div><div id="row" role="list" aria-label="Status lights"></div></div>
+  <div id="reviewDock">
+    <div id="reviewBar" hidden>
+      <div id="statusBar" title="Emotion bar"><span id="sceneCount" aria-label="Scene position 0 to 100"></span></div>
+      <div id="reviewSeek">
+        <span id="reviewNow">0:00.0</span>
+        <div id="reviewTrack" role="slider" aria-label="Playback position" tabindex="0" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0">
+          <div id="reviewRail" aria-hidden="true"></div>
+          <div id="reviewFill" aria-hidden="true"></div>
+          <div id="reviewPins"></div>
+          <div id="reviewPlayhead" aria-hidden="true"></div>
+        </div>
+        <span id="reviewDur">0:00.0</span>
+      </div>
+    </div>
+    <div id="reviewActions">
+      <div id="reviewFlags">
+        <button id="markBtn" class="revBtn markBtn" type="button" title="Drop a mark pin at the current time" aria-label="Mark this moment"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13M3 2.2h9.2l-1.7 2.6 1.7 2.6H3"/></svg><span>Mark</span></button>
+        <button id="heartBtn" class="revBtn heartBtn" type="button" title="Drop a heart pin: this is cool" aria-label="Heart this moment"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13.6s-5.2-3.3-6.4-6.2C.6 5.4 1.7 3.2 4 3.2c1.3 0 2.2.7 2.7 1.6C7.2 3.9 8.1 3.2 9.4 3.2c2.3 0 3.4 2.2 2.4 4.2C12.6 10.3 8 13.6 8 13.6z"/></svg><span>Heart</span></button>
+      </div>
+      <button id="pinsExport" class="revBtn exportBtn" type="button" title="Export or share the pins for this demo" aria-label="Export pins"><span>Export</span></button>
+    </div>
+    <div id="pinEditor" hidden>
+      <div class="pinEdHead"><span id="pinEdTitle">#1 mark · 0:00.0</span><button id="pinEdClose" type="button" aria-label="Close pin editor">×</button></div>
+      <textarea id="pinEdNote" rows="3" placeholder="What's the problem, or why it's cool?"></textarea>
+      <div class="pinEdActions"><button id="pinEdSave" class="btn stadium" type="button"><span>Save</span></button><button id="pinEdDelete" class="btn stadium" type="button"><span>Delete</span></button></div>
+    </div>
+  </div>
+
+  <div id="setupTabs" hidden role="tablist" aria-label="Settings">
+    <button type="button" role="tab" data-tab="demos" class="setupTab on">Demos</button>
+    <button type="button" role="tab" data-tab="emotes" class="setupTab">Emotes</button>
+    <button type="button" role="tab" data-tab="life" class="setupTab">Life</button>
+    <button type="button" role="tab" data-tab="info" class="setupTab">Info</button>
+  </div>
+  <div id="setup" class="setupDrawer" hidden>
+    <button id="setupChev" class="setupChev" type="button" aria-label="Close settings"><svg viewBox="0 0 20 10"><path d="M3 2.5l7 5 7-5"/></svg></button>
+    <div class="setupDrawerInner">
+      <div id="panel-demos" class="setupPanel"><div id="demoList"></div><p class="hint">Demos are in Aloy's voice (Eve), prerendered, with lips from Rhubarb. Tap one to pick it, then Playback.</p></div>
+      <div id="panel-emotes" class="setupPanel" hidden><p class="hint"><b>Big peaks</b> (laugh, flash, gasp) never play while she talks: they wait for the next comma or period and play as their own beat. <b>Talking faces</b> change her eyes and brows while her lips keep moving.</p><table id="emoteTable"></table></div>
+      <div id="panel-life" class="setupPanel" hidden>
+        <div class="lifeRow" id="padRow"><label for="padToggle">Emotion pad</label><input id="padToggle" type="checkbox"><p class="padNote">Tap or drag on her face: the mood follows your finger and holds when you lift. Center is neutral; down is sad; the top-left is angry, the top-right is happy.</p></div>
+        <div class="lifeRow"><label for="lifeAmt">Idle life</label><input id="lifeAmt" type="range" min="0" max="200" step="5" value="100"><span id="lifeVal">100%</span></div>
+        <div class="lifeRow"><label for="lifeDrift">Drift (slow random sway)</label><input id="lifeDrift" type="checkbox" checked></div>
+        <div class="lifeRow"><label for="lifeBreath">Breathing</label><input id="lifeBreath" type="checkbox" checked></div>
+        <div class="lifeRow"><label for="lifeMicro">Micro-expressions</label><input id="lifeMicro" type="checkbox" checked></div>
+        <div class="lifeRow"><label for="lifeEyes">Eye glances</label><input id="lifeEyes" type="checkbox" checked></div>
+        <div class="lifeRow" id="focusModeRow"><label>Focus</label><span class="seg" id="focusModeSeg" role="radiogroup" aria-label="Focus mode"><button type="button" class="setupTab" data-focusmode="off" role="radio">Off</button><button type="button" class="setupTab" data-focusmode="on" role="radio" aria-checked="true">On</button><button type="button" class="setupTab" data-focusmode="ear" role="radio">Earpiece</button></span></div>
+        <div class="lifeRow" id="faceFxRow"><label>Face effect</label><span class="seg" id="faceFxSeg" role="radiogroup" aria-label="Face effect"><button type="button" class="setupTab" data-facefx="off" role="radio">Off</button><button type="button" class="setupTab" data-facefx="a" role="radio">A</button><button type="button" class="setupTab" data-facefx="b" role="radio" aria-checked="true">B</button></span></div>
+        <div class="lifeRow" id="bgmRow"><label for="bgmOn">Background music (The Clodyssey)</label><input id="bgmOn" type="checkbox" checked></div>
+        <div class="lifeRow" id="focusRingRow"><label for="focusRing">Focus ring</label><input id="focusRing" type="checkbox" checked></div>
+        <div class="lifeRow" id="focusGlowRow"><label for="focusGlow">Face glow</label><input id="focusGlow" type="checkbox" checked></div>
+        <div class="lifeRow"><label for="lifeDrowsy">Drowsy off-hours</label><input id="lifeDrowsy" type="checkbox" checked></div>
+        <div class="lifeRow" id="usualRow"><label for="usualHours">Usual hours</label><input id="usualHours" type="text" inputmode="text" autocomplete="off" spellcheck="false" placeholder="Learned" aria-describedby="usualNote" style="flex:1;min-width:0;max-width:11em;font:inherit;padding:4px 8px;border-radius:8px;border:1px solid rgba(255,255,255,.25);background:rgba(0,0,0,.25);color:inherit"></div>
+        <p class="hint" id="usualNote">Type hours like 9 AM to 3 AM to set them yourself. Leave it blank to use the learned hours.</p>
+        <p class="hint">All subtle at 100%: drift is a smoothed random walk (about 0.7% move, 0.3° turn), breathing is about 0.5% over an uneven 4 to 5 seconds, and micro-expressions are faint, eased looks at random times. Blinks always stay on.</p>
+      </div>
+      <div id="panel-info" class="setupPanel" hidden>
+        <div id="marksBox">
+          <h3 class="marksHead">Marks</h3>
+          <p class="hint">Pins from the review timeline (Mark and Heart). Each pin keeps its number. Export or Copy to read them; Delete on a pin never renumbers the others.</p>
+          <ul id="marksList"></ul>
+          <p id="marksEmpty" class="hint">No marks yet.</p>
+          <div class="marksActions"><button id="marksCopy" class="btn stadium" type="button"><span>Copy</span></button><button id="marksClear" class="btn stadium" type="button"><span>Clear</span></button></div>
+          <div id="olderPins" hidden></div>
+        </div>
+        <div class="lifeRow" id="layoutRow"><label>Layout</label><span class="seg" role="radiogroup" aria-label="Layout"><button type="button" class="setupTab" data-layout="phone" role="radio">Phone</button><button type="button" class="setupTab" data-layout="pc" role="radio">PC</button></span></div>
+        <p class="hint" id="layoutNote">Phone layout. It's picked automatically (phones and narrow screens use Phone, wide screens use PC), and your choice is remembered on this device.</p>
+        <dl>
+        <dt>Voices</dt><dd>The bot's own voice: <span id="voiceName">…</span>. Set per bot in bots/&lt;bot&gt;.json. Typed text is spoken by the voice server (the 18 first, then the box).</dd>
+        <dt>Lips</dt><dd>15 Oculus visemes mapped to 11 mouth frames (P/B/M, F/V, TH, L, OO, SH added in v3); see viseme-map.json.</dd>
+        <dt>Alive</dt><dd>Blinks, eye glances (eye-only frames, quick eased saccades, then back to you), breathing, drift and small idle looks.</dd>
+        <dt>Install</dt><dd>iPhone: Share, then Add to Home Screen. Android: menu, then Install app.</dd>
+        <dt>Version</dt><dd id="verInfo">v3.3.8w (111926, website copy of v3.3.8p with the glint drift and the load fixes)</dd>
+        <dt>Needs the 18</dt><dd>Messages, Call and her voice for typed text (Compose Go) need the Alienware 18, so they are greyed out on the website version. Demos, expressions, Focus and the review pins work here.</dd>
+        <dt>Music</dt><dd><a href="credits.html">Music and sound credits</a></dd></dl>
+      </div>
+    </div>
+  </div>
+
+  <div id="m8sheet" class="sheet" hidden>
+    <div class="sheetHead"><h2>Messages<small>real replies only</small></h2><button class="sheetX" type="button" aria-label="Close">×</button></div>
+    <div class="sheetBody">
+      <div id="m8tabs"><button type="button" data-bot="aloy" class="on">Aloy</button><button type="button" data-bot="tweakx">TweakX</button></div>
+      <div id="m8list" aria-live="polite"></div>
+      <textarea id="m8text" rows="2" placeholder="Write a message… (emoji are fine)"></textarea>
+      <div class="btnRow"><button id="m8send" class="btn stadium go" type="button"><span>Send to Aloy</span></button></div>
+      <div id="m8note"></div>
+      <details id="m8wake"><summary>Wake setup</summary><p id="m8hookState"></p>
+        <p>Wake setup needs the Alienware 18.</p>
+        <input id="m8hookUrl" type="url" placeholder="Webhook URL (https://…)" autocomplete="off"><input id="m8hookKey" type="password" placeholder="Sender key" autocomplete="off">
+        <div class="btnRow"><button id="m8hookSave" class="btn stadium" type="button"><span>Save hook</span></button></div></details>
+    </div>
+  </div>
+  <div id="compose" class="sheet" hidden>
+    <div class="sheetHead"><h2>Compose</h2><button class="sheetX" data-close="compose" type="button" aria-label="Close">×</button></div>
+    <div class="sheetBody">
+      <textarea id="composeText" rows="2" placeholder="Type a sentence with emoji or [tags]…">Hey Drue, you're not going to believe this 😮 it actually works on your phone! 😂 Pretty cool, right? [smile]</textarea>
+      <div id="suggest" hidden></div>
+      <div id="chart" aria-label="Cue chart"></div>
+      <div class="btnRow"><button id="composePlay" class="btn stadium go" type="button" title="Close this and play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg><span>Go</span></button><button id="composeStop" class="btn stadium" type="button"><span>Stop</span></button><button id="composeSend" class="btn stadium" type="button" title="Send this to the bot as a real message"><span>Send</span></button></div>
+      <div id="voiceState" hidden></div><p class="hint needs18note">Go (her voice for typed text) needs the Alienware 18, so it is off on the website version. Tapping an expression still shows it on her face.</p>
+      <div class="palRow"><button id="palBtn" class="btn stadium pal open" type="button" aria-expanded="true" aria-controls="palette"><span class="palFaces">😂😮😢🤔</span><span class="palLbl">Expressions</span><svg class="palChev" viewBox="0 0 20 12" aria-hidden="true"><path d="M3 3l7 6.5L17 3"/></svg></button></div>
+      <div id="palette"></div>
+      <details class="help"><summary>How cues work</summary><p class="hint" id="voiceNote">Go closes this sheet, waits a moment, then she says it in her own voice. Tags: [laugh] [excited] [shock] [gasp] are big peaks (they wait for the next comma or period). [disbelief] [think] [skeptical] [confused] [worried] [sorry] [relieved] [proud] [determined] [focused] [listening] [sleepy] [sad] [tears] [lookdown] [guilty] [lookup] [eyeroll] change her look while she keeps talking; [smile] goes back. Cues can sit inside a word, like chord marks; the chart above shows where each lands.</p></details>
+    </div>
+  </div>
+</div>
+<audio id="voice" preload="auto" playsinline></audio>
+<script>window.EMOTE_STATIC = true;</script><script src="engine.js"></script><script src="voice.js"></script><script src="focus-layers/focus-layers.js"></script><script src="pad.js"></script><script src="drue-viseme-hook.js"></script><script src="review.js"></script><script src="app.js"></script><script src="msg-v338p.js"></script>
+</body></html>
