@@ -1,0 +1,15 @@
+/* v3.3.8s expression sequencer */
+#seqSheet .sheetBody{display:flex;flex-direction:column;gap:8px}
+#seqText{width:100%;box-sizing:border-box;min-height:3.2em;font-size:22px;line-height:1.35;background:#111;color:#eee;border:1px solid #333;border-radius:10px;padding:8px}
+#seqPreview{display:flex;flex-wrap:wrap;gap:3px;min-height:26px;font-size:13px;color:#aaa}
+#seqPreview span{padding:1px 5px;border-radius:6px;background:#1a1a1a}
+#seqPreview span.bad{background:#5a1010;color:#fff;outline:1px solid #f55}
+#seqPreview span.wait{background:#102030}
+#seqPreview span.on{background:#2a5;color:#fff}
+#seqDelayRow{display:flex;align-items:center;gap:8px;font-size:14px;color:#ccc}
+#seqDelay{width:5.5em;font-size:16px;background:#111;color:#eee;border:1px solid #333;border-radius:8px;padding:4px 6px}
+#seqLegend{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:4px}
+#seqLegend button{display:flex;align-items:center;gap:6px;text-align:left;font-size:12px;color:#ddd;background:#151515;border:1px solid #2a2a2a;border-radius:8px;padding:5px 6px;cursor:pointer}
+#seqLegend button b{font-size:20px;font-weight:400}
+#seqLegend button.delay{background:#102030}
+#seqNote{font-size:12px;color:#999}
