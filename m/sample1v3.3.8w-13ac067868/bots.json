@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "default": "aloy",
+  "bots": [
+    {
+      "id": "aloy",
+      "name": "Aloy",
+      "default_face": "amused",
+      "focus": true
+    },
+    {
+      "id": "tweakx",
+      "name": "TweakX",
+      "default_face": "happy",
+      "focus": false
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "default_face": "listening",
+      "focus": false
+    },
+    {
+      "id": "jarvis",
+      "name": "Jarvis",
+      "default_face": "listening",
+      "focus": false
+    },
+    {
+      "id": "chappie",
+      "name": "Chappie",
+      "default_face": "listening",
+      "focus": false
+    },
+    {
+      "id": "ebot",
+      "name": "eBot",
+      "default_face": "listening",
+      "focus": false
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "default_face": "listening",
+      "focus": false
+    },
+    {
+      "id": "chippy",
+      "name": "Chippy",
+      "default_face": "listening",
+      "focus": false
+    }
+  ]
+}
